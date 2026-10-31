@@ -1,0 +1,3164 @@
+[
+  {
+    "id": "2.1.1",
+    "title": "Entenda os números antes de calcular",
+    "scope": "Itens 1–3: inteiros, racionais e reais",
+    "sections": [
+      {
+        "title": "Naturais, inteiros e racionais",
+        "paragraphs": [
+          "Naturais contam objetos: 0, 1, 2, 3… Inteiros incluem negativos: …−3, −2, −1, 0, 1… Um saldo de −20 representa uma dívida, não vinte reais disponíveis.",
+          "Racional é todo número que pode ser escrito a/b, com a e b inteiros e b diferente de zero. Portanto, 3 = 3/1, 0,75 = 3/4 e 0,333… = 1/3 são racionais. Decimais finitos ou periódicos são racionais."
+        ]
+      },
+      {
+        "title": "Reais e comparação",
+        "paragraphs": [
+          "Irracionais têm representação decimal infinita e não periódica, como √2 e π. Racionais e irracionais formam os reais. Na reta numérica, o maior fica à direita. Assim, −2 > −5: uma dívida de dois é menor que uma de cinco.",
+          "Para comparar decimais, complete casas com zeros: 0,8 = 0,80 > 0,75. Zero à direita da parte decimal não altera o valor; deslocar a vírgula altera."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Ordene −3, 0,75, −1 e 1/2 do menor para o maior.",
+        "steps": [
+          "Vamos deixar a fração mais fácil de comparar. 1/2 quer dizer uma parte de um inteiro dividido em duas partes iguais. Em decimal, essa metade é 0,5: pense em meio real, que vale R$ 0,50.",
+          "Agora olhe só para −3 e −1. Partindo do zero, −3 fica três posições à esquerda e −1 fica uma. Quanto mais à esquerda, menor o número. Por isso, −3 vem antes de −1.",
+          "Os outros dois números são positivos, então vêm depois dos negativos. Escreva 0,5 como 0,50; acrescentar esse zero não muda seu valor.",
+          "Compare 50 centésimos com 75 centésimos: 50 é menor. Assim, 0,50 vem antes de 0,75.",
+          "Junte a fila: −3, −1, 1/2, 0,75. O sinal < quer dizer “é menor que”: −3 < −1 < 1/2 < 0,75."
+        ],
+        "goal": "Colocar os quatro números em uma fila, começando pelo menor.",
+        "start": "Desenhe uma linha horizontal e marque o zero no meio. Números negativos ficam à esquerda; positivos, à direita.",
+        "checkpoint": {
+          "prompt": "Por que −3 vem antes de −1, embora 3 seja maior que 1?",
+          "answer": "Porque estamos comparando números negativos. Na linha dos números, −3 fica mais à esquerda que −1."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.1.1-q1",
+        "prompt": "Qual comparação está correta?",
+        "options": [
+          "−4 < −1",
+          "0,7 < 0,65",
+          "1/2 > 0,8",
+          "−2 > 0",
+          "0,50 < 0,5"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Vamos comparar posição, não apenas o algarismo. Nos negativos, quem fica mais à esquerda na linha dos números é menor.",
+          "−4 fica quatro posições antes do zero, enquanto −1 fica uma. Portanto −4 < −1.",
+          "Confira os outros casos: 0,7 = 0,70, que é maior que 0,65; 1/2 = 0,5, que é menor que 0,8.",
+          "−2 é menor que zero. E 0,50 = 0,5: o zero final não muda o decimal. Assim, a comparação correta é −4 < −1."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "2.1.1-q2",
+        "prompt": "Qual número é irracional?",
+        "options": [
+          "√2",
+          "0,25",
+          "−7",
+          "2/3",
+          "0,121212…"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Irracional é um número que não pode ser escrito como uma fração de dois inteiros. Seu decimal não termina nem repete um bloco para sempre.",
+          "√2 pertence a esse grupo. O símbolo pede o número não negativo cujo quadrado é 2; ele não tem representação como razão de inteiros.",
+          "Compare: 0,25 = 1/4; −7 = −7/1; 2/3 já está em forma de fração.",
+          "0,121212… repete o bloco 12 e também pode ser escrito como fração: 12/99. A única opção irracional é √2."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não compare decimais contando os algarismos: 0,125 é menor que 0,2."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.1.2",
+    "title": "As quatro operações, com sinais e vírgula",
+    "scope": "Operações com inteiros e racionais",
+    "sections": [
+      {
+        "title": "Somar e subtrair",
+        "paragraphs": [
+          "Somar reúne quantidades ou desloca na reta. Com sinais iguais, some os módulos e mantenha o sinal: −8 + (−3) = −11. Com sinais diferentes, subtraia os módulos e mantenha o sinal do maior módulo: −8 + 3 = −5.",
+          "Subtrair é somar o oposto: 6 − (−4) = 6 + 4 = 10. Em contas com decimais, alinhe as vírgulas: 12,50 − 3,75 = 8,75. Empreste uma unidade da casa à esquerda quando necessário: uma unidade equivale a dez décimos."
+        ]
+      },
+      {
+        "title": "Multiplicar e dividir",
+        "paragraphs": [
+          "Multiplicar pode representar grupos iguais. Na multiplicação/divisão, sinais iguais dão positivo e diferentes dão negativo. Isso não é a regra da adição!",
+          "Para 2,4 × 1,5, calcule 24 × 15 = 360 e recoloque duas casas decimais: 3,60. Para 7,2 ÷ 0,3, multiplique ambos por 10: 72 ÷ 3 = 24. Não existe divisão por zero."
+        ]
+      },
+      {
+        "title": "Como armar uma conta sem calculadora",
+        "paragraphs": [
+          "Cada posição vale dez vezes a posição à direita: em 248, há 2 centenas, 4 dezenas e 8 unidades. Na soma, dez unidades viram uma dezena: é o significado do “vai um”. Na subtração, trocar uma dezena por dez unidades mantém o número, mas permite subtrair a coluna.",
+          "Na divisão, dividendo é a quantidade repartida; divisor indica o tamanho ou o número de grupos; quociente é o resultado e resto é o que sobrou. Confira sempre: dividendo = divisor × quociente + resto. O resto inteiro deve ser menor que o divisor."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um saldo era −18 reais. Entraram R$ 45 e saíram três pagamentos de R$ 6,50. Qual é o saldo?",
+        "steps": [
+          "O sinal − em −18 indica que faltavam R$ 18 para chegar a zero. Dos R$ 45 que entraram, R$ 18 cobrem essa dívida.",
+          "Faça 45 − 18: tire 10 e chegue a 35; tire mais 8 e chegue a 27. Agora o saldo é R$ 27 positivos.",
+          "Há três pagamentos iguais. Podemos somar 6,50 + 6,50 + 6,50 ou multiplicar 3 × 6,50. Os dois primeiros somam 13,00; com o terceiro, chegamos a 19,50.",
+          "Retire os pagamentos do saldo: 27,00 − 19,50. Tirando 19,00 sobram 8,00; tirando os 0,50 restantes sobram 7,50.",
+          "Resposta: restaram R$ 7,50. Confira de outro jeito: dívida e pagamentos somam 18 + 19,50 = 37,50. A entrada de 45 cobre isso e ainda deixa 7,50."
+        ],
+        "goal": "Descobrir quanto dinheiro restou depois de todas as entradas e saídas.",
+        "start": "Anote três informações separadas: dívida de R$ 18; entrada de R$ 45; três saídas de R$ 6,50.",
+        "checkpoint": {
+          "prompt": "Por que os pagamentos são subtraídos, e não somados ao saldo?",
+          "answer": "Porque são dinheiro saindo da conta. Eles diminuem o que havia disponível."
+        }
+      },
+      {
+        "question": "Calcule 248 + 176, coluna por coluna.",
+        "steps": [
+          "Comece pela direita, na coluna das unidades: 8 + 6 = 14. Mas 14 unidades são 1 dezena e 4 unidades. Escreva só o 4 na coluna das unidades.",
+          "Leve a dezena que sobrou para a coluna seguinte. É isso que “vai um” significa: vai uma dezena, não uma unidade solta.",
+          "Some as dezenas: 4 + 7 + 1 que veio = 12 dezenas. Doze dezenas são 1 centena e 2 dezenas. Escreva 2 no resultado e leve 1 para a coluna das centenas.",
+          "Agora some as centenas: 2 + 1 + 1 que veio = 4. Escreva 4 à esquerda do 2 e do 4.",
+          "Leia o resultado: 424. Confira separando os números: 200 + 100 = 300; 40 + 70 = 110; 8 + 6 = 14. Juntando, 300 + 110 + 14 = 424."
+        ],
+        "goal": "Somar 248 e 176 entendendo de onde vem o “vai um”.",
+        "start": "Escreva 248 em cima de 176: unidades embaixo de unidades, dezenas embaixo de dezenas e centenas embaixo de centenas.",
+        "checkpoint": {
+          "prompt": "O que representa o 1 levado da coluna das dezenas para a das centenas?",
+          "answer": "Representa uma centena, isto é, 100 unidades. Ele apareceu porque 12 dezenas equivalem a 120."
+        }
+      },
+      {
+        "question": "Calcule 12,50 − 3,75, explicando os empréstimos.",
+        "steps": [
+          "A última casa representa centésimos. Não conseguimos retirar 5 centésimos de zero. Pegue 1 dos 5 décimos da casa ao lado: um décimo pode ser trocado por 10 centésimos. Agora há 4 décimos e 10 centésimos.",
+          "Na última coluna, faça 10 − 5 = 5. Escreva esse 5 no resultado, depois da vírgula, na segunda casa.",
+          "Na coluna dos décimos restaram 4, mas precisamos retirar 7. Troque 1 das 2 unidades por 10 décimos. Ficamos com 1 unidade e 14 décimos. Faça 14 − 7 = 7.",
+          "Na coluna das unidades há 1, mas precisamos retirar 3. Troque a dezena que estava à esquerda por 10 unidades. Agora há 11 unidades. Faça 11 − 3 = 8.",
+          "A dezena foi toda usada. O resultado é 8,75. Veja que nenhuma troca mudou o valor total: só reorganizamos 12,50 para conseguir retirar 3,75.",
+          "Confira somando o resultado ao valor retirado: 8,75 + 3,75 = 12,50. Voltamos ao começo, então a subtração está certa."
+        ],
+        "goal": "Subtrair valores com vírgula sem trocar o valor das casas.",
+        "start": "Escreva 12,50 sobre 03,75 e alinhe as vírgulas. Vamos trabalhar da direita para a esquerda.",
+        "checkpoint": {
+          "prompt": "Por que a vírgula precisa ficar alinhada?",
+          "answer": "Para retirar unidades de unidades, décimos de décimos e centésimos de centésimos. Casas diferentes representam quantidades diferentes."
+        }
+      },
+      {
+        "question": "Calcule 156 ÷ 12 pela divisão escrita.",
+        "steps": [
+          "Olhe o primeiro algarismo de 156: é 1. Doze não cabe em 1, então considere os dois primeiros algarismos juntos: 15.",
+          "Doze cabe uma vez em 15, pois 1 × 12 = 12 e 2 × 12 = 24 já passaria. Escreva 1 no resultado da divisão.",
+          "Retire o que usamos: 15 − 12 = 3. Ainda falta considerar o último algarismo de 156, que é 6. Baixe esse 6 ao lado do 3 e forme 36.",
+          "Agora pergunte quantos grupos de 12 cabem em 36. Como 12 + 12 + 12 = 36, cabem 3. Escreva 3 ao lado do 1: o resultado fica 13.",
+          "Retire 36 − 36 = 0. Não sobrou nada, então a divisão terminou. São 13 grupos de 12.",
+          "Confira multiplicando: 12 × 13 = 12 × 10 + 12 × 3 = 120 + 36 = 156."
+        ],
+        "goal": "Descobrir quantos grupos de 12 cabem em 156.",
+        "start": "Na divisão, 156 é a quantidade total. O número 12 é o tamanho de cada grupo. O resultado vai dizer quantos grupos conseguimos formar.",
+        "checkpoint": {
+          "prompt": "Por que não escolhemos 2 quando estávamos dividindo 15 por 12?",
+          "answer": "Porque 2 × 12 = 24, que é maior que 15. A quantidade retirada não pode ultrapassar o que temos nessa etapa."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.1.2-q1",
+        "prompt": "Calcule −12 + 20 − 3 × 2.",
+        "options": [
+          "2",
+          "10",
+          "−2",
+          "16",
+          "−16"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Copie a expressão: −12 + 20 − 3 × 2. A multiplicação precisa vir antes das somas e subtrações.",
+          "Faça 3 × 2 = 6. Agora a conta é −12 + 20 − 6.",
+          "O +20 compensa o −12 e deixa 8: −12 + 20 = 8.",
+          "Retire os 6 restantes: 8 − 6 = 2. Resposta: 2. Não subtraia o 3 antes de multiplicá-lo por 2."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.1.2-q2",
+        "prompt": "Quanto vale 4,8 ÷ 0,6?",
+        "options": [
+          "8",
+          "0,8",
+          "80",
+          "2,88",
+          "4,2"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Vamos tirar a vírgula do divisor sem mudar o resultado. Multiplique os dois números da divisão por 10.",
+          "4,8 vira 48 e 0,6 vira 6. A conta equivalente é 48 ÷ 6.",
+          "Como 6 × 8 = 48, a divisão dá 8.",
+          "Confira na conta original: 8 × 0,6 = 4,8. Se multiplicássemos apenas um dos números por 10, o resultado mudaria."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "A regra “menos com menos dá mais” só resolve diretamente produtos e divisões; na subtração é preciso observar o sinal da operação."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.1.3",
+    "title": "Ordem das operações e cálculo organizado",
+    "scope": "Operações e propriedades",
+    "sections": [
+      {
+        "title": "A ordem que evita respostas diferentes",
+        "paragraphs": [
+          "Resolva primeiro os agrupamentos, de dentro para fora: parênteses, colchetes e chaves. Depois potências e raízes; depois multiplicações e divisões; finalmente adições e subtrações.",
+          "Multiplicação e divisão têm a mesma prioridade: siga da esquerda para a direita. Adição e subtração também. Em 12 ÷ 3 × 2, faça 4 × 2 = 8, não 12 ÷ 6."
+        ]
+      },
+      {
+        "title": "Tabuada como estratégia",
+        "paragraphs": [
+          "Se esquecer 7 × 8, decomponha: 7 × (5 + 3) = 35 + 21 = 56. Essa é a propriedade distributiva. A tabuada deve servir para reduzir esforço, não substituir a compreensão.",
+          "Escreva uma linha para cada transformação. Ao substituir uma parte, copie o restante sem alterar sinais."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Calcule 30 − 2 × (3² + 1).",
+        "steps": [
+          "Comece pelo que está dentro dos parênteses. Ali existe 3², que significa 3 × 3, e não 3 × 2. Portanto 3² = 9.",
+          "Substitua só essa parte: 30 − 2 × (9 + 1). Agora some 9 + 1 = 10. A expressão fica 30 − 2 × 10.",
+          "Ainda não faça 30 − 2. A multiplicação precisa ser feita antes da subtração. Calcule 2 × 10 = 20.",
+          "Copie o que sobrou: 30 − 20. Agora podemos subtrair e obter 10.",
+          "Resposta: 10. Para conferir a organização, confira a sequência usada: potência dentro do parêntese, soma dentro dele, multiplicação e subtração final."
+        ],
+        "goal": "Resolver a expressão respeitando a ordem das contas.",
+        "start": "Copie 30 − 2 × (3² + 1). Não tente resolver tudo de cabeça: vamos mudar só um pedaço por linha.",
+        "checkpoint": {
+          "prompt": "Se fizéssemos 30 − 2 primeiro, por que daria errado?",
+          "answer": "Porque a conta pede retirar de 30 o resultado inteiro de 2 × 10, que é 20. Ela não pede multiplicar 28 por 10."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.1.3-q1",
+        "prompt": "Quanto vale 18 ÷ 3 × 2 + 4?",
+        "options": [
+          "16",
+          "7",
+          "10",
+          "24",
+          "3"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Divisão e multiplicação têm a mesma prioridade. Quando aparecem juntas, resolva da esquerda para a direita.",
+          "Primeiro 18 ÷ 3 = 6. Copie o restante: 6 × 2 + 4.",
+          "Depois 6 × 2 = 12. Agora temos 12 + 4.",
+          "Some no final: 16. Fazer 3 × 2 primeiro mudaria a conta pedida."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.1.3-q2",
+        "prompt": "Quanto vale 5 × (8 − 3)?",
+        "options": [
+          "25",
+          "37",
+          "15",
+          "40",
+          "10"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O parêntese indica uma conta que deve ser resolvida primeiro.",
+          "Faça 8 − 3 = 5. Substitua o parêntese inteiro por esse resultado.",
+          "Agora a expressão é 5 × 5, que dá 25.",
+          "Confira por outra forma: 5 × 8 − 5 × 3 = 40 − 15 = 25. Multiplicamos o 5 pelas duas partes, não só pela primeira."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não faça uma soma antes da multiplicação apenas porque aparece à esquerda."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.1.4",
+    "title": "Potências, raízes e números reais",
+    "scope": "Operações com reais; base para geometria",
+    "sections": [
+      {
+        "title": "Potência é multiplicação repetida",
+        "paragraphs": [
+          "Em 2³, 2 é a base e 3 é o expoente: 2 × 2 × 2 = 8. Não significa 2 × 3. Para base não nula, a⁰ = 1 e a⁻ⁿ = 1/aⁿ.",
+          "No produto de potências de mesma base, some expoentes: 2³ × 2² = 2⁵. Na divisão, subtraia: 2⁵/2² = 2³. Na potência de potência, multiplique: (2³)² = 2⁶."
+        ]
+      },
+      {
+        "title": "Raiz e sinais",
+        "paragraphs": [
+          "√25 é o número não negativo cujo quadrado é 25: vale 5. Já a equação x² = 25 possui duas soluções, 5 e −5.",
+          "Observe os parênteses: (−3)² = 9, mas −3² = −9, porque a potência é aplicada ao 3 antes do sinal de menos. √(a + b) geralmente não é √a + √b."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Calcule √81 + (−2)³ − 2².",
+        "steps": [
+          "Como 9 × 9 = 81, temos √81 = 9. O símbolo √ indica a raiz não negativa.",
+          "Em (−2)³, a base inteira é −2 porque está entre parênteses. Escreva o produto: (−2) × (−2) × (−2).",
+          "Os dois primeiros fatores negativos dão +4. Multiplique esse +4 pelo último −2: o resultado é −8.",
+          "Em 2², faça 2 × 2 = 4. Agora substitua as três partes: 9 + (−8) − 4.",
+          "Somar −8 é retirar 8: 9 − 8 = 1. Depois 1 − 4 = −3. Resposta: −3."
+        ],
+        "goal": "Resolver raízes e potências antes de juntar os resultados.",
+        "start": "Separe a expressão em três pedaços: √81, (−2)³ e 2². A raiz pergunta qual número não negativo multiplicado por ele mesmo dá 81.",
+        "checkpoint": {
+          "prompt": "Por que (−2)³ é negativo?",
+          "answer": "Porque o produto dos dois primeiros negativos é positivo, mas ainda falta multiplicar por mais um negativo. O produto final fica negativo."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.1.4-q1",
+        "prompt": "Quanto vale (−4)² + √36?",
+        "options": [
+          "22",
+          "−10",
+          "10",
+          "20",
+          "−22"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Em (−4)², o número negativo inteiro é multiplicado por ele mesmo: (−4) × (−4).",
+          "Negativo vezes negativo dá positivo: essa parte vale 16.",
+          "√36 pede a raiz não negativa. Como 6 × 6 = 36, ela vale 6.",
+          "Junte os resultados: 16 + 6 = 22. Não use −16 para o quadrado de uma base negativa entre parênteses."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.1.4-q2",
+        "prompt": "Qual é o valor de 2³ × 2²?",
+        "options": [
+          "32",
+          "12",
+          "64",
+          "16",
+          "10"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O expoente mostra quantas vezes a base aparece multiplicando: 2³ = 2 × 2 × 2 e 2² = 2 × 2.",
+          "Juntando os produtos, há cinco fatores 2: 2 × 2 × 2 × 2 × 2.",
+          "Faça aos poucos: 2 × 2 = 4; vezes 2 = 8; vezes 2 = 16; vezes 2 = 32.",
+          "Resposta: 32. A regra de somar expoentes funciona aqui porque multiplicamos potências da mesma base: 2³ × 2² = 2⁵."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "O quadrado de um número negativo entre parênteses é positivo; a raiz quadrada principal nunca é negativa."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.1.5",
+    "title": "Múltiplos, divisores, MMC e MDC",
+    "scope": "Item 4: mínimo múltiplo comum; MDC como apoio",
+    "sections": [
+      {
+        "title": "Quando usar cada um",
+        "paragraphs": [
+          "Múltiplos de 6 são 0, 6, 12, 18… Divisores positivos de 6 são 1, 2, 3 e 6. O MMC é o menor múltiplo comum positivo: útil para ciclos que voltam a coincidir e denominadores de frações.",
+          "O MDC é o maior divisor comum: útil para dividir materiais em lotes iguais do maior tamanho, sem sobras. Não confunda “primeira coincidência” com “maior divisão possível”."
+        ]
+      },
+      {
+        "title": "Fatoração sem pular etapas",
+        "paragraphs": [
+          "Decomponha em primos: 12 = 2² × 3 e 18 = 2 × 3². Para MMC, use todos os primos com os maiores expoentes: 2² × 3² = 36. Para MDC, apenas os comuns com menores expoentes: 2 × 3 = 6.",
+          "Divisibilidade: por 2, último algarismo par; por 3, soma dos algarismos múltipla de 3; por 5, final 0 ou 5. Por 10, final 0."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Dois alarmes tocam a cada 12 e 18 minutos e tocaram juntos às 8h. Quando voltam a tocar juntos?",
+        "steps": [
+          "Anote quando o primeiro toca: depois de 12, 24, 36, 48 minutos. Fizemos essa lista somando 12 a cada vez.",
+          "Agora liste o segundo: depois de 18, 36, 54 minutos. Somamos 18 a cada vez.",
+          "Procure o primeiro número positivo presente nas duas listas. É 36. Em 36 minutos, o primeiro completou três intervalos de 12 e o segundo completou dois de 18.",
+          "Esse primeiro encontro é chamado de mínimo múltiplo comum, ou MMC. “Mínimo” quer dizer o menor; “comum”, que aparece nas duas listas.",
+          "Some os 36 minutos ao horário inicial: 8h + 36 minutos = 8h36. Esse é o horário pedido, não apenas o intervalo."
+        ],
+        "goal": "Encontrar a primeira vez em que os dois alarmes voltam a coincidir.",
+        "start": "Um toca a cada 12 minutos; o outro, a cada 18. Vamos contar minutos depois das 8h, sem somar os dois intervalos.",
+        "checkpoint": {
+          "prompt": "Por que 12 + 18 = 30 não resolve?",
+          "answer": "Porque 30 não é momento de toque do primeiro nem do segundo nas listas. Precisamos de um tempo divisível por ambos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.1.5-q1",
+        "prompt": "Qual é o MMC de 8 e 12?",
+        "options": [
+          "24",
+          "4",
+          "20",
+          "96",
+          "12"
+        ],
+        "correct": 0,
+        "explanation": [
+          "MMC é o menor número positivo que aparece na tabuada dos dois números.",
+          "Liste os múltiplos de 8: 8, 16, 24. Liste os de 12: 12, 24.",
+          "O primeiro encontro é 24. Logo MMC(8,12) = 24.",
+          "Confira: 24 ÷ 8 = 3 e 24 ÷ 12 = 2, ambas sem resto. O 96 também seria múltiplo comum, mas não o menor."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "2.1.5-q2",
+        "prompt": "Tenho 24 e 36 peças de dois tipos. Qual o maior número de kits idênticos, usando tudo?",
+        "options": [
+          "12",
+          "6",
+          "24",
+          "36",
+          "72"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Queremos o maior número de kits iguais, sem sobra dos dois tipos de peça. A quantidade de kits precisa dividir tanto 24 quanto 36.",
+          "Os divisores de 24 são 1, 2, 3, 4, 6, 8, 12, 24. De 36: 1, 2, 3, 4, 6, 9, 12, 18, 36.",
+          "O maior número presente nas duas listas é 12. Esse número se chama máximo divisor comum, ou MDC.",
+          "Dividindo, cada kit recebe 24 ÷ 12 = 2 peças do primeiro tipo e 36 ÷ 12 = 3 do segundo. Resposta: 12 kits."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Multiplicar os dois números sempre dá um múltiplo comum, mas nem sempre o mínimo."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.2.1",
+    "title": "Fração: partes, inteiro e equivalência",
+    "scope": "Item 2: representação fracionária",
+    "sections": [
+      {
+        "title": "O que numerador e denominador dizem",
+        "paragraphs": [
+          "Em 3/4, o denominador 4 indica em quantas partes iguais o inteiro foi dividido; o numerador 3 indica quantas foram consideradas. As partes precisam ter o mesmo tamanho. O denominador nunca pode ser zero.",
+          "Fração própria tem numerador menor que denominador, como 3/4. Imprópria tem numerador maior ou igual, como 7/4. 7/4 = 1 inteiro e 3/4, porque 7 = 4 + 3."
+        ]
+      },
+      {
+        "title": "Equivalência e comparação",
+        "paragraphs": [
+          "Multiplicar ou dividir numerador e denominador pelo mesmo número não nulo preserva a razão: 1/2 = 2/4 = 3/6. Imagine repartir cada metade em duas partes: duas dessas novas partes ainda formam a metade.",
+          "Com mesmo denominador, compare numeradores. Com denominadores diferentes, transforme em frações equivalentes de mesmo denominador. Não compare somente os números de baixo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Qual é maior: 2/3 ou 3/5?",
+        "steps": [
+          "Vamos transformar tudo em quinze partes iguais. Escolhemos 15 porque ele pode ser dividido tanto por 3 quanto por 5: 15 ÷ 3 = 5 e 15 ÷ 5 = 3.",
+          "Para transformar 2/3 em uma fração com 15 embaixo, multiplique 3 por 5. Faça a mesma coisa em cima: 2 × 5 = 10. Assim, 2/3 = 10/15.",
+          "Na outra fração, multiplique o 5 de baixo por 3 para chegar a 15. Em cima, faça 3 × 3 = 9. Assim, 3/5 = 9/15.",
+          "Agora cada parte tem o mesmo tamanho. Dez partes são mais que nove partes: 10/15 > 9/15.",
+          "Volte às frações originais: 2/3 é maior que 3/5. A diferença entre elas é só uma dessas quinze partes: 1/15."
+        ],
+        "goal": "Comparar duas frações usando partes do mesmo tamanho.",
+        "start": "Em 2/3, o inteiro foi dividido em três partes iguais e pegamos duas. Em 3/5, foi dividido em cinco partes e pegamos três. Não basta comparar 2 com 3.",
+        "checkpoint": {
+          "prompt": "Por que multiplicamos em cima e embaixo pelo mesmo número?",
+          "answer": "Para mudar a forma de escrever sem mudar a quantidade. É como recortar cada pedaço em pedaços menores, mantendo a mesma parte do inteiro."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.2.1-q1",
+        "prompt": "Qual fração equivale a 3/4?",
+        "options": [
+          "9/12",
+          "6/12",
+          "3/8",
+          "4/3",
+          "6/4"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Uma fração equivalente representa a mesma parte do inteiro, mesmo escrita com outros números.",
+          "Parta de 3/4. Multiplique em cima e embaixo por 3: 3 × 3 = 9 e 4 × 3 = 12.",
+          "Obtemos 9/12. Como o fator foi o mesmo nos dois lugares, a quantidade não mudou.",
+          "Confira simplificando de volta: 9 ÷ 3 = 3 e 12 ÷ 3 = 4. Logo 9/12 = 3/4."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "2.2.1-q2",
+        "prompt": "Como escrever 11/4 em número misto?",
+        "options": [
+          "2 e 3/4",
+          "3 e 2/4",
+          "2 e 1/4",
+          "4 e 3/4",
+          "1 e 3/4"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um número misto separa inteiros completos de uma parte que sobra. Cada inteiro exige quatro quartos.",
+          "Em 11 quartos, cabem dois grupos de quatro: 2 × 4 = 8 quartos.",
+          "Sobram 11 − 8 = 3 quartos. Portanto 11/4 = 2 e 3/4.",
+          "Confira: os dois inteiros são 8/4; somando 3/4, voltamos a 11/4. A parte fracionária fica menor que um inteiro."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Uma fração maior no papel pode representar a mesma quantidade: 50/100 é apenas 1/2."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.2.2",
+    "title": "Operações com frações, do zero",
+    "scope": "Item 2: operações com racionais",
+    "sections": [
+      {
+        "title": "Somar e subtrair: mesmo tamanho de parte",
+        "paragraphs": [
+          "Para somar 1/3 e 1/4, as partes não têm o mesmo tamanho. Use MMC(3,4) = 12. Cada terço equivale a 4/12 e cada quarto a 3/12. Então 1/3 + 1/4 = 7/12. O denominador permanece 12, pois ainda contamos doze avos.",
+          "Se os denominadores já são iguais, some/subtraia só numeradores: 5/8 − 3/8 = 2/8 = 1/4. Simplifique dividindo ambos por um divisor comum; 18/24 vira 3/4 ao dividir por 6."
+        ]
+      },
+      {
+        "title": "Multiplicar e dividir: regras diferentes",
+        "paragraphs": [
+          "Na multiplicação, multiplique numeradores e denominadores: 2/3 × 3/5 = 6/15 = 2/5. “2/3 de 15” significa (2/3) × 15 = 10.",
+          "Dividir por uma fração não nula é multiplicar por seu inverso: 3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8. O inverso de 2/5 é 5/2. Inverta apenas o divisor. Simplificações cruzadas só são válidas em produtos, não entre termos de uma soma."
+        ]
+      },
+      {
+        "title": "Por que usar o mesmo denominador?",
+        "paragraphs": [
+          "O denominador funciona como nome do tamanho da parte. Somar 1/2 e 1/3 diretamente seria somar uma metade com um terço como se tivessem o mesmo tamanho. Ao transformar tudo em sextos, estamos contando partes iguais.",
+          "Para achar o novo numerador, divida o denominador escolhido pelo denominador antigo e multiplique pelo numerador antigo. Em 2/3 para doze avos: 12 ÷ 3 = 4; 4 × 2 = 8; portanto 2/3 = 8/12. Esse procedimento é a multiplicação de cima e de baixo pelo mesmo fator."
+        ]
+      },
+      {
+        "title": "Por que inverter a segunda fração na divisão?",
+        "paragraphs": [
+          "Dividir pergunta quantos grupos cabem. Em 3/4 ÷ 1/8, pense: quantos oitavos cabem em três quartos? Três quartos são seis oitavos, então cabem seis.",
+          "Algebricamente, multiplicar divisor e dividendo pelo inverso do divisor transforma o divisor em 1, sem mudar o quociente. Por isso (3/4) ÷ (2/5) = [(3/4) × (5/2)] ÷ [(2/5) × (5/2)] = (15/8) ÷ 1 = 15/8."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Calcule (2/3 + 1/4) ÷ 5/6.",
+        "steps": [
+          "Procure um número que apareça na tabuada do 3 e do 4. Múltiplos de 3: 3, 6, 9, 12. De 4: 4, 8, 12. O primeiro encontro é 12; por isso vamos usar doze avos.",
+          "Transforme 2/3: para ir de 3 até 12, multiplicamos por 4. Multiplique também o 2 por 4. Assim, 2/3 = 8/12. A quantidade não mudou, só o tamanho dos pedaços usados para escrevê-la.",
+          "Transforme 1/4: de 4 até 12 multiplicamos por 3. Faça o mesmo em cima: 1 × 3 = 3. Então 1/4 = 3/12.",
+          "Agora some: 8 pedaços mais 3 pedaços são 11 pedaços, todos de tamanho 1/12. Portanto 8/12 + 3/12 = 11/12. Não somamos o número de baixo.",
+          "Volte à conta que estava esperando: 11/12 ÷ 5/6. Dividir por 5/6 equivale a multiplicar por 6/5. Mantemos 11/12 e invertemos apenas a segunda fração.",
+          "Escreva 11/12 × 6/5. Para facilitar, divida o 6 e o 12 por 6: viram 1 e 2. Agora temos 11/2 × 1/5.",
+          "Multiplique os números de cima: 11 × 1 = 11. Multiplique os de baixo: 2 × 5 = 10. Resultado: 11/10, isto é, 1 inteiro e 1 décimo, ou 1,1.",
+          "Vamos conferir a divisão com a operação contrária: 11/10 × 5/6 = 55/60 = 11/12. Voltamos ao valor que tínhamos antes de dividir."
+        ],
+        "goal": "Somar as frações do parêntese e depois dividir o resultado por 5/6.",
+        "start": "Deixe a divisão de fora esperando. Primeiro vamos entender 2/3 + 1/4. O número de baixo indica o tamanho das partes; para somar, precisamos de partes iguais.",
+        "checkpoint": {
+          "prompt": "Por que 8/12 + 3/12 não vira 11/24?",
+          "answer": "Porque os pedaços continuam sendo doze avos. Juntamos a quantidade de pedaços; não mudamos o tamanho de cada um."
+        }
+      },
+      {
+        "question": "Some 1/2 + 1/3 desde o começo.",
+        "steps": [
+          "Conte de 2 em 2: 2, 4, 6. Conte de 3 em 3: 3, 6. Se dividirmos cada inteiro em 6 partes iguais, conseguimos representar tanto metades quanto terços.",
+          "Uma metade contém 3 dessas 6 partes. Por isso, multiplique em cima e embaixo por 3: 1/2 = 3/6.",
+          "Um terço contém 2 dessas 6 partes. Multiplique em cima e embaixo por 2: 1/3 = 2/6.",
+          "Agora conte as partes iguais: 3 + 2 = 5. O tamanho de cada parte continua sendo 1/6. Resultado: 5/6.",
+          "Não há inteiro completo, porque precisaríamos de 6/6. Falta 1/6 para completar o inteiro. Isso também ajuda a conferir que a resposta faz sentido."
+        ],
+        "goal": "Somar metade com um terço sem tratar pedaços diferentes como iguais.",
+        "start": "Imagine duas barras do mesmo tamanho. Uma foi dividida em 2 partes e outra em 3. Precisamos de uma divisão que sirva para as duas.",
+        "checkpoint": {
+          "prompt": "Por que 1/2 + 1/3 não é 2/5?",
+          "answer": "Metades e terços têm tamanhos diferentes. Somar os números de baixo não transforma esses pedaços em pedaços iguais."
+        }
+      },
+      {
+        "question": "Uma garrafa contém 3/4 de litro. Quantos copos de 1/8 de litro ela enche?",
+        "steps": [
+          "Vamos escrever o conteúdo da garrafa em oitavos. Multiplique o 3 e o 4 por 2: 3/4 = 6/8 de litro.",
+          "Agora fica visível: temos 6 porções de 1/8 de litro. Como cada copo usa exatamente uma dessas porções, conseguimos encher 6 copos.",
+          "A conta de divisão escreve a mesma ideia: 3/4 ÷ 1/8. Dividir por uma fração equivale a multiplicar pelo seu inverso: 3/4 × 8/1.",
+          "Multiplique: 3 × 8 = 24 em cima; 4 × 1 = 4 embaixo. Então 24/4 = 6.",
+          "Confira juntando os copos: 6 × 1/8 = 6/8 = 3/4. Usamos exatamente o conteúdo da garrafa."
+        ],
+        "goal": "Descobrir quantos copos pequenos cabem no líquido da garrafa.",
+        "start": "A garrafa tem 3/4 de litro, e cada copo recebe 1/8 de litro. A pergunta é “quantas porções de 1/8 cabem em 3/4?”.",
+        "checkpoint": {
+          "prompt": "Por que o resultado da divisão pode ser maior que 3/4?",
+          "answer": "Porque contamos copos menores que um litro. Uma quantidade pequena de líquido pode conter várias porções ainda menores."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.2.2-q1",
+        "prompt": "Calcule 3/4 − 1/6.",
+        "options": [
+          "7/12",
+          "2/2",
+          "2/10",
+          "1/2",
+          "5/12"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Precisamos subtrair partes do mesmo tamanho. Liste múltiplos: de 4, 4, 8, 12; de 6, 6, 12. Vamos usar 12 embaixo.",
+          "Para 3/4, o 4 precisa ser multiplicado por 3. Faça o mesmo em cima: 3 × 3 = 9. Então 3/4 = 9/12.",
+          "Para 1/6, multiplique em cima e embaixo por 2: 1/6 = 2/12.",
+          "Agora retire duas partes de nove: 9/12 − 2/12 = 7/12. O tamanho das partes continua sendo um doze avo.",
+          "Confira somando o que tiramos: 7/12 + 2/12 = 9/12 = 3/4. Voltamos ao começo."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.2.2-q2",
+        "prompt": "Quanto vale 2/5 ÷ 4/3?",
+        "options": [
+          "3/10",
+          "8/15",
+          "5/6",
+          "6/5",
+          "2/3"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A conta é uma divisão, não uma multiplicação direta. Mantenha a primeira fração, 2/5.",
+          "Para dividir por 4/3, multiplique por seu inverso, 3/4. Invertemos apenas a segunda fração: 2/5 × 3/4.",
+          "Multiplique os números de cima: 2 × 3 = 6. Os de baixo: 5 × 4 = 20. Temos 6/20.",
+          "Simplifique dividindo ambos por 2: 6/20 = 3/10.",
+          "Confira a divisão: 3/10 × 4/3 = 12/30 = 2/5. A multiplicação pelo divisor recupera o valor inicial."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Nunca some os denominadores: 1/2 + 1/2 = 1, não 2/4."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.2.3",
+    "title": "Fração, decimal e porcentagem",
+    "scope": "Itens 2 e 7",
+    "sections": [
+      {
+        "title": "Três formas da mesma quantidade",
+        "paragraphs": [
+          "Porcentagem significa “por cem”. 25% = 25/100 = 1/4 = 0,25. Para obter decimal a partir de fração, divida numerador por denominador. Para passar de decimal a porcentagem, multiplique por 100.",
+          "0,07 = 7%, enquanto 0,7 = 70%. O zero entre vírgula e 7 faz diferença. De porcentagem para decimal, divida por 100: 2,5% = 0,025."
+        ]
+      },
+      {
+        "title": "Transformar decimal em fração",
+        "paragraphs": [
+          "0,375 tem três casas decimais, então vale 375/1000. Dividindo por 125: 3/8. A quantidade de zeros no denominador acompanha a quantidade de casas decimais.",
+          "Dízimas periódicas precisam de outro método: x=0,333…; 10x=3,333…; subtraia x: 9x=3; logo x=1/3. Não trate a dízima como um decimal finito."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma pessoa acertou 18 das 24 questões. Qual foi o percentual?",
+        "steps": [
+          "Escreva parte sobre total: 18/24. O 18 fica em cima porque é o número de acertos; o 24 fica embaixo porque é o total de questões.",
+          "Vamos simplificar: 18 ÷ 6 = 3 e 24 ÷ 6 = 4. Portanto 18/24 representa a mesma parte que 3/4.",
+          "Para chegar a 100 embaixo, multiplique 4 por 25. Faça também 3 × 25 = 75. Assim, 3/4 = 75/100.",
+          "Setenta e cinco em cada cem se escreve 75%. Resposta: 75% de acertos.",
+          "Confira usando o total original: 24 ÷ 4 = 6; três partes de 6 são 18. A proporção bate com os acertos informados."
+        ],
+        "goal": "Descobrir quantos acertos seriam, proporcionalmente, em cada 100 questões.",
+        "start": "O total é 24 questões e a parte acertada é 18. Porcentagem é uma forma de escrever uma parte usando 100 como referência.",
+        "checkpoint": {
+          "prompt": "Por que não dividimos 24 por 18?",
+          "answer": "Porque queremos a parte acertada em relação ao total. Inverter mudaria a comparação e daria mais de 100% neste caso."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.2.3-q1",
+        "prompt": "0,125 corresponde a:",
+        "options": [
+          "12,5%",
+          "1,25%",
+          "125%",
+          "0,125%",
+          "25%"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Porcentagem escreve uma quantidade usando cem como referência. Para converter um decimal em porcentagem, multiplicamos seu valor por 100.",
+          "Faça 0,125 × 100 = 12,5. O resultado é 12,5%.",
+          "Confira voltando: 12,5 ÷ 100 = 0,125.",
+          "Também podemos pensar em 1/8: metade de 25% é 12,5%, e 1/8 é metade de 1/4."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "2.2.3-q2",
+        "prompt": "Qual decimal corresponde a 3/5?",
+        "options": [
+          "0,6",
+          "0,35",
+          "0,3",
+          "1,6",
+          "0,15"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Queremos escrever três quintos em forma decimal. Podemos transformar o número de baixo em 10.",
+          "Multiplique em cima e embaixo por 2: 3/5 = 6/10.",
+          "Seis décimos se escreve 0,6. A primeira casa depois da vírgula é a dos décimos.",
+          "Confira: 0,6 × 5 = 3. Logo 3 ÷ 5 = 0,6."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Multiplicar por 100 não significa simplesmente acrescentar o sinal de porcentagem."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.2.4",
+    "title": "Razão, proporção e regra de três",
+    "scope": "Itens 5 e 9",
+    "sections": [
+      {
+        "title": "Razão e proporção",
+        "paragraphs": [
+          "Razão é uma comparação por divisão: 2 professores para 30 alunos produz razão 2/30 = 1/15. Compare grandezas compatíveis e mantenha a ordem. A razão professores/alunos não é alunos/professores.",
+          "Proporção é igualdade entre razões. Se a/b = c/d, com denominadores não nulos, então a×d = b×c. O produto cruzado decorre de multiplicar os dois lados por b×d."
+        ]
+      },
+      {
+        "title": "Direta ou inversa?",
+        "paragraphs": [
+          "Diretamente proporcionais: dobrar uma grandeza dobra a outra, mantendo a razão constante. Exemplo: quantidade e custo, com preço unitário fixo.",
+          "Inversamente proporcionais: dobrar uma grandeza reduz a outra pela metade, mantendo o produto. Exemplo: trabalhadores e tempo, com produtividade igual e trabalho fixo. Nem toda relação é proporcional: tarifa com taxa fixa é contraexemplo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Quatro trabalhadores concluem uma tarefa em 15 dias. Seis trabalhadores iguais precisam de quantos dias?",
+        "steps": [
+          "Antes de calcular, pense no sentido da resposta: com mais pessoas iguais trabalhando, esperamos menos dias. Por isso as duas quantidades mudam em sentidos contrários.",
+          "Quatro pessoas durante 15 dias representam 4 × 15 = 60 dias de trabalho de uma pessoa. Esse total é uma maneira de medir todo o esforço necessário.",
+          "Agora vamos repartir esses 60 dias de trabalho entre 6 pessoas: 60 ÷ 6 = 10.",
+          "Resposta: 10 dias. Se cada uma das 6 pessoas trabalha 10 dias, o total é 6 × 10 = 60, igual ao de antes.",
+          "A resposta ficou menor que 15, como esperávamos. Fazer 15 × 6 ÷ 4 daria mais dias ao aumentar a equipe, invertendo a relação neste problema."
+        ],
+        "goal": "Descobrir em quantos dias seis trabalhadores fazem a mesma tarefa.",
+        "start": "Vamos supor que todos trabalham no mesmo ritmo e pelo mesmo tempo por dia. A tarefa não mudou; só aumentou a quantidade de pessoas.",
+        "checkpoint": {
+          "prompt": "Qual suposição permite dividir o trabalho igualmente?",
+          "answer": "Que as pessoas têm o mesmo ritmo de trabalho e a mesma jornada diária, sem outras mudanças na tarefa."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.2.4-q1",
+        "prompt": "Cinco cadernos custam R$ 40. Oito custam quanto, com mesmo preço unitário?",
+        "options": [
+          "R$ 64",
+          "R$ 25",
+          "R$ 48",
+          "R$ 80",
+          "R$ 56"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O preço por caderno é o mesmo. Primeiro vamos descobrir quanto custa apenas um.",
+          "Cinco cadernos custam 40, então 40 ÷ 5 = R$ 8 por caderno.",
+          "Para oito cadernos, multiplique a quantidade pelo preço de um: 8 × 8 = R$ 64.",
+          "Confira o sentido: compramos mais que cinco, então o total precisa ser maior que R$ 40. R$ 64 atende a isso."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "2.2.4-q2",
+        "prompt": "Três torneiras iguais enchem um tanque em 8 horas. Seis torneiras levam:",
+        "options": [
+          "4 horas",
+          "16 horas",
+          "6 horas",
+          "8 horas",
+          "2 horas"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Seis torneiras são o dobro de três. Supondo torneiras iguais e a mesma quantidade de água, a entrada de água por hora dobra.",
+          "Com o dobro da velocidade de enchimento, precisamos de metade do tempo.",
+          "Faça 8 ÷ 2 = 4 horas.",
+          "Confira pelo esforço total: 3 × 8 = 24 torneira-horas; 6 × 4 também é 24. Não dobre o tempo ao dobrar a quantidade de torneiras."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Antes de cruzar números, decida se a relação é direta, inversa ou não proporcional."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.2.5",
+    "title": "Descontos, aumentos e descoberta do preço original",
+    "scope": "Item 7: porcentagem",
+    "sections": [
+      {
+        "title": "O todo é a referência",
+        "paragraphs": [
+          "20% de 150 = 20/100 × 150 = 30. Se for desconto, preço final = 150 − 30 = 120. Se for aumento, final = 180. O valor percentual depende da base.",
+          "Uma forma mais curta: desconto de 20% deixa 80% do preço, portanto multiplique por 0,80. Aumento de 20% deixa 120%, portanto multiplique por 1,20."
+        ]
+      },
+      {
+        "title": "Voltar ao valor inicial",
+        "paragraphs": [
+          "Se o preço final após 15% de desconto é 255, ele representa 85% do original: 0,85P=255. Portanto P=255/0,85=300. Calcular 15% de 255 não recupera o desconto.",
+          "Percentuais sucessivos multiplicam fatores. Aumento de 10% e desconto de 10%: 1,10 × 0,90=0,99. Há redução final de 1%, porque a segunda base mudou."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um produto custou R$ 340 após desconto de 15%. Qual era o preço e o desconto em reais?",
+        "steps": [
+          "O preço inteiro representa 100%. Se tiramos 15%, ficaram 100 − 15 = 85%. Portanto R$ 340 correspondem a 85 partes de um total de 100.",
+          "Descubra o valor de uma dessas partes: 340 ÷ 85 = 4, porque 85 × 4 = 340. Então 1% do preço original vale R$ 4.",
+          "O preço original tem 100 dessas partes: 100 × 4 = 400. Logo, antes do desconto o produto custava R$ 400.",
+          "O desconto tinha 15 partes de R$ 4: 15 × 4 = 60. Foram retirados R$ 60.",
+          "Confira: 400 − 60 = 340. Não calcule 15% de 340 para achar o desconto original, porque a base correta é 400."
+        ],
+        "goal": "Encontrar o preço antes do desconto e quanto foi abatido.",
+        "start": "Os R$ 340 já são o preço com desconto. Eles não correspondem aos 100% do preço original.",
+        "checkpoint": {
+          "prompt": "Qual é a diferença entre o valor pago e a base do desconto?",
+          "answer": "O valor pago é o que sobrou depois do desconto. A base é o preço inteiro, antes da redução."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.2.5-q1",
+        "prompt": "Um produto é vendido por R$ 180 após desconto de 25%. Qual era o preço original?",
+        "options": [
+          "R$ 240",
+          "R$ 225",
+          "R$ 200",
+          "R$ 135",
+          "R$ 250"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O desconto tirou 25% do preço original. Portanto sobraram 100% − 25% = 75%.",
+          "Os R$ 180 correspondem a 75%, ou três quartos, do preço original.",
+          "Se três quartos valem 180, um quarto vale 180 ÷ 3 = 60.",
+          "O inteiro tem quatro quartos: 4 × 60 = R$ 240.",
+          "Confira: 25% de 240 = 60; 240 − 60 = 180. O preço original é R$ 240."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.2.5-q2",
+        "prompt": "Aumentar R$ 100 em 20% e depois reduzir 20% resulta em:",
+        "options": [
+          "R$ 96",
+          "R$ 100",
+          "R$ 104",
+          "R$ 80",
+          "R$ 120"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Primeiro calcule o aumento sobre os R$ 100: 20% de 100 = 20. O preço passa a 120.",
+          "O desconto seguinte é sobre 120, não sobre 100. Calcule 20% de 120: 120 ÷ 100 × 20 = 24.",
+          "Retire o desconto: 120 − 24 = 96.",
+          "Resposta: R$ 96. Os percentuais iguais não se anulam, porque foram aplicados sobre bases diferentes."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Desconto de 25% não é desfeito com aumento de 25% sobre o preço reduzido."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.2.6",
+    "title": "Frações de áreas diferentes e problemas com dinheiro",
+    "scope": "Itens 2, 5, 7 e 17; aplicação como na prova de 2024",
+    "sections": [
+      {
+        "title": "Não some frações de inteiros diferentes",
+        "paragraphs": [
+          "Metade de um terreno pequeno não tem a mesma área que metade de um grande. Quando há dois inteiros, transforme as partes em medidas de área antes de reuni-las.",
+          "Se B tem o dobro da área de A, escolha A=100 unidades e B=200, quando só importarem proporções. Essa escolha simplifica as contas sem alterar a fração final."
+        ]
+      },
+      {
+        "title": "Fração total e dinheiro",
+        "paragraphs": [
+          "Fração ocupada = soma das áreas ocupadas / soma das áreas totais. Isso é uma média ponderada pelas áreas, não a média simples das frações.",
+          "Em problemas de dinheiro, pode ser útil converter reais em centavos para evitar vírgulas: R$ 0,25 = 25 centavos. Nunca misture reais com centavos na mesma equação."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "A tem 100 m² e B tem o dobro. Metade de A e 3/4 de B estão plantados. Qual fração do total está plantada?",
+        "steps": [
+          "A tem 100 m². B tem o dobro: 2 × 100 = 200 m². Juntos, os terrenos têm 100 + 200 = 300 m².",
+          "Metade de A significa dividir 100 por 2: 100 ÷ 2 = 50 m² plantados.",
+          "Para achar 3/4 de B, primeiro divida 200 por 4: cada quarto vale 50 m². Pegue três quartos: 3 × 50 = 150 m² plantados.",
+          "Some as partes plantadas: 50 + 150 = 200 m². Agora a fração usa um único inteiro, o total de 300 m²: 200/300.",
+          "Divida em cima e embaixo por 100: 200/300 = 2/3. Assim, dois terços da área total estão plantados.",
+          "Confira o restante: 300 − 200 = 100 m², que é 1/3 do total. Plantado e não plantado completam os três terços."
+        ],
+        "goal": "Juntar as áreas plantadas e só depois calcular a fração do terreno total.",
+        "start": "Os terrenos têm tamanhos diferentes. Por isso, metade de A e três quartos de B precisam virar áreas antes de serem somados.",
+        "checkpoint": {
+          "prompt": "Por que não somar diretamente 1/2 com 3/4?",
+          "answer": "Porque a metade se refere a 100 m², mas os três quartos se referem a 200 m². As bases são diferentes."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.2.6-q1",
+        "prompt": "A tem 80 m² e B tem 120 m². Planta-se 1/4 de A e metade de B. A fração plantada do total é:",
+        "options": [
+          "2/5",
+          "3/4",
+          "1/2",
+          "1/4",
+          "3/5"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Cada fração se refere a um terreno diferente. Primeiro transforme as partes em áreas.",
+          "Um quarto de A: 80 ÷ 4 = 20 m². Metade de B: 120 ÷ 2 = 60 m².",
+          "A área plantada total é 20 + 60 = 80 m². A área dos terrenos juntos é 80 + 120 = 200 m².",
+          "A fração plantada é 80/200. Divida ambos por 40: 80/200 = 2/5.",
+          "Confira: um quinto de 200 é 40; dois quintos são 80 m², exatamente o plantio calculado."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "O denominador da fração final é a soma das áreas totais, não a área de apenas um terreno."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.3.1",
+    "title": "Expressões algébricas e termos semelhantes",
+    "scope": "Item 11 e preparação para sistemas",
+    "sections": [
+      {
+        "title": "Letras entram nas contas",
+        "paragraphs": [
+          "Uma expressão combina números, letras e operações. Em 3x+2, 3 é coeficiente de x e 2 é termo constante. Se x=4, o valor é 3×4+2=14. Expressão não é equação: só há equação quando impomos uma igualdade.",
+          "Termos semelhantes têm a mesma parte literal: 3x+5x=8x; 3x+5 não vira 8x. x² e x também não são semelhantes."
+        ]
+      },
+      {
+        "title": "Distributiva e sinais",
+        "paragraphs": [
+          "a(b+c)=ab+ac. Portanto 2(x+3)=2x+6. O fator multiplica todos os termos dentro do parêntese.",
+          "Com menos na frente, distribua −1: −(x−4)=−x+4. No produto de letras, x×x=x². Faça a substituição de valores negativos usando parênteses."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Simplifique 3(x+2) − 2(x−5).",
+        "steps": [
+          "O 3 multiplica tudo dentro do primeiro parêntese: 3 × x = 3x e 3 × 2 = 6. Por isso 3(x + 2) vira 3x + 6.",
+          "No segundo parêntese, quem multiplica é −2, incluindo o sinal. Faça (−2) × x = −2x e (−2) × (−5) = +10. Dois sinais negativos num produto dão positivo.",
+          "Copie as partes: 3x + 6 − 2x + 10. Temos três unidades de x e retiramos duas: 3x − 2x = x.",
+          "Agora junte os números sem letra: 6 + 10 = 16. Resultado: x + 16.",
+          "Confira com x = 2. A expressão original dá 3 × 4 − 2 × (−3) = 12 + 6 = 18. A nova dá 2 + 16 = 18. Esse teste ajuda a encontrar erros de sinal."
+        ],
+        "goal": "Reescrever a expressão de um jeito menor, sem mudar seu valor.",
+        "start": "A letra x representa um número. Como não sabemos qual, vamos mantê-la e juntar apenas partes do mesmo tipo.",
+        "checkpoint": {
+          "prompt": "Por que 3x + 6 não vira 9x?",
+          "answer": "Porque 3x conta grupos de x, enquanto 6 é um número sem x. Só juntamos diretamente termos do mesmo tipo."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.3.1-q1",
+        "prompt": "Simplifique 4x+3−x+7.",
+        "options": [
+          "3x+10",
+          "4x+10",
+          "3x+4",
+          "13x",
+          "5x+10"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Separe termos com x de números sem letra: 4x − x e 3 + 7.",
+          "Quatro grupos de x menos um grupo deixam três: 4x − x = 3x.",
+          "Some os números: 3 + 7 = 10.",
+          "Resultado: 3x + 10. Não some 3x com 10 como se fossem termos iguais."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Somar termos com letras diferentes não autoriza juntá-los em um só coeficiente."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.3.2",
+    "title": "Traduzindo frases para a linguagem da Matemática",
+    "scope": "Equações e situações-problema",
+    "sections": [
+      {
+        "title": "Escolha o significado de x",
+        "paragraphs": [
+          "Antes da conta escreva “x representa…”. O dobro de um número é 2x; sua terça parte é x/3; o sucessor é x+1; o antecessor é x−1.",
+          "A ordem das palavras muda a expressão: “o dobro de um número mais três” pode ser 2x+3; “o dobro da soma do número com três” é 2(x+3). Use o contexto do enunciado para eliminar ambiguidade."
+        ]
+      },
+      {
+        "title": "Verifique a unidade",
+        "paragraphs": [
+          "Se x representa quantidade de moedas, é inteiro e não negativo. Se representa preço, sua unidade é real. Uma equação pode ter solução algébrica que não faz sentido na situação.",
+          "Leia cada expressão de volta em português. Essa conferência detecta muitos erros antes do cálculo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "A metade de um número, somada a 7, é 19. Encontre o número.",
+        "steps": [
+          "“Metade de um número” quer dizer dividir esse número por 2. Escreva x/2.",
+          "“Somada a 7” acrescenta uma soma: x/2 + 7. “É 19” informa uma igualdade: x/2 + 7 = 19.",
+          "Para desfazer o +7, retire 7 dos dois lados. Ficamos com x/2 = 19 − 7 = 12.",
+          "Se a metade é 12, o número inteiro tem duas metades: 12 × 2 = 24. Logo x = 24.",
+          "Volte à frase para conferir: metade de 24 é 12; somando 7, temos 19. A resposta atende à pergunta."
+        ],
+        "goal": "Transformar a frase em conta e encontrar o número escondido.",
+        "start": "Use x como apelido do número que ainda não conhecemos. Não é um sinal de multiplicação neste caso.",
+        "checkpoint": {
+          "prompt": "Por que subtrair 7 dos dois lados?",
+          "answer": "Para manter a igualdade: se retiramos a mesma quantidade de dois valores iguais, eles continuam iguais."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.3.2-q1",
+        "prompt": "“O triplo da diferença entre x e 4” corresponde a:",
+        "options": [
+          "3(x−4)",
+          "3x−4",
+          "x/3−4",
+          "3(4−x)",
+          "x−12"
+        ],
+        "correct": 0,
+        "explanation": [
+          "“Diferença entre x e 4” manda subtrair: x − 4.",
+          "O triplo é três vezes essa diferença inteira. Use parênteses para guardar a subtração como um bloco.",
+          "Escreva 3(x − 4). Isso significa 3 × (x − 4).",
+          "Se x fosse 10, a diferença seria 6 e seu triplo seria 18. Já 3x − 4 daria 26, mostrando que não é a mesma expressão."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Parênteses expressam o que é calculado primeiro; não são decoração."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.3.3",
+    "title": "Equação do primeiro grau: a ideia da balança",
+    "scope": "Item 11",
+    "sections": [
+      {
+        "title": "Igualdade tem dois lados",
+        "paragraphs": [
+          "Resolver uma equação é encontrar o valor que torna os dois lados iguais. Para preservar a igualdade, faça a mesma operação nos dois lados.",
+          "Em ax+b=c, com a diferente de zero, subtraia b e divida por a: x=(c−b)/a. “Passar para o outro lado trocando sinal” é um atalho; entender a operação evita erros."
+        ]
+      },
+      {
+        "title": "Soluções e conferência",
+        "paragraphs": [
+          "Se a transformação resultar em 0x=5, não existe solução. Se resultar em 0x=0, todos os valores admissíveis satisfazem a equação.",
+          "Após encontrar x, substitua na igualdade original, antes das simplificações. Essa verificação deve ser parte da resolução, não um detalhe opcional."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Resolva 5x−7=2x+14.",
+        "steps": [
+          "Começamos com 5x − 7 = 2x + 14. Queremos juntar os x. Retire 2x dos dois lados: 5x − 2x − 7 = 2x − 2x + 14.",
+          "Do lado esquerdo, 5x − 2x = 3x. Do direito, 2x − 2x = 0. Então 3x − 7 = 14.",
+          "Agora queremos deixar 3x sozinho. Some 7 aos dois lados: 3x − 7 + 7 = 14 + 7. Obtemos 3x = 21.",
+          "Três vezes x dá 21. Divida os dois lados por 3: x = 21 ÷ 3 = 7.",
+          "Confira nos dois lados originais: 5 × 7 − 7 = 28; 2 × 7 + 14 = 28. Como os resultados são iguais, x = 7 serve."
+        ],
+        "goal": "Descobrir o valor de x que deixa os dois lados iguais.",
+        "start": "Pense numa balança equilibrada: tudo que fazemos de um lado também precisa ser feito do outro.",
+        "checkpoint": {
+          "prompt": "O sinal muda sozinho quando um número “passa para o outro lado”?",
+          "answer": "Não. Essa frase abrevia uma operação feita nos dois lados. Aqui somamos 7 aos dois lados para cancelar o −7."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.3.3-q1",
+        "prompt": "Resolva 4x+5=29.",
+        "options": [
+          "6",
+          "8,5",
+          "24",
+          "7",
+          "−6"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Queremos deixar x sozinho em 4x + 5 = 29. Primeiro desfaça o +5 retirando 5 dos dois lados.",
+          "Assim, 4x = 29 − 5 = 24.",
+          "Quatro vezes x vale 24, então divida os dois lados por 4: x = 6.",
+          "Confira na expressão original: 4 × 6 + 5 = 24 + 5 = 29. Resposta: 6."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Não divida somente uma parte do lado da equação: (4x+8)/4 = x+2."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.3.4",
+    "title": "Equações com frações e parênteses",
+    "scope": "Item 11; frações aplicadas",
+    "sections": [
+      {
+        "title": "Elimine denominadores com uma operação válida",
+        "paragraphs": [
+          "Multiplique a equação inteira pelo MMC dos denominadores. Em x/2+x/3=10, multiplique cada termo por 6: 3x+2x=60. Não multiplique apenas os termos fracionários.",
+          "Se houver parênteses, aplique a distributiva. −2(x−3)=−2x+6; a segunda parcela fica positiva porque −2×−3=6."
+        ]
+      },
+      {
+        "title": "Organize uma transformação por linha",
+        "paragraphs": [
+          "Primeiro simplifique os dois lados. Depois reúna incógnitas em um lado, constantes no outro, divida pelo coeficiente e confira.",
+          "Denominadores com incógnitas exigem restrições adicionais. Nesta aula o foco são equações do primeiro grau com denominadores numéricos não nulos."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um número menos sua terça parte é igual à sua metade mais 4. Qual é o número?",
+        "steps": [
+          "Escreva a frase em duas partes: “um número menos sua terça parte” vira x − x/3. “Sua metade mais 4” vira x/2 + 4. Ligue com =: x − x/3 = x/2 + 4.",
+          "Vamos tirar as divisões por 3 e por 2. O número 6 é divisível pelos dois, então multiplique cada termo da igualdade por 6.",
+          "Faça uma conta de cada vez: 6 × x = 6x; 6 × x/3 = 2x; 6 × x/2 = 3x; 6 × 4 = 24. Agora temos 6x − 2x = 3x + 24.",
+          "Junte os x à esquerda: 6x − 2x = 4x. Retire 3x dos dois lados: 4x − 3x = 24. Portanto x = 24.",
+          "Confira: 24 − 24/3 = 24 − 8 = 16. No outro lado, 24/2 + 4 = 12 + 4 = 16. O número procurado é 24."
+        ],
+        "goal": "Encontrar o número a partir de suas partes.",
+        "start": "Chame o número de x. Sua terça parte é x/3; sua metade é x/2.",
+        "checkpoint": {
+          "prompt": "Por que o 4 virou 24, mesmo sem fração?",
+          "answer": "Porque multiplicamos a igualdade inteira por 6. Deixar o 4 sem multiplicar mudaria a igualdade."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.3.4-q1",
+        "prompt": "Resolva x/2+x/4=12.",
+        "options": [
+          "16",
+          "8",
+          "24",
+          "12",
+          "6"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A igualdade é x/2 + x/4 = 12. O 4 é divisível por 2 e por 4, então ele ajuda a eliminar essas divisões.",
+          "Multiplique cada termo por 4: 4 × x/2 = 2x; 4 × x/4 = x; 4 × 12 = 48.",
+          "Agora temos 2x + x = 48, isto é, 3x = 48.",
+          "Divida por 3: x = 16.",
+          "Confira: 16/2 + 16/4 = 8 + 4 = 12. Não esqueça de multiplicar também o 12 ao retirar os denominadores."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Ao eliminar frações, não se esqueça de multiplicar o termo inteiro do outro lado."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.3.5",
+    "title": "Sistemas de equações: substituição e eliminação",
+    "scope": "Item 12",
+    "sections": [
+      {
+        "title": "Duas informações sobre as mesmas incógnitas",
+        "paragraphs": [
+          "Um sistema reúne condições que precisam ser satisfeitas ao mesmo tempo. Em x+y=10 e x−y=2, não basta resolver apenas uma: existem muitos pares na primeira, mas um único satisfaz ambas.",
+          "Na substituição, isole uma variável e coloque sua expressão na outra equação. Na eliminação, some equações após ajustar coeficientes para cancelar uma variável."
+        ]
+      },
+      {
+        "title": "Três incógnitas",
+        "paragraphs": [
+          "Para três incógnitas, procure uma relação simples, como z=y+3. Substitua nas outras duas para reduzir a duas incógnitas. Depois encontre a terceira.",
+          "Sistemas podem ter uma solução, nenhuma ou infinitas. Retas paralelas distintas não se encontram; equações equivalentes representam a mesma reta."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Resolva x+y=18 e 2x+y=26.",
+        "steps": [
+          "A segunda igualdade tem um x a mais que a primeira, mas a mesma quantidade de y. Vamos subtrair uma da outra para descobrir esse x extra.",
+          "Escreva (2x + y) − (x + y) = 26 − 18. Ao retirar o parêntese precedido de menos, retiramos tanto x quanto y: 2x + y − x − y.",
+          "O y se cancela: y − y = 0. O que sobra é 2x − x = x. Do outro lado, 26 − 18 = 8. Portanto x = 8.",
+          "Volte à primeira igualdade: 8 + y = 18. Retire 8 dos dois lados: y = 10.",
+          "Confira também a segunda: 2 × 8 + 10 = 16 + 10 = 26. Resposta: x = 8 e y = 10."
+        ],
+        "goal": "Encontrar dois números que atendem às duas igualdades ao mesmo tempo.",
+        "start": "Temos x + y = 18 e 2x + y = 26. Observe que o y aparece igual nas duas.",
+        "checkpoint": {
+          "prompt": "Por que conferir apenas uma igualdade não basta?",
+          "answer": "Porque um sistema exige que os mesmos valores atendam a todas as igualdades, não apenas a uma delas."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.3.5-q1",
+        "prompt": "No sistema x+y=11 e x−y=3, x e y são:",
+        "options": [
+          "7 e 4",
+          "4 e 7",
+          "8 e 3",
+          "6 e 5",
+          "9 e 2"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Observe o y nas duas igualdades: uma tem +y e outra tem −y. Somar as igualdades fará essas partes se cancelarem.",
+          "Some: (x + y) + (x − y) = 11 + 3. Ficam 2x = 14.",
+          "Divida por 2: x = 7. Volte à primeira: 7 + y = 11, então y = 4.",
+          "Confira a segunda: 7 − 4 = 3. O par é x = 7 e y = 4."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Ao subtrair uma equação, distribua o sinal negativo a TODOS os seus termos."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.3.6",
+    "title": "Problemas com moedas, quantidades e preços",
+    "scope": "Itens 12 e 17; aplicação na prova de 2024",
+    "sections": [
+      {
+        "title": "Uma equação conta, outra soma valores",
+        "paragraphs": [
+          "Se x moedas valem 25 centavos e y moedas valem 50 centavos, a quantidade é x+y, mas o valor é 25x+50y centavos. Confundir essas expressões é o erro central.",
+          "Escolha uma unidade: tudo em reais ou tudo em centavos. Escreva uma equação para cada informação independente."
+        ]
+      },
+      {
+        "title": "A resposta deve caber no problema",
+        "paragraphs": [
+          "Quantidade de objetos precisa ser inteira e não negativa. Depois de resolver, confira número de itens, dinheiro total e quaisquer diferenças informadas.",
+          "Não responda x automaticamente: a questão pode pedir y, uma diferença, o total ou a soma de algarismos."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma pessoa tem 20 moedas, de R$ 0,50 e R$ 1, totalizando R$ 14. Quantas são de R$ 0,50?",
+        "steps": [
+          "Chame de x a quantidade de moedas de 50 centavos e de y a quantidade de moedas de 1 real. Como são vinte ao todo, x + y = 20.",
+          "Coloque todos os valores em centavos para não misturar unidades. Um real vale 100 centavos e R$ 14 valem 1400. A conta do dinheiro fica 50x + 100y = 1400.",
+          "Divida todos os termos dessa conta por 50: 50x/50 = x; 100y/50 = 2y; 1400/50 = 28. Agora temos x + 2y = 28.",
+          "Compare com x + y = 20. A diferença é um y a mais e 8 a mais no total. Subtraindo as igualdades, y = 8.",
+          "Se oito moedas são de 1 real, as outras são de 50 centavos: x = 20 − 8 = 12.",
+          "Confira quantidade e dinheiro: 12 + 8 = 20 moedas; 12 × 0,50 + 8 × 1 = 6 + 8 = R$ 14. A pergunta pede x: 12 moedas."
+        ],
+        "goal": "Descobrir quantas das vinte moedas valem cinquenta centavos.",
+        "start": "Separe quantidade de moedas e valor em dinheiro. São duas informações diferentes que precisam ser respeitadas.",
+        "checkpoint": {
+          "prompt": "O resultado y = 8 já respondia à pergunta?",
+          "answer": "Não. y conta moedas de 1 real. Ainda era preciso encontrar x, as moedas de 50 centavos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.3.6-q1",
+        "prompt": "10 ingressos de R$ 5 ou R$ 8 arrecadaram R$ 62. Quantos custaram R$ 8?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "2",
+          "8"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Imagine inicialmente que todos os 10 ingressos custassem R$ 5. O total seria 10 × 5 = R$ 50.",
+          "O total real é R$ 62: faltam 62 − 50 = R$ 12 para chegar a ele.",
+          "Trocar um ingresso de 5 por um de 8 aumenta o total em 8 − 5 = R$ 3.",
+          "Quantas trocas acrescentam R$ 12? 12 ÷ 3 = 4. Portanto quatro ingressos custaram R$ 8.",
+          "Confira: 4 × 8 + 6 × 5 = 32 + 30 = 62, e 4 + 6 = 10 ingressos."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Quantidades e valores são grandezas diferentes; não misture suas equações."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.4.1",
+    "title": "Consecutivos e padrões numéricos",
+    "scope": "Itens 10, 16 e 17",
+    "sections": [
+      {
+        "title": "Escrevendo consecutivos",
+        "paragraphs": [
+          "Inteiros consecutivos diferem por 1: n, n+1, n+2. Pares consecutivos diferem por 2: 2k, 2k+2. Ímpares consecutivos: 2k+1, 2k+3.",
+          "A média de uma sequência aritmética finita é a média entre primeiro e último. Com quantidade ímpar de consecutivos, coincide com o termo central."
+        ]
+      },
+      {
+        "title": "Procure a regra sem adivinhar",
+        "paragraphs": [
+          "Veja diferenças entre termos; depois diferenças das diferenças, multiplicações alternadas ou ciclos. Uma lista finita pode ter várias continuações possíveis: em prova, use as condições dadas e a regra compatível com as alternativas.",
+          "Nunca confunda sete números começados em n com n+7: o último é n+6, pois n já conta como primeiro."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Qual é a média de cinco inteiros consecutivos começados em n?",
+        "steps": [
+          "Escreva os cinco números: n, n + 1, n + 2, n + 3, n + 4. Cada um é uma unidade maior que o anterior.",
+          "Para achar a média, somamos tudo e dividimos pela quantidade de números, que é 5.",
+          "Há cinco letras n na soma: isso dá 5n. Os outros números somam 0 + 1 + 2 + 3 + 4 = 10. A soma completa é 5n + 10.",
+          "Divida cada parte por 5: 5n/5 + 10/5 = n + 2. Essa é a média e também o número do meio da lista.",
+          "Confira no exemplo começado em 7: soma 7 + 8 + 9 + 10 + 11 = 45; 45 ÷ 5 = 9. Pela regra, n + 2 = 7 + 2 = 9."
+        ],
+        "goal": "Descobrir a média de cinco números inteiros seguidos.",
+        "start": "Consecutivos são números sem pular nenhum: por exemplo 7, 8, 9, 10, 11. Vamos usar n para representar qualquer primeiro número.",
+        "checkpoint": {
+          "prompt": "Por que dividimos por 5, e não por 4?",
+          "answer": "Porque há cinco números na lista. O fato de o último ser n + 4 não muda a quantidade de números."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.4.1-q1",
+        "prompt": "A soma de três inteiros consecutivos é 42. O menor é:",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "15",
+          "11"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Três inteiros consecutivos podem ser escritos como n, n + 1 e n + 2, com n sendo o menor.",
+          "Some: n + n + 1 + n + 2 = 3n + 3. Essa soma precisa ser 42.",
+          "Retire 3 dos dois lados: 3n = 39. Divida por 3: n = 13.",
+          "Os números são 13, 14 e 15. Confira: 13 + 14 + 15 = 42. O menor pedido é 13."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "A quantidade de intervalos é um a menos que a quantidade de termos."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.4.2",
+    "title": "Média aritmética: soma dividida pela quantidade",
+    "scope": "Item 10",
+    "sections": [
+      {
+        "title": "Média como distribuição igual",
+        "paragraphs": [
+          "Some todos os valores e divida pela quantidade de valores. Notas 4, 6 e 8: soma 18; média 18/3=6. A média representa o valor que todos teriam se a soma fosse distribuída igualmente.",
+          "Se você conhece média e quantidade, recupere a soma: soma=média×quantidade. Essa inversão resolve problemas com valor faltante."
+        ]
+      },
+      {
+        "title": "Inclusões e exclusões",
+        "paragraphs": [
+          "Para acrescentar um valor, some-o ao total e aumente a quantidade em 1. Para retirar, subtraia do total e reduza a quantidade.",
+          "Não faça média de médias de grupos com tamanhos diferentes sem ponderar. Um grupo de 10 pessoas deve pesar mais que um grupo de 2."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "A média de 4 notas é 7. Qual quinta nota eleva a média para 8?",
+        "steps": [
+          "Quatro notas com média 7 têm soma 4 × 7 = 28. Não precisamos conhecer cada nota: essa informação já nos dá o total.",
+          "Com a quinta nota, haverá cinco notas. Para a média ser 8, a soma precisaria ser 5 × 8 = 40.",
+          "Já temos 28 e queremos 40. A nota que falta é 40 − 28 = 12.",
+          "Confira: (28 + 12) ÷ 5 = 40 ÷ 5 = 8. A conta pede uma nota 12.",
+          "Agora interprete: se a maior nota permitida for 10, não dá para alcançar média 8 com apenas mais uma nota. Nesse caso a meta é impossível; 12 é a necessidade matemática, não uma nota permitida."
+        ],
+        "goal": "Encontrar qual quinta nota faria a média chegar a 8.",
+        "start": "Média é a soma dividida pela quantidade. Vamos recuperar a soma antiga e descobrir a soma que queremos.",
+        "checkpoint": {
+          "prompt": "Por que a nova nota não é simplesmente 8?",
+          "answer": "Porque as quatro notas anteriores têm média 7. Uma nota 8 não compensaria o suficiente para que as cinco, juntas, tivessem média 8."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.4.2-q1",
+        "prompt": "A média de 6, 8, 10 e x é 9. Qual é x?",
+        "options": [
+          "12",
+          "9",
+          "8",
+          "10",
+          "6"
+        ],
+        "correct": 0,
+        "explanation": [
+          "São quatro números com média 9. A soma total precisa ser 4 × 9 = 36.",
+          "Some os valores que já conhecemos: 6 + 8 = 14; 14 + 10 = 24.",
+          "O que falta até 36 é x: 36 − 24 = 12.",
+          "Confira: (6 + 8 + 10 + 12) ÷ 4 = 36 ÷ 4 = 9. Logo x = 12."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Divida pela quantidade total de valores, incluindo os que se repetem."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.4.3",
+    "title": "Ordenação e desigualdades",
+    "scope": "Item 16: raciocínio lógico",
+    "sections": [
+      {
+        "title": "Traduza maior e menor",
+        "paragraphs": [
+          "A>B significa que A é maior que B; B<A diz a mesma coisa. Se A>B e B>C, então A>C: propriedade transitiva.",
+          "Uma informação pode deixar pares incomparáveis. De A>B e A>C não sabemos se B>C ou C>B. Não complete a ordem sem evidência."
+        ]
+      },
+      {
+        "title": "Use restrições negativas",
+        "paragraphs": [
+          "“Não é o menor” elimina a última posição. “Exatamente um é maior” fixa a segunda posição quando os valores são distintos. Desenhe posições e teste todas as condições.",
+          "Ao multiplicar uma desigualdade por número negativo, inverta o sinal: −2x<6 implica x>−3."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "A é mais pesado que B; D é mais leve que B, mas não é o mais leve. C é mais leve que A. Todos têm pesos diferentes. Ordene.",
+        "steps": [
+          "A é mais pesado que B: escreva A > B. D é mais leve que B: escreva B > D. Juntando, A > B > D.",
+          "O enunciado diz que D não é o mais leve. Portanto alguém precisa vir depois de D na fila.",
+          "A e B não podem ser essa pessoa: já sabemos que ambos são mais pesados que D. A única pessoa que sobrou é C.",
+          "Assim, D > C. A fila completa é A > B > D > C.",
+          "Confira a pista que ainda não usamos diretamente: C é mais leve que A. Na fila, C está depois de A, então essa pista também foi respeitada."
+        ],
+        "goal": "Organizar as quatro pessoas da mais pesada para a mais leve.",
+        "start": "Use > como “é mais pesado que”. Vamos transformar cada frase em uma pista, sem inventar pesos.",
+        "checkpoint": {
+          "prompt": "Qual pista permitiu colocar C depois de D?",
+          "answer": "A informação de que D não era o mais leve. Sem ela, a posição de C não ficaria totalmente determinada pelas outras pistas."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.4.3-q1",
+        "prompt": "Se P>Q e Q>R, qual conclusão é obrigatória?",
+        "options": [
+          "P>R",
+          "R>P",
+          "P=R",
+          "Q<P<R",
+          "P<R<Q"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O sinal > significa maior que. A primeira informação coloca P acima de Q.",
+          "A segunda coloca Q acima de R. Junte a sequência: P > Q > R.",
+          "Se P já supera Q, e Q supera R, P também supera R.",
+          "A conclusão obrigatória é P > R. Nenhum valor numérico precisa ser inventado para chegar a ela."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda conclusão possível com conclusão obrigatória."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.4.4",
+    "title": "Condições lógicas, negação e implicação",
+    "scope": "Item 16",
+    "sections": [
+      {
+        "title": "Se… então…",
+        "paragraphs": [
+          "Em “se estudo, então reviso”, a condição é estudar e a consequência é revisar. A promessa é descumprida quando estudo e não reviso. Não estudar não permite concluir se revisei ou não.",
+          "A contrapositiva é equivalente: “se não reviso, então não estudei”. A recíproca “se reviso, então estudo” não é automaticamente verdadeira."
+        ]
+      },
+      {
+        "title": "Negação correta",
+        "paragraphs": [
+          "Negar “todos estudam” é dizer “pelo menos um não estuda”. Não é “ninguém estuda”. Negar “A e B” é “não A ou não B”; negar “A ou B” é “não A e não B”.",
+          "O “ou” usual da lógica é inclusivo: permite os dois. Se o enunciado disser “ou… ou…, mas não ambos”, trata-se de exclusão."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Todo integrante da equipe fez o curso. Ana pertence à equipe. O que se conclui?",
+        "steps": [
+          "Imagine um círculo com todas as pessoas da equipe. A regra diz que cada pessoa dentro desse círculo fez o curso.",
+          "A segunda informação coloca Ana dentro desse círculo: ela pertence à equipe.",
+          "Como a regra vale para todos dentro do círculo, também vale para Ana. Conclusão: Ana fez o curso.",
+          "Agora cuidado com a volta: alguém pode fazer o curso e não ser da equipe. A regra não disse que só a equipe fez o curso.",
+          "Então não podemos trocar “quem é da equipe fez o curso” por “quem fez o curso é da equipe”. A primeira foi dada; a segunda não."
+        ],
+        "goal": "Ver qual conclusão é obrigatória a partir das duas informações dadas.",
+        "start": "Leia “todo” como “cada integrante, sem exceção”. Vamos considerar somente as informações do enunciado.",
+        "checkpoint": {
+          "prompt": "Se Paulo fez o curso, já sabemos que ele pertence à equipe?",
+          "answer": "Não. O curso pode ter sido feito por outras pessoas também. Faltaria uma informação ligando Paulo à equipe."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.4.4-q1",
+        "prompt": "A negação de “todos os candidatos estudaram” é:",
+        "options": [
+          "Pelo menos um candidato não estudou",
+          "Nenhum estudou",
+          "Todos faltaram",
+          "Alguns estudaram",
+          "Só um estudou"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A frase “todos estudaram” só é verdadeira se não houver nenhuma exceção.",
+          "Para derrubá-la, basta encontrar um candidato que não estudou. Não precisamos que todos deixem de estudar.",
+          "Portanto a negação é “pelo menos um candidato não estudou”.",
+          "Confira com um grupo de dez: se nove estudaram e um não, a frase todos estudaram já é falsa. Dizer ninguém estudou seria mais forte do que o necessário."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Negar a conclusão de uma implicação exige cuidado; não troque automaticamente condição e consequência."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.4.5",
+    "title": "Contagem de pares sem duplicar",
+    "scope": "Itens 6 e 16; aplicação na prova de 2024",
+    "sections": [
+      {
+        "title": "Por que dividir por dois",
+        "paragraphs": [
+          "Com n pessoas, cada uma encontra n−1 outras. O produto n(n−1) conta cada encontro duas vezes: Ana–Bruno e Bruno–Ana. Se a ordem não importa, divida por 2: n(n−1)/2.",
+          "Para formar pares entre grupos distintos de a e b pessoas, use a×b. Não divida por 2: cada escolha tem um integrante de cada grupo e foi contada uma vez."
+        ]
+      },
+      {
+        "title": "Conte o total e retire exceções",
+        "paragraphs": [
+          "Se todos se cumprimentam, mas um grupo usa abraço, conte todos os pares e subtraia os pares internos desse grupo para obter apertos de mão.",
+          "A fórmula de pares não vale para escolher presidente e vice: nesses cargos, a ordem importa."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Em um encontro de 8 pessoas, 3 se conhecem e se abraçam. Os demais pares apertam as mãos. Quantos apertos?",
+        "steps": [
+          "Cada uma das 8 pessoas pode encontrar outras 7. Multiplicando, 8 × 7 = 56. Mas nessa conta o encontro de Ana com Bia e o de Bia com Ana aparecem separados.",
+          "São o mesmo encontro, então divida por 2: 56 ÷ 2 = 28 pares de pessoas.",
+          "Dentro do grupo de 3 conhecidos, liste os pares: primeira com segunda, primeira com terceira, segunda com terceira. São 3 abraços.",
+          "Esses 3 encontros não foram apertos de mão. Retire-os dos 28 encontros: 28 − 3 = 25 apertos.",
+          "Confira o que foi retirado: os três conhecidos ainda apertam a mão das outras cinco pessoas. Só os encontros entre os três viraram abraços."
+        ],
+        "goal": "Contar os apertos de mão sem contar o mesmo encontro duas vezes.",
+        "start": "Cada encontro envolve um par de pessoas. Imagine que cada par se cumprimenta uma única vez.",
+        "checkpoint": {
+          "prompt": "Por que não retirar as três pessoas e calcular só com cinco?",
+          "answer": "Porque elas continuam participando dos cumprimentos com as outras pessoas. Mudou apenas a forma de cumprimentar nos três pares internos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.4.5-q1",
+        "prompt": "Quantos pares diferentes podem ser formados com 6 pessoas?",
+        "options": [
+          "15",
+          "30",
+          "12",
+          "6",
+          "36"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Cada uma das seis pessoas pode formar par com outras cinco: 6 × 5 = 30.",
+          "Essa conta inclui Ana com Bia e Bia com Ana separadamente. Mas o par de pessoas é o mesmo.",
+          "Cada par foi contado duas vezes. Divida por 2: 30 ÷ 2 = 15.",
+          "Resposta: 15 pares. Outra contagem é 5 + 4 + 3 + 2 + 1 = 15, evitando repetir os encontros já contados."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "A ordem só pode ser descartada quando não muda o resultado considerado."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.4.6",
+    "title": "Princípio fundamental da contagem",
+    "scope": "Probabilidade e raciocínio lógico",
+    "sections": [
+      {
+        "title": "Etapas multiplicam possibilidades",
+        "paragraphs": [
+          "Se há 3 camisetas e 2 calças, cada camiseta combina com cada calça: 3×2=6 combinações. Em escolhas sucessivas, multiplique as possibilidades de cada etapa.",
+          "Alternativas disjuntas se somam: 4 trajetos de ônibus OU 3 trajetos de trem dão 7 opções se nenhuma opção foi contada nos dois grupos."
+        ]
+      },
+      {
+        "title": "Repetição e restrições",
+        "paragraphs": [
+          "Senha de três dígitos com repetição: 10×10×10. Sem repetição: 10×9×8. Número de três algarismos não pode começar em zero: 9 opções no primeiro lugar.",
+          "Resolva primeiro a posição mais restrita quando isso simplificar a contagem. Para restrição “pelo menos um”, às vezes é mais fácil contar total menos nenhum."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Quantos números de três algarismos distintos podem ser formados com 1,2,3,4,5?",
+        "steps": [
+          "Para a centena, ainda não usamos nada: há 5 escolhas.",
+          "Depois de escolher a centena, um algarismo saiu da lista. Para a dezena restam 4 escolhas, pois repetir não é permitido.",
+          "Depois das duas primeiras escolhas, restam 3 algarismos para a unidade.",
+          "Para cada escolha inicial há 4 segundas escolhas, e para cada par há 3 finais. Multiplique: 5 × 4 = 20; 20 × 3 = 60.",
+          "Resposta: 60 números. A ordem importa: 123 e 321 são números diferentes, então não devemos tratá-los como uma única escolha."
+        ],
+        "goal": "Contar números de três algarismos sem repetir nenhum deles.",
+        "start": "Desenhe três espaços: centena, dezena e unidade. Precisamos preencher cada espaço com um dos algarismos 1, 2, 3, 4 ou 5.",
+        "checkpoint": {
+          "prompt": "Se a repetição fosse permitida, quantas escolhas haveria em cada espaço?",
+          "answer": "Cinco em cada um: 5 × 5 × 5 = 125. O que reduz a conta para 60 é a proibição de repetir."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.4.6-q1",
+        "prompt": "Uma senha tem duas letras A, B ou C, com repetição permitida. Quantas senhas?",
+        "options": [
+          "9",
+          "6",
+          "3",
+          "12",
+          "8"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Desenhe dois espaços para a senha. No primeiro cabem A, B ou C: três escolhas.",
+          "Como repetir é permitido, no segundo continuam cabendo A, B ou C, qualquer que tenha sido a primeira.",
+          "Multiplique: 3 × 3 = 9 senhas.",
+          "Confira listando: AA, AB, AC, BA, BB, BC, CA, CB, CC. AB e BA são diferentes porque a ordem faz parte da senha."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não subtraia opções se a repetição é permitida."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.5.1",
+    "title": "Espaço amostral: liste o que pode acontecer",
+    "scope": "Item 6: probabilidade",
+    "sections": [
+      {
+        "title": "O conjunto de todos os resultados",
+        "paragraphs": [
+          "Espaço amostral é o conjunto dos resultados possíveis do experimento. Em um dado comum: {1,2,3,4,5,6}. Duas moedas produzem {CC, CK, KC, KK}, com C=cara e K=coroa.",
+          "Não use {zero, uma, duas caras} como três resultados igualmente prováveis. “Uma cara” reúne CK e KC, portanto tem o dobro da chance de “duas caras”."
+        ]
+      },
+      {
+        "title": "Resultados ordenados",
+        "paragraphs": [
+          "Dois dados distinguíveis geram 6×6=36 pares ordenados. (1,2) difere de (2,1), embora a soma seja a mesma.",
+          "A fórmula casos favoráveis/casos possíveis exige resultados elementares equiprováveis. Se o objeto é viciado, as chances precisam ser informadas."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Qual é o espaço amostral de uma moeda e um dado?",
+        "steps": [
+          "Comece imaginando que saiu cara. O dado pode mostrar 1, 2, 3, 4, 5 ou 6. Escreva C1, C2, C3, C4, C5, C6.",
+          "Agora faça a mesma lista para coroa: K1, K2, K3, K4, K5, K6.",
+          "Junte as duas listas. Há 6 resultados com cara e 6 com coroa: 6 + 6 = 12.",
+          "Também podemos multiplicar: 2 resultados da moeda × 6 do dado = 12 combinações. Essa lista completa é chamada de espaço amostral.",
+          "Confira que não faltou nenhuma face e que nenhum par se repetiu. C1 e K1 são diferentes porque a moeda mostrou lados diferentes."
+        ],
+        "goal": "Listar todos os resultados possíveis de uma moeda e um dado.",
+        "start": "Vamos usar C para cara e K para coroa. Cada resultado precisa dizer o que saiu na moeda e no dado.",
+        "checkpoint": {
+          "prompt": "Por que não fazer 2 + 6 = 8?",
+          "answer": "Porque precisamos combinar cada lado da moeda com cada face do dado. Estamos formando pares de resultados, não somando objetos separados."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.5.1-q1",
+        "prompt": "Quantos resultados ordenados existem ao lançar dois dados de 6 faces?",
+        "options": [
+          "36",
+          "12",
+          "21",
+          "6",
+          "18"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O primeiro dado pode mostrar seis faces. Para cada uma, o segundo também pode mostrar seis.",
+          "Se o primeiro deu 1, temos (1,1) até (1,6): seis resultados. O mesmo acontece para cada um dos outros cinco valores iniciais.",
+          "São seis grupos de seis resultados: 6 × 6 = 36.",
+          "A ordem importa: (1,2) e (2,1) são resultados distintos, pois identificam primeiro e segundo lançamento."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Resultados com a mesma soma não são necessariamente um único caso elementar."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.5.2",
+    "title": "Eventos e casos favoráveis",
+    "scope": "Item 6",
+    "sections": [
+      {
+        "title": "Evento é parte do espaço amostral",
+        "paragraphs": [
+          "Evento é o conjunto de resultados que satisfazem a condição pedida. Em um dado, “sair par” é {2,4,6}; “maior que 4” é {5,6}.",
+          "Evento impossível é vazio; evento certo é o espaço completo. O complementar de “sair par” é “sair ímpar”, nesse experimento."
+        ]
+      },
+      {
+        "title": "E e OU mudam a contagem",
+        "paragraphs": [
+          "“Par E maior que 4” exige ambas as condições: {6}. “Par OU maior que 4” reúne {2,4,5,6}. O 6 não pode ser contado duas vezes.",
+          "P(A ou B)=P(A)+P(B)−P(A e B). Só some diretamente quando os eventos não têm interseção."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Num dado, quais resultados são pares ou maiores que 4?",
+        "steps": [
+          "Liste os pares: 2, 4 e 6. São os que podemos dividir por 2 sem resto.",
+          "Liste os maiores que 4: 5 e 6. Note que o 6 apareceu nas duas listas.",
+          "Junte as listas sem repetir a mesma face: 2, 4, 5, 6. São quatro resultados favoráveis, isto é, que servem ao pedido.",
+          "O dado tem seis resultados possíveis com a mesma chance. Escreva favoráveis sobre possíveis: 4/6.",
+          "Divida em cima e embaixo por 2: 4/6 = 2/3. Essa é a probabilidade. As faces 1 e 3 são as duas que não servem."
+        ],
+        "goal": "Contar as faces que atendem a pelo menos uma das condições.",
+        "start": "Considere um dado comum e equilibrado, com faces de 1 a 6. A palavra “ou” aceita número par, número maior que 4 ou as duas coisas.",
+        "checkpoint": {
+          "prompt": "Por que não contar o 6 duas vezes?",
+          "answer": "Porque sair 6 é um único resultado do lançamento, mesmo atendendo às duas condições."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.5.2-q1",
+        "prompt": "No dado, “ímpar e maior que 3” tem quantos resultados favoráveis?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "0"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A palavra e exige que as duas condições aconteçam ao mesmo tempo.",
+          "Os ímpares do dado são 1, 3 e 5. Os maiores que 3 são 4, 5 e 6.",
+          "Procure quem aparece nas duas listas: só o 5.",
+          "Portanto há 1 resultado favorável. O número 3 não entra, pois a condição é maior que 3, não igual."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "“Ou” geralmente reúne casos; “e” exige a interseção."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.5.3",
+    "title": "Calcule probabilidades e confira os limites",
+    "scope": "Item 6",
+    "sections": [
+      {
+        "title": "A fórmula e sua interpretação",
+        "paragraphs": [
+          "Com resultados igualmente prováveis, P(evento)=favoráveis/possíveis. Três faces pares entre seis: 3/6=1/2=50%.",
+          "Probabilidade fica entre 0 e 1, ou 0% e 100%. Se saiu 1,4, houve erro de contagem ou de divisão. Probabilidade não garante o resultado de uma tentativa."
+        ]
+      },
+      {
+        "title": "Use o complementar",
+        "paragraphs": [
+          "A chance de um evento não ocorrer é 1−P(evento). Para “pelo menos um”, pode ser mais simples calcular a chance de nenhum e subtrair de 1.",
+          "Eventos independentes permitem multiplicar probabilidades; se um resultado altera o próximo, atualize as probabilidades condicionais."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um dado é lançado duas vezes. Qual a chance de sair pelo menos um 6?",
+        "steps": [
+          "Em um lançamento, as faces que não são 6 são 1, 2, 3, 4 e 5. A chance de não sair 6 é 5/6.",
+          "O resultado de um lançamento não altera o outro. Para não sair 6 em nenhum dos dois, multiplique: 5/6 × 5/6 = 25/36.",
+          "Todas as possibilidades juntas representam 1 inteiro, ou 36/36. Vamos retirar desse total o caso que não queremos: nenhum 6.",
+          "Faça 36/36 − 25/36 = 11/36. Esses 11 casos incluem os resultados com um 6 e o resultado com dois seis.",
+          "Confira contando: primeiro lançamento 6 permite 6 resultados no segundo. Se o primeiro não é 6 e o segundo é 6, há mais 5. Total: 6 + 5 = 11 em 36."
+        ],
+        "goal": "Calcular a chance de aparecer um 6 no primeiro lançamento, no segundo ou nos dois.",
+        "start": "“Pelo menos um” inclui um ou dois seis. Vamos calcular primeiro o caso contrário: nenhum seis.",
+        "checkpoint": {
+          "prompt": "Por que somar 1/6 + 1/6 diretamente não funciona aqui?",
+          "answer": "Porque o resultado (6,6) entraria nas duas parcelas. Precisaríamos descontar essa repetição."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.5.3-q1",
+        "prompt": "Em uma caixa há 3 bolas azuis e 7 vermelhas. Qual a chance de azul em um sorteio uniforme?",
+        "options": [
+          "3/10",
+          "3/7",
+          "7/10",
+          "1/3",
+          "10/3"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Primeiro conte todas as bolas: 3 azuis + 7 vermelhas = 10.",
+          "Queremos azul, então há 3 resultados favoráveis entre as 10 bolas com a mesma chance de sorteio.",
+          "Escreva favoráveis sobre total: 3/10.",
+          "Isso equivale a 30/100, ou 30%. Não use 3/7: o número de baixo deve incluir todas as bolas, inclusive as azuis."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "O denominador conta todos os resultados possíveis, inclusive os favoráveis."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.5.4",
+    "title": "Urnas: com e sem reposição",
+    "scope": "Item 6",
+    "sections": [
+      {
+        "title": "O que a reposição muda",
+        "paragraphs": [
+          "Com reposição, o objeto sorteado volta à urna, preservando a composição para o próximo sorteio. Sem reposição, total e quantidade de cada cor podem mudar.",
+          "Em duas retiradas sem reposição, “vermelha e depois azul” tem denominadores N e N−1. A segunda probabilidade depende do que saiu primeiro."
+        ]
+      },
+      {
+        "title": "Some caminhos diferentes",
+        "paragraphs": [
+          "Se pedem uma bola de cada cor em qualquer ordem, conte vermelha–azul e azul–vermelha. São caminhos distintos.",
+          "Se pedem duas da mesma cor, conte vermelha–vermelha e azul–azul. Um desenho de árvore ajuda a não esquecer casos."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma urna tem 3 vermelhas e 2 azuis. Duas são retiradas sem reposição. Qual a chance de ambas vermelhas?",
+        "steps": [
+          "Na primeira retirada, 3 das 5 bolas são vermelhas. A chance é 3/5.",
+          "Agora siga o caminho que queremos: suponha que a primeira foi vermelha. Restam 4 bolas no total, e só 2 delas são vermelhas.",
+          "Por isso a chance de a segunda também ser vermelha, nesse caminho, é 2/4, e não 3/5.",
+          "As duas etapas precisam acontecer. Multiplique: 3/5 × 2/4 = (3 × 2)/(5 × 4) = 6/20.",
+          "Simplifique dividindo os dois números por 2: 6/20 = 3/10, ou 30%.",
+          "Se devolvêssemos a primeira bola, a urna voltaria a ter 3 vermelhas em 5. A conta seria outra: 3/5 × 3/5."
+        ],
+        "goal": "Calcular a chance de tirar duas bolas vermelhas sem devolver a primeira.",
+        "start": "Há 5 bolas: 3 vermelhas e 2 azuis. “Sem reposição” quer dizer que a primeira bola fica fora da urna.",
+        "checkpoint": {
+          "prompt": "Por que mudam tanto o número de cima quanto o de baixo na segunda etapa?",
+          "answer": "Porque saiu uma bola vermelha: o total caiu de 5 para 4, e a quantidade de vermelhas caiu de 3 para 2."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.5.4-q1",
+        "prompt": "Com 4 bolas brancas e 2 pretas, sem reposição, qual a chance de duas pretas?",
+        "options": [
+          "1/15",
+          "1/9",
+          "1/3",
+          "2/5",
+          "1/6"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Há 6 bolas ao todo e 2 são pretas. A chance de a primeira ser preta é 2/6.",
+          "Sem reposição, a bola sorteada não volta. Se a primeira foi preta, restam 5 bolas e apenas 1 preta.",
+          "A chance da segunda preta nesse caminho é 1/5. Para as duas etapas, multiplique: 2/6 × 1/5 = 2/30.",
+          "Divida os dois números por 2: 2/30 = 1/15. Manter 2/6 na segunda etapa ignoraria a retirada da primeira preta."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Sem reposição, não mantenha o mesmo denominador na segunda retirada."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.5.5",
+    "title": "Probabilidade por tabela de pares",
+    "scope": "Item 6; duas urnas como na prova de 2024",
+    "sections": [
+      {
+        "title": "Monte linhas e colunas",
+        "paragraphs": [
+          "Se A tem a possibilidades e B tem b, sorteando uma de cada, existem a×b pares. Para condição sobre a soma, fixe cada valor de A e conte os valores de B que servem.",
+          "Contar as somas possíveis não basta: a soma 7 pode aparecer por vários pares. Os pares equiprováveis são a base do cálculo."
+        ]
+      },
+      {
+        "title": "Cuidado com os extremos",
+        "paragraphs": [
+          "“Maior que 8” exclui 8. “Pelo menos 8” inclui. Escreva uma desigualdade, como a+b>8, e resolva para b em cada linha.",
+          "Ao final some os favoráveis das linhas e divida pelo total de pares; simplifique a fração."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "A contém 1,2,3; B contém 4,5,6,7. Qual a chance de a soma ser maior que 8?",
+        "steps": [
+          "A tem 3 opções e B tem 4. Então há 3 × 4 = 12 pares possíveis.",
+          "Se A der 1, as somas são 5, 6, 7 e 8. Nenhuma é maior que 8. Essa linha contribui com zero casos.",
+          "Se A der 2, as somas são 6, 7, 8 e 9. Só 2 + 7 = 9 serve: um caso.",
+          "Se A der 3, as somas são 7, 8, 9 e 10. Servem 3 + 6 e 3 + 7: dois casos.",
+          "Some os favoráveis: 0 + 1 + 2 = 3. A chance é 3/12 = 1/4, ou 25%.",
+          "Confira a lista final: (2,7), (3,6), (3,7). Não incluímos pares cuja soma é exatamente 8."
+        ],
+        "goal": "Contar pares cuja soma passa de 8, sem incluir soma igual a 8.",
+        "start": "Retiramos um número de A e outro de B, com escolhas equiprováveis em cada urna. Vamos testar uma linha por número de A.",
+        "checkpoint": {
+          "prompt": "A soma 3 + 5 entra na contagem?",
+          "answer": "Não. Ela é igual a 8. O enunciado pede maior que 8, e não maior ou igual."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.5.5-q1",
+        "prompt": "A contém 1,2; B contém 3,4,5. Qual a chance de soma igual a 6?",
+        "options": [
+          "1/3",
+          "1/6",
+          "1/2",
+          "2/5",
+          "2/3"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A tem duas opções e B tem três, formando 2 × 3 = 6 pares equiprováveis.",
+          "Se A dá 1, precisamos de 5 em B para a soma ser 6. Esse par é (1,5).",
+          "Se A dá 2, precisamos de 4 em B. Esse par é (2,4).",
+          "São dois casos favoráveis entre seis: 2/6 = 1/3. A soma precisa ser exatamente 6, não maior que 6."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Não transforme “maior que” em “maior ou igual” durante a contagem."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.6.1",
+    "title": "Unidades de comprimento, área e capacidade",
+    "scope": "Item 13",
+    "sections": [
+      {
+        "title": "Comprimento e área usam fatores diferentes",
+        "paragraphs": [
+          "Comprimento: 1 km=1000 m e 1 m=100 cm. Ao converter comprimento, cada casa na escala métrica vale fator 10.",
+          "Área é produto de dois comprimentos. Como 1 m=100 cm, 1 m²=100×100=10000 cm². Cada degrau entre unidades de área vale 100, não 10."
+        ]
+      },
+      {
+        "title": "Capacidade e volume",
+        "paragraphs": [
+          "1 L=1000 mL; 1 m³=1000 L; 1 dm³=1 L. Volume é tridimensional: 1 m³=100³ cm³=1000000 cm³.",
+          "Antes de somar ou usar fórmula, converta todas as medidas para unidades compatíveis. Não multiplique 2 metros por 30 centímetros sem conversão."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um piso tem 2 m por 50 cm. Qual sua área em m² e cm²?",
+        "steps": [
+          "Antes de multiplicar, deixe as duas medidas em metros. Como 100 cm = 1 m, 50 cm = 50/100 m = 0,50 m.",
+          "A área do retângulo é comprimento × largura. Faça 2 × 0,50 = 1. Como multiplicamos metro por metro, a unidade é m².",
+          "Agora confira em centímetros. Dois metros valem 200 cm. A área é 200 × 50 = 10000 cm².",
+          "As duas respostas descrevem o mesmo piso: 1 m² = 10000 cm². Não usamos apenas o fator 100 porque a área envolve duas dimensões.",
+          "Resposta: 1 m² ou 10000 cm². Nunca multiplique 2 por 50 e escreva m²: isso misturaria metros e centímetros."
+        ],
+        "goal": "Calcular a área usando medidas na mesma unidade.",
+        "start": "O piso é retangular: tem 2 metros por 50 centímetros. Área mede a superfície, não só a borda.",
+        "checkpoint": {
+          "prompt": "Por que 1 m² equivale a 10000 cm²?",
+          "answer": "Um quadrado de 1 m por 1 m tem 100 cm por 100 cm. Sua área é 100 × 100 = 10000 cm²."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.6.1-q1",
+        "prompt": "2,5 litros correspondem a:",
+        "options": [
+          "2500 mL",
+          "250 mL",
+          "25 mL",
+          "25000 mL",
+          "0,0025 mL"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um litro contém 1000 mililitros. Vamos separar 2,5 litros em 2 litros e meio litro.",
+          "Dois litros valem 2 × 1000 = 2000 mL.",
+          "Meio litro vale metade de 1000: 500 mL.",
+          "Some: 2000 + 500 = 2500 mL. A quantidade de líquido é a mesma; só usamos uma unidade menor para contá-la."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Comprimento, área e volume têm fatores de conversão distintos."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.6.2",
+    "title": "Horas, minutos e duração",
+    "scope": "Item 13.1; aplicação na prova de 2024",
+    "sections": [
+      {
+        "title": "Tempo não é decimal na escrita h:min",
+        "paragraphs": [
+          "Uma hora tem 60 minutos. Portanto 1h30 = 1,5 hora, não 1,30 hora. 0,25 hora equivale a 0,25×60=15 min.",
+          "Para converter minutos em horas e minutos, faça divisão inteira por 60. O quociente dá horas e o resto dá minutos."
+        ]
+      },
+      {
+        "title": "Durações somadas",
+        "paragraphs": [
+          "Multiplique quantidades antes de converter: temporadas × episódios × minutos por episódio. Para atravessar meia-noite, conte até 24h e depois some o período do dia seguinte.",
+          "Para horários, subtraia com empréstimo de 60 minutos, não de 100. De 10h15 a 12h05: 11h65−10h15=1h50."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma série tem 4 temporadas de 5 episódios com 38 minutos cada. Qual a duração total?",
+        "steps": [
+          "Número de episódios: 4 × 5 = 20. Essa conta ainda não é tempo; é quantidade de episódios.",
+          "Cada episódio dura 38 minutos. Faça 20 × 38: 2 × 38 = 76; multiplicando por 10, obtemos 760 minutos.",
+          "Uma hora tem 60 minutos. Procure quantos grupos de 60 cabem em 760: 12 × 60 = 720 e 13 × 60 = 780 já passa.",
+          "São 12 horas completas. Retire o que já virou horas: 760 − 720 = 40 minutos.",
+          "Resposta: 12h40. Confira voltando para minutos: 12 × 60 + 40 = 760. Não escreva 12,40 horas como se fosse o mesmo: decimal de hora é outra representação."
+        ],
+        "goal": "Somar o tempo dos episódios e escrever em horas e minutos.",
+        "start": "Temos 4 temporadas, cada uma com 5 episódios de 38 minutos. Vamos contar episódios antes de contar minutos.",
+        "checkpoint": {
+          "prompt": "Por que o restante precisa ser menor que 60?",
+          "answer": "Porque, se sobrassem 60 minutos ou mais, ainda seria possível formar outra hora completa."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.6.2-q1",
+        "prompt": "Quanto são 2,75 horas em horas e minutos?",
+        "options": [
+          "2h45",
+          "2h75",
+          "3h15",
+          "2h30",
+          "2h15"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Separe o número: 2,75 horas são 2 horas inteiras mais 0,75 de uma hora.",
+          "Uma hora tem 60 minutos. Então a parte decimal vale 0,75 × 60 minutos.",
+          "0,75 é três quartos: 60 ÷ 4 = 15; 3 × 15 = 45 minutos.",
+          "Junte: 2h45. Não são 2h75, porque a parte decimal representa uma fração de hora, não minutos escritos diretamente."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "O resto da divisão por 60 já está em minutos; não é uma fração decimal de hora."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.6.3",
+    "title": "Figuras planas: reconheça antes de aplicar fórmulas",
+    "scope": "Item 15",
+    "sections": [
+      {
+        "title": "Lados, vértices e ângulos",
+        "paragraphs": [
+          "Polígono é uma figura plana fechada formada por segmentos. Triângulo tem 3 lados; quadrilátero, 4. A soma dos ângulos internos de um triângulo é 180°.",
+          "Retângulo possui quatro ângulos retos; quadrado é um retângulo com quatro lados iguais. Paralelogramo tem lados opostos paralelos. Nem todo quadrilátero é retângulo."
+        ]
+      },
+      {
+        "title": "Altura não é sempre lado",
+        "paragraphs": [
+          "No triângulo e no paralelogramo, altura é a distância perpendicular à base. Um lado inclinado não pode ser usado como altura sem justificativa.",
+          "Desenhe e anote as medidas. Figuras de prova podem estar fora de escala: use os números informados, não a aparência."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um triângulo tem ângulos de 35° e 65°. Qual é o terceiro?",
+        "steps": [
+          "Anote os dois valores conhecidos: 35° e 65°. O terceiro é o que precisamos descobrir.",
+          "Some os conhecidos: 35 + 65 = 100. Eles já ocupam 100 dos 180 graus totais.",
+          "Retire essa parte do total: 180 − 100 = 80.",
+          "O terceiro ângulo mede 80°. O símbolo ° indica graus, a unidade usada para medir esses ângulos.",
+          "Confira somando os três: 35 + 65 + 80 = 180°. Se a soma não desse 180°, alguma etapa estaria errada."
+        ],
+        "goal": "Encontrar o ângulo que falta no triângulo.",
+        "start": "Um triângulo plano tem três ângulos internos que, somados, dão 180 graus.",
+        "checkpoint": {
+          "prompt": "Por que subtraímos de 180 e não de 360?",
+          "answer": "Porque estamos somando os ângulos internos de um triângulo plano. Para essa figura, a soma é 180°."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.6.3-q1",
+        "prompt": "Todo quadrado é:",
+        "options": [
+          "Um retângulo",
+          "Um triângulo",
+          "Um círculo",
+          "Um polígono de cinco lados",
+          "Uma figura sem ângulos retos"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um retângulo tem quatro ângulos retos, isto é, quatro cantos de 90°.",
+          "Um quadrado também tem esses quatro ângulos. Portanto atende à definição de retângulo.",
+          "Além disso, o quadrado tem os quatro lados iguais. Essa característica extra não deixa de torná-lo retângulo.",
+          "Logo todo quadrado é um retângulo. O contrário não vale para todos: um retângulo pode ter dois comprimentos de lado diferentes."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não conclua igualdade de lados apenas porque o desenho parece simétrico."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.6.4",
+    "title": "Área e perímetro de quadrados e retângulos",
+    "scope": "Itens 15.2 e 15.3",
+    "sections": [
+      {
+        "title": "Duas perguntas diferentes",
+        "paragraphs": [
+          "Perímetro mede o contorno: no retângulo P=2(b+h). Área mede a superfície: A=b×h. Um usa unidades como m; o outro m².",
+          "No quadrado de lado l: P=4l e A=l². Dois terrenos podem ter a mesma área e perímetros diferentes: 4×9 e 6×6 têm área 36, mas perímetros 26 e 24."
+        ]
+      },
+      {
+        "title": "Descubra a medida ausente",
+        "paragraphs": [
+          "Se A e b são conhecidos, h=A/b. Só depois calcule o perímetro. Para pintura ou piso, use área; para cerca, rodapé ou borda, geralmente perímetro.",
+          "Se houver porta ou portão na cerca, subtraia sua largura se o enunciado disser que não será cercado."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um terreno retangular tem área 240 m² e frente de 12 m. Qual seu perímetro?",
+        "steps": [
+          "Num retângulo, área = comprimento × largura. Então 12 multiplicado pelo lado desconhecido precisa dar 240.",
+          "Desfaça a multiplicação dividindo: 240 ÷ 12 = 20. O outro lado mede 20 m.",
+          "Um retângulo tem dois lados de cada medida. A borda inteira é 12 + 20 + 12 + 20.",
+          "Some: 12 + 20 = 32; duas vezes 32 = 64. O perímetro, isto é, o contorno, mede 64 m.",
+          "Confira que as unidades fazem sentido: área era m², mas comprimento de borda é m. Não são medidas intercambiáveis."
+        ],
+        "goal": "Encontrar o comprimento de toda a borda do terreno.",
+        "start": "A área é 240 m² e um lado mede 12 m. Primeiro falta descobrir o outro lado.",
+        "checkpoint": {
+          "prompt": "Qual conta confirma o lado de 20 m?",
+          "answer": "12 × 20 = 240 m², exatamente a área dada."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.6.4-q1",
+        "prompt": "Um retângulo mede 7 m por 4 m. Área e perímetro são:",
+        "options": [
+          "28 m² e 22 m",
+          "22 m² e 28 m",
+          "11 m² e 28 m",
+          "28 m² e 11 m",
+          "49 m² e 16 m"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Área mede a superfície interna. No retângulo, multiplique os lados: 7 × 4 = 28 m².",
+          "Perímetro mede o contorno. Some os quatro lados: 7 + 4 + 7 + 4.",
+          "A soma é 22 m. Observe a unidade: comprimento em metros, área em metros quadrados.",
+          "A dupla pedida é 28 m² e 22 m, nessa ordem. Trocar as duas medidas não responde corretamente."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Dobrar os dois lados quadruplica a área, mas apenas dobra o perímetro."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.6.5",
+    "title": "Triângulos, círculo e Teorema de Pitágoras",
+    "scope": "Item 15, incluindo Pitágoras expressamente",
+    "sections": [
+      {
+        "title": "Áreas e circunferência",
+        "paragraphs": [
+          "Área do triângulo: base×altura/2, pois ele ocupa metade de um paralelogramo correspondente. No círculo de raio r: área=πr²; comprimento da circunferência=2πr. Diâmetro=2r.",
+          "Use o valor de π indicado no enunciado. Se não houver aproximação solicitada, mantenha π no resultado."
+        ]
+      },
+      {
+        "title": "Pitágoras só no triângulo retângulo",
+        "paragraphs": [
+          "A hipotenusa é o lado oposto ao ângulo de 90° e o maior lado. Se os catetos são a e b e a hipotenusa c, então c²=a²+b².",
+          "Se procurar cateto, subtraia: a²=c²−b². Não use c=a+b. Faça a raiz apenas depois de somar ou subtrair os quadrados."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma escada de 10 m encosta na parede; a base fica a 6 m da parede. Qual a altura atingida?",
+        "steps": [
+          "A escada, com 10 m, é o lado oposto ao canto de 90°. Esse lado se chama hipotenusa e é o maior do triângulo.",
+          "Os outros lados são 6 m no chão e a altura que chamaremos de h. Nesse tipo de triângulo, a soma dos quadrados dos dois lados menores é o quadrado do maior.",
+          "Escreva h² + 6² = 10². O quadrado significa multiplicar o número por ele mesmo: 6² = 36 e 10² = 100.",
+          "Agora h² + 36 = 100. Retire 36 dos dois lados: h² = 64.",
+          "Qual número positivo multiplicado por ele mesmo dá 64? É 8, pois 8 × 8 = 64. A altura é 8 m.",
+          "Confira: 8² + 6² = 64 + 36 = 100 = 10². Usamos a altura positiva porque estamos medindo um comprimento."
+        ],
+        "goal": "Descobrir a altura que a escada alcança na parede.",
+        "start": "Desenhe chão e parede formando um canto de 90°. A escada inclinada fecha um triângulo. Estamos supondo parede vertical e chão horizontal.",
+        "checkpoint": {
+          "prompt": "Por que não fazer 10 − 6 = 4 para achar a altura?",
+          "answer": "Porque os lados de um triângulo retângulo se relacionam pelos quadrados nessa regra, não pela subtração direta dos comprimentos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.6.5-q1",
+        "prompt": "Um triângulo retângulo tem catetos 5 e 12. A hipotenusa é:",
+        "options": [
+          "13",
+          "17",
+          "7",
+          "√17",
+          "60"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Catetos são os dois lados que formam o canto reto. A hipotenusa fica em frente a esse canto e é o maior lado.",
+          "Use a relação dos quadrados: c² = 5² + 12². Calcule 5² = 25 e 12² = 144.",
+          "Some: c² = 25 + 144 = 169.",
+          "Como 13 × 13 = 169, c = 13. Escolhemos o valor positivo porque é um comprimento.",
+          "Confira que 13 é maior que cada cateto, como deve acontecer com a hipotenusa."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.6.5-q2",
+        "prompt": "Um círculo de raio 3 tem área:",
+        "options": [
+          "9π",
+          "6π",
+          "3π",
+          "12π",
+          "18π"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O raio é a distância do centro até a borda. A área do círculo usa a fórmula A = π × raio².",
+          "O raio informado é 3. Elevar ao quadrado significa multiplicar 3 por 3: 3² = 9.",
+          "Substitua: A = π × 9 = 9π, em unidades quadradas.",
+          "Não confunda com o contorno, que usa 2 × π × raio e daria 6π. A pergunta pediu a superfície interna."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Pitágoras consta do edital de referência; não deve ser tratado apenas como conteúdo opcional."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.6.6",
+    "title": "Cercas, voltas e arredondamento para compra",
+    "scope": "Itens 15 e 17; aplicação na prova de 2024",
+    "sections": [
+      {
+        "title": "Transforme o problema em etapas",
+        "paragraphs": [
+          "Primeiro descubra os lados, depois o perímetro, depois multiplique pelo número de voltas. Ao final, ajuste à forma de venda: rolos, caixas ou lotes.",
+          "Quando a compra deve cobrir uma necessidade inteira, arredonde para cima. Precisar de 5,1 caixas significa comprar 6, não 5."
+        ]
+      },
+      {
+        "title": "Não arredonde cedo demais",
+        "paragraphs": [
+          "Mantenha os valores exatos até a etapa final, salvo instrução contrária. Arredondar comprimento intermediário pode alterar o número de rolos necessários.",
+          "Confira as unidades: área em m² ajuda a descobrir um lado, mas o arame é medido em m."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um terreno de 300 m² tem frente de 15 m. Será cercado com 3 voltas. Rolos têm 40 m. Quantos rolos?",
+        "steps": [
+          "A área é 300 m² e a frente mede 15 m. O outro lado é 300 ÷ 15 = 20 m, pois 15 × 20 = 300.",
+          "Some os quatro lados: 15 + 20 + 15 + 20 = 70 m. Isso é uma única volta ao redor do terreno.",
+          "São três voltas: 3 × 70 = 210 m de material.",
+          "Cada rolo tem 40 m. Cinco rolos dão 5 × 40 = 200 m, que faltam 10 m para completar a cerca.",
+          "Precisamos de mais um rolo inteiro: 6 × 40 = 240 m. Compre 6 rolos, e sobram 240 − 210 = 30 m.",
+          "A divisão 210 ÷ 40 = 5,25 ajuda a perceber a sobra de necessidade. Não arredondamos para 5: na compra de rolos inteiros, o resultado precisa ser suficiente."
+        ],
+        "goal": "Calcular quantos rolos inteiros precisamos comprar para as três voltas.",
+        "start": "Vamos supor um terreno retangular e nenhuma abertura ou perda de material, pois o problema não informa essas condições.",
+        "checkpoint": {
+          "prompt": "Por que arredondar para o inteiro mais próximo não serve?",
+          "answer": "Porque cinco rolos não fornecem os 210 m necessários. A quantidade comprada precisa cobrir a demanda toda."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.6.6-q1",
+        "prompt": "Preciso de 125 m de cabo vendido em rolos de 30 m. Quantos rolos comprar?",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "6",
+          "4,17"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Cada rolo fornece 30 m e precisamos de 125 m. Vamos testar quantidades inteiras.",
+          "Quatro rolos dão 4 × 30 = 120 m. Ainda faltam 125 − 120 = 5 m.",
+          "Precisamos de mais um rolo inteiro: cinco dão 5 × 30 = 150 m.",
+          "Resposta: 5 rolos. Sobram 25 m, mas quatro não seriam suficientes. O objetivo é cobrir a necessidade, não apenas arredondar para o inteiro mais próximo."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Não use arredondamento comum quando a quantidade arredondada ficaria abaixo da necessidade."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.7.1",
+    "title": "Juros simples e compostos",
+    "scope": "Item 7: porcentagem e juros",
+    "sections": [
+      {
+        "title": "Capital, taxa, tempo e montante",
+        "paragraphs": [
+          "Capital C é o valor inicial. Juros J são o acréscimo. Montante M é o total C+J. A taxa i deve estar em decimal: 2%=0,02.",
+          "Em juros simples, os juros de cada período usam o capital inicial: J=C×i×t e M=C(1+it). Taxa e tempo precisam da mesma unidade: taxa mensal exige tempo em meses."
+        ]
+      },
+      {
+        "title": "Quando juros rendem juros",
+        "paragraphs": [
+          "Em juros compostos, cada período aplica a taxa ao saldo atualizado: M=C(1+i)^t. Os juros são M−C. O edital menciona juros sem limitar a modalidade, então compare os dois regimes.",
+          "Uma taxa de 2% ao mês não equivale a 24% ao ano no regime composto: o fator anual é 1,02¹². Não confunda taxa nominal com efetiva."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "R$ 1000 a 2% ao mês por 3 meses: compare os regimes.",
+        "steps": [
+          "Primeiro calcule 2% de 1000: 1000 ÷ 100 = 10; 10 × 2 = 20. São R$ 20 de juros num mês sobre o valor inicial.",
+          "Nos juros simples, a base continua sendo 1000 em todos os meses. São 20 + 20 + 20 = 60 de juros. O total fica 1000 + 60 = R$ 1060.",
+          "Nos compostos, depois do primeiro mês o saldo é 1020. No segundo, calcule 2% desse novo saldo: 1020 × 0,02 = 20,40. Some: 1020 + 20,40 = 1040,40.",
+          "No terceiro mês, os 2% incidem sobre 1040,40: 1040,40 × 0,02 = 20,808. Somando, temos 1061,208.",
+          "Arredondando só o resultado final para centavos, obtemos R$ 1061,21. Compare: simples, 1060; compostos, 1061,21.",
+          "A diferença apareceu porque, no regime composto, os juros anteriores passaram a fazer parte da base. O exemplo não inclui taxas ou outros encargos."
+        ],
+        "goal": "Ver a diferença entre juros calculados sempre sobre o início e juros sobre o saldo acumulado.",
+        "start": "O valor inicial é R$ 1000, a taxa é 2% por mês e o prazo é 3 meses. Dois por cento quer dizer 2 em cada 100.",
+        "checkpoint": {
+          "prompt": "Qual valor é a base do segundo mês nos juros compostos?",
+          "answer": "R$ 1020, porque os R$ 20 do primeiro mês foram somados ao valor inicial."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.7.1-q1",
+        "prompt": "R$ 800 a juros simples de 3% ao mês por 5 meses geram juros de:",
+        "options": [
+          "R$ 120",
+          "R$ 24",
+          "R$ 920",
+          "R$ 40",
+          "R$ 150"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Juros simples usam o valor inicial como base em cada mês. Primeiro ache 3% de 800.",
+          "Um por cento é 800 ÷ 100 = 8; três por cento é 3 × 8 = R$ 24 por mês.",
+          "São cinco meses: 5 × 24 = R$ 120 de juros.",
+          "Se somássemos ao capital, o total seria R$ 920. Mas a pergunta pede só os juros: R$ 120."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "2.7.1-q2",
+        "prompt": "R$ 200 a 10% por período, em dois períodos compostos, resultam em:",
+        "options": [
+          "R$ 242",
+          "R$ 240",
+          "R$ 220",
+          "R$ 244",
+          "R$ 204"
+        ],
+        "correct": 0,
+        "explanation": [
+          "No primeiro período, 10% de 200 são 20. O saldo passa a 200 + 20 = 220.",
+          "Nos juros compostos, o segundo período usa o saldo novo, 220, como base.",
+          "Dez por cento de 220 são 22. Some ao saldo: 220 + 22 = 242.",
+          "Resultado final: R$ 242. Calcular 20 de juros nos dois períodos produziria juros simples, não compostos."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "A pergunta pode pedir juros ou montante: são respostas diferentes."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.7.2",
+    "title": "Conjuntos e diagramas de Venn",
+    "scope": "Item 8",
+    "sections": [
+      {
+        "title": "Pertencer, unir e intersectar",
+        "paragraphs": [
+          "Conjunto reúne elementos. x∈A significa que x pertence a A. A∪B é união: elementos de A ou B, sem repetir. A∩B é interseção: elementos comuns. A−B contém elementos de A que não estão em B.",
+          "A⊆B significa que todo elemento de A pertence a B. O complementar depende do universo escolhido: são os elementos do universo que não pertencem a A."
+        ]
+      },
+      {
+        "title": "Conte a interseção uma única vez",
+        "paragraphs": [
+          "n(A∪B)=n(A)+n(B)−n(A∩B). Subtraímos a interseção porque ela foi somada duas vezes. Para três conjuntos, some os três, subtraia as interseções de pares e acrescente a tripla.",
+          "Preencha diagramas do centro para fora: primeiro quem está nos três, depois somente em cada par, depois somente em cada conjunto, por fim quem está fora."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Em 50 alunos, 28 estudam Português, 22 Matemática e 10 ambas. Quantos não estudam nenhuma?",
+        "steps": [
+          "Comece pelo meio: coloque 10 alunos na parte comum. Esses dez já estão incluídos nos 28 de Português e nos 22 de Matemática.",
+          "Para descobrir só Português, retire os dez que estão no meio: 28 − 10 = 18.",
+          "Para descobrir só Matemática, faça 22 − 10 = 12.",
+          "Quem estuda pelo menos uma matéria é a soma de três partes separadas: 18 + 10 + 12 = 40. Ninguém foi contado duas vezes.",
+          "Há 50 alunos ao todo. Fora dos dois círculos ficam 50 − 40 = 10 alunos. Esses não estudam nenhuma das duas.",
+          "Confira as quatro partes: 18 só Português + 12 só Matemática + 10 ambas + 10 nenhuma = 50."
+        ],
+        "goal": "Contar quem não estuda nenhuma das duas matérias sem duplicar quem estuda ambas.",
+        "start": "Imagine dois círculos que se cruzam: Português e Matemática. O espaço do meio representa quem estuda as duas.",
+        "checkpoint": {
+          "prompt": "Por que 28 + 22 não dá o total que estuda pelo menos uma?",
+          "answer": "Porque os dez que estudam ambas entram uma vez em cada grupo. Precisamos descontar uma dessas contagens."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.7.2-q1",
+        "prompt": "Em 40 pessoas, 25 gostam de A, 20 de B e 10 de ambos. Quantas gostam de pelo menos um?",
+        "options": [
+          "35",
+          "45",
+          "30",
+          "15",
+          "40"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Queremos quem gosta de A, de B ou das duas. Some inicialmente os grupos: 25 + 20 = 45.",
+          "As 10 pessoas que gostam de ambos entraram duas vezes nessa soma.",
+          "Retire uma dessas contagens: 45 − 10 = 35.",
+          "Resposta: 35. Confira que sobram 40 − 35 = 5 pessoas fora dos dois grupos. “Pelo menos um” inclui quem gosta dos dois."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "“Somente A” é n(A) menos a interseção; não é todo o conjunto A."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.7.3",
+    "title": "Tabelas, gráficos e relações entre grandezas",
+    "scope": "Item 14",
+    "sections": [
+      {
+        "title": "Leia antes de calcular",
+        "paragraphs": [
+          "Identifique título, fonte, período, unidade, legenda e escala dos eixos. Um eixo que começa em 90 pode fazer uma diferença pequena parecer enorme.",
+          "Gráfico de barras compara categorias; linha costuma mostrar evolução temporal; setores mostram partes de um total. Não leia uma porcentagem como quantidade absoluta."
+        ]
+      },
+      {
+        "title": "Variação absoluta e relativa",
+        "paragraphs": [
+          "De 80 para 100, o aumento absoluto é 20. A variação percentual usa o valor inicial: (100−80)/80×100=25%.",
+          "De 20% para 30%, há aumento de 10 pontos percentuais, mas aumento relativo de 50%. Se dobrar x não dobrar y, a relação pode não ser proporcional."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma tabela informa 120 atendimentos em maio e 150 em junho. Calcule o crescimento.",
+        "steps": [
+          "Descubra quantos atendimentos foram acrescentados: 150 − 120 = 30. Isso é o aumento em quantidade.",
+          "Agora pergunte: esses 30 são que parte dos 120 iniciais? Escreva 30/120.",
+          "Divida os dois números por 30: 30/120 = 1/4. O aumento foi um quarto do valor inicial.",
+          "Um quarto de 100 é 25. Portanto 1/4 = 25/100 = 25%.",
+          "Confira: 25% de 120 = 120 ÷ 4 = 30; 120 + 30 = 150. Aumento de 30 atendimentos, equivalente a 25%."
+        ],
+        "goal": "Medir o aumento em relação à quantidade que existia no começo.",
+        "start": "Maio teve 120 atendimentos; junho, 150. O ponto de partida da comparação é maio.",
+        "checkpoint": {
+          "prompt": "Por que não usar 150 como número de baixo?",
+          "answer": "Porque a pergunta é crescimento em relação ao começo. Usar o valor final mudaria a base da comparação."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.7.3-q1",
+        "prompt": "Um índice passa de 40% para 50%. A diferença é:",
+        "options": [
+          "10 pontos percentuais",
+          "10% de aumento relativo",
+          "50 pontos percentuais",
+          "25 pontos percentuais",
+          "40% de queda"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Estamos comparando dois valores já escritos em porcentagem. A diferença direta é 50 − 40 = 10.",
+          "Essa diferença se expressa em pontos percentuais: 10 pontos percentuais.",
+          "Se a pergunta fosse o aumento relativo ao começo, faríamos 10/40 = 0,25 = 25%. É outra medida.",
+          "Aqui a resposta é 10 pontos percentuais. Dizer apenas aumento de 10% confundiria diferença de taxas com crescimento relativo."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Correlação em um gráfico não demonstra, sozinha, que um fator causou o outro."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  },
+  {
+    "id": "2.7.4",
+    "title": "Volume e capacidade de sólidos",
+    "scope": "Itens 13.4 e 15.4",
+    "sections": [
+      {
+        "title": "Três dimensões",
+        "paragraphs": [
+          "Volume mede espaço ocupado. Paralelepípedo retângulo: V=comprimento×largura×altura. Cubo de aresta a: V=a³. Cilindro: V=área da base×altura=πr²h.",
+          "Antes da multiplicação, use a mesma unidade nos três comprimentos. O resultado será cúbico. A área externa de uma caixa não é o volume interno."
+        ]
+      },
+      {
+        "title": "Converter para litros",
+        "paragraphs": [
+          "1 m³=1000 L; 1 dm³=1 L; 1 cm³=1 mL. Se o reservatório não estiver cheio, multiplique pela fração preenchida.",
+          "Dimensões externas podem incluir paredes. Só use como dimensões internas quando isso estiver informado ou idealizado pelo enunciado."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um tanque interno mede 2 m × 1,5 m × 0,8 m. Está 3/4 cheio. Quantos litros contém?",
+        "steps": [
+          "Calcule primeiro a área da base: 2 × 1,5 = 3 m². Isso mede o fundo, ainda não o espaço inteiro do tanque.",
+          "Multiplique pela altura: 3 × 0,8 = 2,4 m³. Metro cúbico mede volume, o espaço que cabe dentro.",
+          "Cada 1 m³ equivale a 1000 litros. Portanto 2,4 × 1000 = 2400 litros de capacidade total.",
+          "Queremos três quartos desse total. Divida em quatro partes iguais: 2400 ÷ 4 = 600 litros por parte.",
+          "Pegue três dessas partes: 3 × 600 = 1800 litros. Essa é a quantidade de água atual.",
+          "Confira o espaço vazio: um quarto é 600 litros; 1800 + 600 = 2400, a capacidade total."
+        ],
+        "goal": "Encontrar quantos litros estão dentro do tanque, e não sua capacidade inteira.",
+        "start": "O tanque é retangular e as medidas são internas. Temos três medidas em metros: 2; 1,5; 0,8. Ele está cheio só até 3/4 da capacidade.",
+        "checkpoint": {
+          "prompt": "Se a pergunta pedisse só a capacidade, qual seria a resposta?",
+          "answer": "2400 litros. Os 1800 litros respondem à quantidade atual quando o tanque está 3/4 cheio."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "2.7.4-q1",
+        "prompt": "Um cubo de aresta 2 m tem volume de:",
+        "options": [
+          "8 m³",
+          "4 m³",
+          "6 m³",
+          "12 m³",
+          "24 m³"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um cubo tem comprimento, largura e altura iguais. Cada uma das três medidas é 2 m.",
+          "Volume mede o espaço ocupado e usa as três dimensões: 2 × 2 × 2.",
+          "Primeiro 2 × 2 = 4; depois 4 × 2 = 8. A unidade é m³, metro cúbico.",
+          "Resposta: 8 m³. O valor 4 m² mede apenas uma face, não o volume inteiro."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Dobrar todas as dimensões multiplica o volume por 8, não por 2."
+    ],
+    "mastery": [
+      "Explique a regra sem consultar a aula.",
+      "Refaça o exemplo e justifique cada etapa.",
+      "Resolva o exercício sem olhar a correção e registre sua dúvida no caderno."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — Anexo II, Matemática, páginas 53–54",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=53"
+      }
+    ]
+  }
+]

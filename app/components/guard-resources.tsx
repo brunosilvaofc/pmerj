@@ -1,0 +1,18 @@
+import { ArrowUpRight, FileText, BookOpen, Shield } from 'lucide-react';
+import { guardSections } from '../lib/contests';
+const practice = [
+  { id: '1', page: 3, description: 'Interpretação (1–8 e 13–14), sintaxe (9), conectores (10), crase (11), pronomes (12) e acentuação (15).' },
+  { id: '2', page: 4, description: 'Constitucional (16–17), responsabilidade do Estado (18), provas (19), lei penal (20–21), teoria do crime (22–30), investigação e processo (31–35, com agentes públicos na 33).' },
+  { id: '3', page: 5, description: 'Hediondos (36–37), abuso de autoridade (38–40), tortura (41), ECA (42–44), desarmamento (45), meio ambiente (46), Maria da Penha (47), drogas (48–49) e organizações criminosas (50).' },
+  { id: '4', page: 7, description: 'SUSP (51–57), Estatuto Geral das Guardas (58–60) e legislação municipal antiga (61–70). Atenção: as questões 61–70 citam a Lei 050/1991; o edital enviado prevê as Leis 1.416/2022 e 1.625/2026.' },
+  { id: '5', page: 9, description: 'Hardware (71), Windows e Linux (72), Word (73), formatos (74), Excel (75), apresentações (76), redes (77), segurança (78–79) e colaboração em nuvem (80).' },
+];
+export function GuardResources({ subjectId }: { subjectId?: string }) {
+  const items = subjectId ? practice.filter(p => p.id === subjectId) : practice;
+  return <section className="panel guard-resources">
+    <div className="section-heading"><div><span className="eyebrow green-text">SELECON · MATERIAIS DA SUA PREPARAÇÃO</span><h2>{subjectId ? 'Da teoria para a prova' : 'Edital e prova anterior, lado a lado'}</h2></div><Shield size={24} className="green-text" /></div>
+    {!subjectId && <><p>O edital nº 001/PMSG/2026 define o plano. A prova enviada como 2022 traz na capa o edital nº 003/PMSG/2020 e oferece 80 questões para praticar.</p><div className="resource-actions"><a className="button secondary" href="/materials/gmsg-edital-2026.pdf#page=49" target="_blank" rel="noreferrer"><FileText size={17}/>Edital 2026 · conteúdo<ArrowUpRight size={15}/></a><a className="button secondary" href="/materials/gmsg-prova-2022.pdf" target="_blank" rel="noreferrer"><BookOpen size={17}/>Abrir prova anterior<ArrowUpRight size={15}/></a></div><div className="table-scroll"><table className="exam-weights"><caption>Distribuição do edital de 2026 · página 24</caption><thead><tr><th>Disciplina</th><th>Questões</th><th>Peso</th><th>Pontos</th></tr></thead><tbody>{guardSections.map(s=><tr key={s.id}><th>{s.title}</th><td>{s.questions}</td><td>{s.weight}</td><td><b>{s.questions*s.weight}</b></td></tr>)}</tbody><tfoot><tr><th>Total</th><td>80</td><td>—</td><td>100</td></tr></tfoot></table></div><div className="source-callout"><b>Planeje pelo edital enviado</b><p>4 horas de prova; mínimo de 50 pontos e nenhuma disciplina zerada (itens 8.21 e 9.6). Isso não garante classificação. A prova anterior prevê 3h30 e contém legislação municipal diferente.</p></div></>}
+    <div className="practice-links">{items.map(item=>{const section=guardSections.find(s=>s.id===item.id)!;return <article key={item.id}><div><span className="pill green">Questões {section.range}</span><h3>{section.title}</h3><p>{item.description}</p></div><a className="icon-button" href={`/materials/gmsg-prova-2022.pdf#page=${item.page}`} target="_blank" rel="noreferrer" aria-label={`Abrir questões de ${section.title}`}><ArrowUpRight size={20}/></a></article>;})}</div>
+    <p className="source-caption">Não há gabarito oficial entre os anexos; não é feita correção automática. Use as questões antigas como prática e confira a legislação exigida no edital. A contagem de tópicos é uma organização pedagógica, não o peso da disciplina na prova.</p>
+  </section>;
+}

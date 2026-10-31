@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "tortura",
+    "title": "Tortura e prevenção: conduta, finalidade e proteção",
+    "scope": "Lei 9.455/1997 e sistema de prevenção",
+    "sections": [
+      {
+        "title": "O tipo precisa de elementos",
+        "paragraphs": [
+          "Na tortura para obter informação/confissão, examine constrangimento com violência ou grave ameaça, sofrimento físico/mental e a finalidade prevista. Na tortura-castigo, a lei exige relação de guarda, poder ou autoridade e os demais elementos do tipo.",
+          "Nem toda lesão é automaticamente tortura; compare a finalidade e os requisitos. Isso não torna a lesão permitida: pode haver outro crime. A omissão de quem tinha dever de evitar/apurar tem previsão específica."
+        ]
+      },
+      {
+        "title": "Prevenir não é apenas punir",
+        "paragraphs": [
+          "A Lei 12.847 organiza um sistema de prevenção e combate, com mecanismos de acompanhamento de locais de privação de liberdade. O enfoque inclui evitar violações, documentar condições e formular recomendações.",
+          "Pessoas presas conservam dignidade e proteção contra tratamento cruel. Alegação de emergência ou utilidade da confissão não cria permissão para torturar. Para provas históricas, compare a redação vigente no marco do edital: o texto online da Lei 9.455 registra alteração de 2026, posterior à referência PMERJ."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um agente provoca sofrimento mediante violência para arrancar confissão. Qual sequência de análise?",
+        "steps": [
+          "Primeiro identifique o meio utilizado: violência. Não precisamos imaginar outro meio que não foi narrado.",
+          "Depois identifique o efeito: sofrimento provocado na pessoa. Esse dado precisa ser lido junto com a conduta.",
+          "Agora destaque a finalidade: arrancar confissão. Finalidade é o objetivo buscado por quem age.",
+          "Compare a combinação com a previsão da Lei 9.455. O raciocínio não é apenas “houve sofrimento”; envolve também os demais elementos do tipo.",
+          "A alegação de que a confissão seria útil não transforma o meio em permitido. Para resolver a questão, mantenha separados o objetivo da ação e sua autorização jurídica."
+        ],
+        "goal": "Relacionar os fatos narrados aos elementos da conduta prevista na lei.",
+        "start": "O caso informa violência, sofrimento e objetivo de obter confissão. Vamos separar essas três informações.",
+        "checkpoint": {
+          "prompt": "O que finalidade significa neste exemplo?",
+          "answer": "É o que o agente pretendia conseguir: a confissão. Esse objetivo é uma parte da análise da conduta, não uma justificativa para praticá-la."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "tortura-q1",
+        "prompt": "A utilidade de obter uma confissão autoriza tortura?",
+        "options": [
+          "Não",
+          "Sim, em crime grave",
+          "Sim, por ordem verbal",
+          "Sim, sem lesão visível",
+          "Sim, se a pessoa for culpada"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A pergunta tenta justificar o meio pelo resultado: conseguir uma confissão.",
+          "A utilidade alegada da confissão não cria autorização para torturar.",
+          "Também não é necessário haver marca visível para que a ausência de justificativa continue valendo. A análise não se resume a ferimentos aparentes.",
+          "Resposta: não. Um objetivo investigativo não torna permitido um meio proibido."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda sofrimento mental com inexistência de violência juridicamente relevante."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 9.455",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm"
+      },
+      {
+        "label": "Lei 12.847",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12847.htm"
+      }
+    ]
+  },
+  {
+    "id": "migracao",
+    "title": "Migração, refúgio e igualdade de proteção",
+    "scope": "Lei 13.445/2017, arts. 1º–4º e institutos migratórios",
+    "sections": [
+      {
+        "title": "Os nomes não são equivalentes",
+        "paragraphs": [
+          "Imigrante se estabelece no Brasil; emigrante é brasileiro que se estabelece no exterior; visitante vem para curta duração sem intenção de se estabelecer; apátrida não é considerado nacional por Estado segundo sua legislação.",
+          "Refúgio tem disciplina específica: a Lei de Migração não apaga as normas de proteção a refugiados. Migrar não torna uma pessoa criminosa por si só."
+        ]
+      },
+      {
+        "title": "Princípios e direitos",
+        "paragraphs": [
+          "A lei adota repúdio à xenofobia, não criminalização da migração, acolhida humanitária, reunião familiar e acesso a direitos nas condições legais. Situação documental não elimina a dignidade nem autoriza discriminação no atendimento.",
+          "Deportação, expulsão e extradição são institutos distintos: não use um nome genérico para qualquer saída compulsória. Cada um tem pressupostos, competência e garantias próprios."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma pessoa é impedida de receber atendimento apenas por ser estrangeira. Como iniciar a análise?",
+        "steps": [
+          "Pergunte primeiro qual é o serviço e quais são suas condições legais de acesso. Não suponha que todos os serviços têm regras idênticas.",
+          "O motivo dado para a negativa foi apenas ser estrangeira. Destaque apenas: não foi apresentado outro requisito ausente.",
+          "Agora confronte esse motivo com a igualdade, a não discriminação e os direitos assegurados pela Lei de Migração.",
+          "Não conclua que ser estrangeiro retira automaticamente o acesso à saúde, educação ou Justiça. A nacionalidade, sozinha, não apaga essas proteções.",
+          "A resposta precisa ligar o serviço concreto à regra aplicável. Como o exemplo é incompleto, a conclusão é sobre o método e a inadequação da exclusão automática, não sobre todas as hipóteses possíveis."
+        ],
+        "goal": "Ver se a exclusão foi baseada apenas na nacionalidade.",
+        "start": "O exemplo não identifica qual atendimento foi negado. Isso impede concluir todos os detalhes, mas permite organizar a análise.",
+        "checkpoint": {
+          "prompt": "Qual informação ainda falta para uma conclusão específica?",
+          "answer": "Qual serviço foi negado e quais condições legais se aplicam a ele. Isso precisa ser conhecido antes de fechar a análise."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "migracao-q1",
+        "prompt": "A política migratória da Lei 13.445 inclui:",
+        "options": [
+          "Repúdio à xenofobia",
+          "Criminalização de toda migração",
+          "Negação geral de educação a estrangeiros",
+          "Expulsão coletiva como regra",
+          "Supressão de acesso à Justiça"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Xenofobia é hostilidade ou discriminação contra pessoas por serem estrangeiras ou vistas como de fora.",
+          "Repudiar a xenofobia significa rejeitar essa hostilidade, não incentivá-la.",
+          "A política migratória da Lei 13.445 inclui proteção de direitos e repúdio à discriminação.",
+          "Portanto a alternativa correta é repúdio à xenofobia. A condição de migrante não apaga a proteção jurídica da pessoa."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda irregularidade documental com perda total de direitos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 13.445",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm"
+      }
+    ]
+  },
+  {
+    "id": "forca",
+    "title": "Uso da força: legalidade, necessidade e proporcionalidade",
+    "scope": "Lei 13.060/2014; estudo jurídico, não instrução operacional",
+    "sections": [
+      {
+        "title": "Três filtros de análise",
+        "paragraphs": [
+          "Legalidade: há competência e fundamento? Necessidade: a medida é indispensável nas circunstâncias? Proporcionalidade: a intensidade é compatível com a situação e o objetivo legítimo?",
+          "A expressão menor potencial ofensivo não significa ausência de risco. A escolha dos meios deve observar a lei, as condições concretas e a proteção da vida."
+        ]
+      },
+      {
+        "title": "Limites e consequências",
+        "paragraphs": [
+          "A lei estabelece prioridade para instrumentos de menor potencial ofensivo quando isso não colocar em risco a integridade dos agentes e de terceiros, além de condições e proibições específicas.",
+          "A análise de prova deve observar a situação descrita, os requisitos legais e os deveres posteriores de assistência e comunicação quando pertinentes. Não conclua que a mera condição de suspeito autoriza qualquer intensidade de força."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma alternativa afirma que “menor potencial ofensivo” significa “incapaz de causar lesão”. Está correta?",
+        "steps": [
+          "Leia a afirmação com cuidado: ela diz incapaz de causar lesão. Isso exclui qualquer possibilidade de dano.",
+          "Agora compare com menor potencial. A expressão admite risco, embora menor na comparação pertinente.",
+          "Por existir risco, continuam importantes as condições de uso e os deveres de cuidado.",
+          "Portanto o nome do instrumento não autoriza uso sem limites nem garante ausência de lesão.",
+          "A alternativa está errada porque troca uma comparação de risco por uma garantia absoluta de segurança."
+        ],
+        "goal": "Distinguir risco menor de risco inexistente.",
+        "start": "“Menor potencial ofensivo” compara a capacidade de causar dano. Menor não significa zero.",
+        "checkpoint": {
+          "prompt": "Qual palavra exagera a conclusão da alternativa?",
+          "answer": "Incapaz. Ela transforma uma redução de potencial em impossibilidade de causar lesão."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "forca-q1",
+        "prompt": "Proporcionalidade exige:",
+        "options": [
+          "Compatibilidade da medida com a situação e a finalidade legítima",
+          "Intensidade máxima sempre",
+          "Ausência de fundamento legal",
+          "Punição imediata sem processo",
+          "Desconsiderar risco a terceiros"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Proporcionalidade pede comparar a medida com a situação e com o objetivo legítimo.",
+          "Não basta uma medida ser capaz de produzir algum resultado. É preciso considerar sua adequação, necessidade e equilíbrio dentro da lei.",
+          "Uma resposta excessiva não se torna proporcional apenas porque existe uma finalidade pública.",
+          "A alternativa correta é compatibilidade da medida com a situação e a finalidade legítima, observadas as condições legais."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate o uso da força como pena aplicada no local."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 13.060",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13060.htm"
+      }
+    ]
+  },
+  {
+    "id": "guardas",
+    "title": "Guarda Municipal e SUSP: competências e integração",
+    "scope": "Leis 13.022/2014 e 13.675/2018",
+    "sections": [
+      {
+        "title": "Natureza e finalidade",
+        "paragraphs": [
+          "O Estatuto Geral define guardas como instituições de caráter civil, uniformizadas e armadas conforme a lei, com proteção municipal preventiva, respeitadas competências dos demais entes.",
+          "Proteção de direitos, preservação da vida, patrulhamento preventivo, compromisso com evolução social e uso progressivo da força aparecem entre os princípios legais. Hierarquia administrativa não transforma automaticamente a instituição em força militar."
+        ]
+      },
+      {
+        "title": "Competências e controles",
+        "paragraphs": [
+          "O estudo deve distinguir competência geral de proteção de bens, serviços e instalações e competências específicas do art. 5º, como prevenção, colaboração e atuação nas situações legais.",
+          "Cooperação com outros órgãos não significa absorver toda competência de polícia judiciária ou militar. Controle interno/externo, corregedoria/ouvidoria e formação têm regras próprias. Não confunda atribuição institucional com autorização individual para agir sem limites."
+        ]
+      },
+      {
+        "title": "O SUSP integra, não apaga competências",
+        "paragraphs": [
+          "A Lei 13.675 organiza integração e coordenação no sistema de segurança pública, com princípios, diretrizes, objetivos e instrumentos. A cooperação envolve planejamento, informação e avaliação.",
+          "Integrar um sistema não elimina autonomia federativa nem transforma todos os integrantes em um único órgão com atribuições idênticas. Distinga integrantes estratégicos de operacionais conforme o texto legal."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma questão afirma que integrar o SUSP permite a qualquer órgão exercer todas as funções dos outros. Como avaliar?",
+        "steps": [
+          "Competência significa a atribuição que a norma dá a um órgão: quais tarefas ele pode e deve exercer.",
+          "Integração permite coordenação e cooperação. Pense em órgãos compartilhando esforços dentro de suas funções.",
+          "A afirmação vai além: diz que qualquer integrante pode fazer tudo que os outros fazem.",
+          "Esse salto não decorre de integrar o SUSP. É preciso verificar a atribuição própria e a base legal da atuação.",
+          "Conclusão: participação no sistema não significa competência ilimitada. A cooperação deve ser lida junto com as regras de cada instituição."
+        ],
+        "goal": "Distinguir trabalhar em conjunto de receber todas as atribuições de outros órgãos.",
+        "start": "Integrar um sistema é participar de uma organização de cooperação. Isso, sozinho, não muda todas as competências legais.",
+        "checkpoint": {
+          "prompt": "Qual é a diferença entre cooperação e competência?",
+          "answer": "Cooperação é a forma de trabalhar junto. Competência é a atribuição jurídica para agir. Uma não substitui automaticamente a outra."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "guardas-q1",
+        "prompt": "A natureza das guardas no Estatuto Geral é:",
+        "options": [
+          "Civil",
+          "Militar em todos os municípios",
+          "Judicial",
+          "Legislativa",
+          "Privada"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A pergunta pede a natureza institucional das guardas no Estatuto Geral.",
+          "O art. 2º as descreve como instituições de caráter civil.",
+          "Civil é a categoria jurídica pedida aqui. Usar uniforme ou exercer funções de proteção não muda automaticamente essa classificação.",
+          "Resposta: civil. Não deduza a natureza só pela aparência da instituição."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "guardas-q2",
+        "prompt": "Integrar o SUSP significa:",
+        "options": [
+          "Cooperar respeitando competências legais",
+          "Eliminar competências municipais",
+          "Substituir toda investigação criminal",
+          "Dispensar controles",
+          "Fundir todos os órgãos"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Integrar o SUSP significa participar de um sistema de coordenação e cooperação.",
+          "Cada órgão continua sujeito às suas competências, isto é, às atribuições que a lei lhe dá.",
+          "Participar não autoriza exercer indiscriminadamente todas as funções dos demais integrantes.",
+          "A resposta é cooperar respeitando competências legais. Integração e atribuição ilimitada são ideias diferentes."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "A lei federal geral e o estatuto municipal precisam ser estudados juntos; um não substitui o outro."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 13.022 — Ministério da Justiça",
+        "url": "https://bibliotecadigital.mj.gov.br/bitstream/1/3231/2/LEI_2014_13022.html"
+      },
+      {
+        "label": "Lei 13.675",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13675.htm"
+      }
+    ]
+  },
+  {
+    "id": "hediondos",
+    "title": "Crimes hediondos",
+    "scope": "Lei 8.072/1990",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "Hediondo é uma classificação legal, não um adjetivo baseado no sentimento de gravidade. O rol legal e as modalidades nele descritas precisam ser conferidos. Tortura, tráfico e terrorismo recebem tratamento equiparado em determinados efeitos, mas não devem ser misturados sem critério ao rol."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Compare crime simples, qualificado e majorado e confira se a modalidade integra a previsão legal. Efeitos sobre fiança, benefícios e execução dependem da norma aplicável e da jurisprudência; não conclua que todo benefício é proibido para sempre."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um fato muito chocante pode ser chamado de hediondo apenas pela opinião do julgador?",
+        "steps": [
+          "Identifique o fato e sua classificação penal, usando os elementos narrados.",
+          "Depois verifique se essa classificação se encaixa na previsão legal de crimes hediondos.",
+          "A opinião de que o fato é muito chocante não substitui esse enquadramento. Reprovação social e categoria jurídica não são a mesma coisa.",
+          "Assim, não basta a opinião do julgador para criar uma nova hipótese de crime hediondo fora da previsão legal.",
+          "A resposta ao exemplo é não. Em questão concreta, ainda será necessário comparar o crime e sua forma com o texto legal aplicável."
+        ],
+        "goal": "Entender por que a classificação depende da lei, não só da reação ao fato.",
+        "start": "No uso cotidiano, hediondo pode significar algo horrível. Na prova de Direito, precisamos do sentido jurídico.",
+        "checkpoint": {
+          "prompt": "O que falta numa justificativa que diz apenas “é hediondo porque é muito cruel”?",
+          "answer": "Falta demonstrar o enquadramento na previsão legal. O adjetivo usado no dia a dia não resolve a classificação jurídica."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "hediondos-q1",
+        "prompt": "Para classificar um crime como hediondo, o elemento decisivo é:",
+        "options": [
+          "Previsão legal da modalidade",
+          "Opinião pessoal",
+          "Número de notícias",
+          "Clamor público isolado",
+          "Escolha da vítima"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Hediondo, na classificação jurídica, depende de uma previsão legal aplicável à modalidade do crime.",
+          "Primeiro identifique qual crime e qual forma de prática foram descritos.",
+          "Depois compare com essa previsão. A sensação de que o fato é horrível não substitui o enquadramento.",
+          "O elemento decisivo pedido é a previsão legal da modalidade. O julgamento moral do caso não cria sozinho a categoria jurídica."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 8.072/1990",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8072.htm"
+      }
+    ]
+  },
+  {
+    "id": "abuso",
+    "title": "Abuso de autoridade",
+    "scope": "Lei 13.869/2019",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "A lei trata de condutas de agente público, servidor ou não, no exercício da função ou a pretexto de exercê-la. Não basta achar a atuação inadequada: é preciso tipo penal e os elementos exigidos."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "O art. 1º exige finalidade específica de prejudicar alguém, beneficiar a si/terceiro ou agir por capricho/satisfação pessoal. Divergência de interpretação ou de avaliação de fatos e provas não configura abuso por si só, sem os demais pressupostos."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Toda decisão administrativa posteriormente anulada é automaticamente crime de abuso?",
+        "steps": [
+          "Comece pelo fato certo: a decisão foi anulada. Isso informa que havia um problema que levou à sua retirada.",
+          "Agora faça uma pergunta diferente: a conduta corresponde a uma previsão criminal da lei de abuso?",
+          "Também é preciso examinar os elementos exigidos, incluindo a finalidade específica quando prevista. Não basta apontar o resultado da anulação.",
+          "Portanto pode existir ilegalidade administrativa sem que, por esse fato isolado, esteja demonstrado crime de abuso.",
+          "A alternativa que diz toda decisão anulada é automaticamente crime está errada. Ela pula a análise da conduta e de seus requisitos."
+        ],
+        "goal": "Separar uma decisão inválida de um crime de abuso de autoridade.",
+        "start": "Uma decisão anulada tem um problema jurídico, mas isso ainda não diz que todos os requisitos de um crime aconteceram.",
+        "checkpoint": {
+          "prompt": "Por que a palavra automaticamente é problemática?",
+          "answer": "Porque dispensa requisitos que precisam ser demonstrados. A anulação não prova sozinha a existência de crime."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "abuso-q1",
+        "prompt": "A análise de abuso de autoridade exige:",
+        "options": [
+          "Tipo e finalidade específica, além dos demais elementos",
+          "Qualquer erro, sem distinção",
+          "Só repercussão na imprensa",
+          "Só anulação de um ato",
+          "Mera discordância do cidadão"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Tipo é a descrição de uma conduta na lei penal. Para analisar abuso, precisamos ver se os fatos correspondem a essa descrição.",
+          "Também é necessário examinar a finalidade específica exigida e os demais elementos do caso.",
+          "Uma ilegalidade administrativa ou uma decisão anulada não prova, por si só, todos esses requisitos.",
+          "A resposta correta reúne tipo e finalidade específica, além dos demais elementos. Ela evita transformar qualquer erro em crime automático."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 13.869/2019",
+        "url": "https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/corregedoria/atividades-correcionais/L13869.pdf"
+      }
+    ]
+  },
+  {
+    "id": "eca",
+    "title": "ECA: proteção integral e crimes",
+    "scope": "Lei 8.069/1990",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "O ECA organiza proteção integral de crianças e adolescentes. Criança é pessoa até 12 anos incompletos; adolescente, entre 12 e 18 anos, com hipóteses legais de aplicação excepcional a outras faixas."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Ato infracional é conduta descrita como crime ou contravenção, com tratamento próprio conforme a idade. Medida socioeducativa não é pena criminal aplicada por simples analogia. Crimes praticados contra crianças/adolescentes possuem tipos e elementos próprios."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma pessoa com 11 anos completos é criança ou adolescente para o ECA?",
+        "steps": [
+          "Leia a idade exata dada: 11 anos completos. Isso significa que a pessoa já fez 11, mas ainda não fez 12.",
+          "Compare com a fronteira: para sair da categoria criança, precisa completar 12 anos.",
+          "Onze continua sendo menor que doze. Portanto a pessoa do exemplo é criança para essa classificação.",
+          "Não arredonde por estar perto do aniversário, nem use aparência física ou maturidade como substitutos da idade legal.",
+          "Resposta: criança. A aplicação de outras regras do ECA pode exigir mais detalhes, mas esta pergunta pede apenas a classificação etária."
+        ],
+        "goal": "Aplicar a fronteira de idade sem arredondar.",
+        "start": "No ECA, criança é a pessoa com menos de 12 anos; adolescente está na faixa dos 12 aos 18 anos, conforme a definição legal.",
+        "checkpoint": {
+          "prompt": "No dia em que completa 12 anos, qual passa a ser a classificação?",
+          "answer": "Adolescente, segundo a definição etária do ECA."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "eca-q1",
+        "prompt": "O ECA se estrutura a partir da:",
+        "options": [
+          "Proteção integral",
+          "Supressão de direitos por idade",
+          "Aplicação automática de pena de adulto",
+          "Responsabilidade penal adulta aos 12",
+          "Ausência de garantias"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Proteção integral significa considerar crianças e adolescentes como pessoas com direitos e necessidades de proteção, em várias dimensões da vida.",
+          "A ideia não se limita a agir só depois de uma infração ou apenas em situações de abandono.",
+          "O ECA se organiza a partir dessa proteção integral, que orienta o reconhecimento e a garantia de direitos.",
+          "Portanto essa é a resposta. A pergunta é sobre o princípio estruturante, não sobre a idade de um exemplo particular."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 8.069/1990",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm"
+      }
+    ]
+  },
+  {
+    "id": "armas",
+    "title": "Armas: posse, porte e registro",
+    "scope": "Lei 10.826/2003",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "Registro identifica a arma e seu vínculo nos termos legais. Posse e porte não são sinônimos: a posse envolve manter a arma em locais autorizados; porte envolve conduzi-la fora dessas hipóteses, sujeito a autorização e exceções legais."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Compare local da conduta, autorização, classificação do armamento e verbo do tipo. Ser titular de uma arma registrada não significa ter autorização irrestrita para circular com ela. As regras administrativas e a classificação de uso precisam da versão normativa aplicável."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma questão conclui que registro autoriza automaticamente qualquer porte. Qual é o problema?",
+        "steps": [
+          "Identifique o documento mencionado: registro. Não troque esse nome por autorização de porte.",
+          "Agora identifique a conclusão da questão: qualquer porte estaria autorizado. Ela é muito mais ampla que a informação inicial.",
+          "Para saber se determinada circulação com a arma é permitida, precisamos examinar a autorização e as condições próprias do porte.",
+          "O registro, sozinho, não permite presumir uma autorização ilimitada. É necessário conferir requisitos, limites e hipóteses aplicáveis.",
+          "A conclusão automática está errada por tratar documentos e permissões diferentes como se fossem equivalentes."
+        ],
+        "goal": "Entender por que registrar uma arma não autoriza automaticamente levá-la a qualquer lugar.",
+        "start": "Registro e porte são assuntos relacionados, mas tratam de objetos e condições diferentes.",
+        "checkpoint": {
+          "prompt": "Qual informação deveria ser analisada além do registro?",
+          "answer": "A autorização e as condições legais aplicáveis à conduta de portar a arma naquele caso."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "armas-q1",
+        "prompt": "Qual afirmação distingue os institutos?",
+        "options": [
+          "Registro não equivale a porte irrestrito",
+          "Registro autoriza todo porte",
+          "Posse e porte são sempre iguais",
+          "Não existem requisitos legais",
+          "Qualquer arma registrada pode ser emprestada livremente"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Registro e porte têm objetos e requisitos distintos. Um documento não deve ser tratado como autorização para tudo.",
+          "A afirmação correta reconhece que registrar não equivale a poder portar sem restrições.",
+          "Para uma situação concreta, examine a conduta e as autorizações ou condições legais correspondentes.",
+          "Resposta: registro não equivale a porte irrestrito. A palavra irrestrito torna especialmente inadequada a equivalência automática."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 10.826/2003",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm"
+      }
+    ]
+  },
+  {
+    "id": "ambiental",
+    "title": "Crimes ambientais e responsabilidade",
+    "scope": "Lei 9.605/1998",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "A lei protege fauna, flora, qualidade ambiental, ordenamento urbano e administração ambiental, conforme seus tipos. Infração administrativa ambiental e crime ambiental não são a mesma categoria."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "A responsabilidade penal de pessoa jurídica possui previsão constitucional/legal e requisitos próprios. Não basta afirmar que havia uma empresa no local. Leia conduta, vínculo com decisão/benefício e elementos do tipo; reparação do dano e sanção penal têm funções distintas."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma multa ambiental prova automaticamente a prática de qualquer crime ambiental?",
+        "steps": [
+          "O fato de haver multa informa uma atuação na esfera administrativa. Essa é uma informação relevante, mas não responde tudo.",
+          "Pergunte agora qual crime estaria sendo imputado. Não existe conclusão útil de “qualquer crime”: é necessário indicar a conduta prevista.",
+          "Compare os fatos com os requisitos desse crime, que podem ser diferentes dos exigidos para a infração administrativa.",
+          "Assim, a multa não prova automaticamente todos os elementos de um crime ambiental.",
+          "A resposta é não. O erro está em passar de uma esfera para outra sem fazer a análise dos requisitos próprios."
+        ],
+        "goal": "Separar infração administrativa de crime ambiental.",
+        "start": "Multa é uma consequência que pode vir da fiscalização administrativa. Crime exige correspondência com uma descrição penal.",
+        "checkpoint": {
+          "prompt": "Uma multa e uma responsabilidade penal podem coexistir?",
+          "answer": "Podem existir responsabilidades em esferas diferentes, mas cada uma precisa ser examinada conforme seus próprios requisitos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "ambiental-q1",
+        "prompt": "Para resolver uma questão de crime ambiental, deve-se:",
+        "options": [
+          "Comparar a conduta com o tipo penal e seus requisitos",
+          "Presumir crime por toda multa",
+          "Ignorar autorização e contexto",
+          "Afirmar que empresa nunca responde",
+          "Dispensar prova do fato"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Comece descrevendo a ação ou omissão narrada: o que a pessoa fez ou deixou de fazer?",
+          "Depois compare esses fatos com a descrição do crime na lei, chamada tipo penal.",
+          "Verifique os requisitos dessa descrição. Multa ou reprovação social não substituem essa comparação.",
+          "A resposta é comparar a conduta com o tipo penal e seus requisitos. É esse vínculo que fundamenta a análise criminal."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 9.605/1998",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm"
+      }
+    ]
+  },
+  {
+    "id": "maria",
+    "title": "Violência doméstica e Lei Maria da Penha",
+    "scope": "Lei 11.340/2006",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "A proteção considera violência doméstica/familiar contra a mulher nas situações legais, não apenas agressão física. A lei descreve formas física, psicológica, sexual, patrimonial e moral. Identifique a conduta e o contexto em vez de procurar somente marcas no corpo."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Medidas protetivas buscam proteção e prevenção de riscos, com requisitos e procedimentos próprios. Não se confundem com condenação criminal. O texto online registra alterações posteriores ao edital PMERJ; o marco temporal deve ser observado nas questões históricas."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Destruir documentos e reter bens para controlar a mulher pode ser relevante mesmo sem lesão física?",
+        "steps": [
+          "Documentos e bens fazem parte da vida material e da autonomia da pessoa. A conduta não precisa deixar ferimento no corpo para ser relevante.",
+          "Destruir documentos e reter bens pode se relacionar à violência patrimonial, nas condições da Lei Maria da Penha.",
+          "Patrimonial se refere justamente ao aspecto dos bens, recursos e documentos protegido nessa categoria.",
+          "Ainda precisamos verificar o contexto de aplicação da lei. Não devemos usar o exemplo curto para presumir todos os requisitos de um caso real.",
+          "Conclusão: a ausência de lesão física não exclui outras formas de violência. A alternativa que exige sempre um ferimento ignora essa distinção."
+        ],
+        "goal": "Reconhecer que violência não se limita a machucar fisicamente.",
+        "start": "O exemplo descreve destruição de documentos e retenção de bens para controlar a mulher. Vamos olhar para o que foi atingido.",
+        "checkpoint": {
+          "prompt": "Qual parte da descrição aponta para a dimensão patrimonial?",
+          "answer": "A destruição de documentos e a retenção de bens. O foco está no controle de recursos e objetos, não apenas numa agressão ao corpo."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "maria-q1",
+        "prompt": "A proteção da Lei Maria da Penha:",
+        "options": [
+          "Não se limita à violência física",
+          "Exige sempre marca corporal",
+          "Só trata de casamento formal",
+          "É sinônimo de condenação",
+          "Dispensa análise do contexto"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A pergunta trata do alcance da proteção. Violência não precisa aparecer apenas como ferimento no corpo.",
+          "A lei também contempla outras formas, como a violência patrimonial nas condições de aplicação.",
+          "Por exemplo, a análise de retenção de bens e destruição de documentos pode ser relevante mesmo sem lesão física.",
+          "Assim, a resposta correta é que a proteção não se limita à violência física. O contexto e os requisitos legais continuam necessários."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 11.340/2006",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm"
+      }
+    ]
+  },
+  {
+    "id": "drogas",
+    "title": "Lei de Drogas: tipos e contexto",
+    "scope": "Lei 11.343/2006",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "A lei reúne prevenção, atenção, reinserção e repressão a condutas tipificadas. Diferencie finalidades do sistema de elementos de cada infração. O tráfico possui vários verbos e não se resume à venda com lucro."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Para avaliar destinação da substância, analise os critérios legais e a jurisprudência aplicável, sem usar apenas um indício isolado. Não adote um limite numérico universal para qualquer substância: alterações e decisões posteriores precisam ser situadas no tempo e no seu objeto."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma alternativa diz que tráfico só existe se houver venda comprovada. Está adequada?",
+        "steps": [
+          "A alternativa usa só existe se houver venda comprovada. Ela está tratando a venda como exigência universal.",
+          "Compare essa afirmação com o fato de o tipo penal incluir outras condutas. É preciso verificar qual ação foi narrada e seus requisitos.",
+          "Logo, a ausência de venda não encerra automaticamente toda análise de tráfico.",
+          "Mas não conclua o contrário exagerado: que qualquer porte de droga é tráfico. O enquadramento exige analisar os fatos e as condições legais.",
+          "A resposta é que a afirmação está inadequada. Ela reduz uma descrição mais ampla a apenas uma de suas condutas."
+        ],
+        "goal": "Ver por que a análise do tráfico não se reduz à existência de uma venda.",
+        "start": "Uma descrição legal de crime pode listar várias ações. Venda é uma delas a examinar, não necessariamente a única.",
+        "checkpoint": {
+          "prompt": "Negar que venda seja sempre necessária autoriza presumir tráfico em qualquer porte?",
+          "answer": "Não. Continuam necessários os elementos e a análise próprios do caso. Uma generalização errada não deve ser substituída por outra."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "drogas-q1",
+        "prompt": "A análise correta da Lei de Drogas requer:",
+        "options": [
+          "Analisar verbos do tipo, finalidade e contexto",
+          "Exigir sempre venda em dinheiro",
+          "Presumir tráfico por qualquer quantidade",
+          "Usar um limite universal para toda substância",
+          "Ignorar a data da norma"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Os verbos da descrição legal dizem quais condutas precisam ser examinadas. Não reduza toda análise a uma única ação, como vender.",
+          "Depois observe finalidade e contexto, além dos demais elementos exigidos.",
+          "Isso evita tanto descartar automaticamente certas hipóteses quanto presumir tráfico em qualquer situação de porte.",
+          "A resposta é analisar verbos do tipo, finalidade e contexto. A classificação precisa ser construída a partir dos fatos."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 11.343/2006",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm"
+      }
+    ]
+  },
+  {
+    "id": "organizacao",
+    "title": "Organização criminosa e lavagem",
+    "scope": "Leis 12.850/2013 e 9.613/1998",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "A organização criminosa exige estrutura ordenada de quatro ou mais pessoas, divisão de tarefas e finalidade de obter vantagem por infrações com os critérios legais de pena/transnacionalidade. Um encontro ocasional de pessoas não basta."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Lavagem envolve ocultar ou dissimular natureza, origem, localização, disposição, movimentação ou propriedade de bens/direitos/valores provenientes de infração penal, conforme o tipo. Não se confunde com qualquer gasto de dinheiro nem com o simples crime antecedente. Colaboração premiada é meio com requisitos e controle, não prova automaticamente verdadeira em tudo."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Quatro pessoas se reuniram uma vez. Isso, sozinho, demonstra organização criminosa?",
+        "steps": [
+          "Comece pelo número: quatro pessoas atende ao aspecto numérico mencionado na definição legal de organização criminosa.",
+          "Agora procure os outros elementos, como estrutura organizada e divisão de tarefas. Uma reunião isolada não demonstra tudo isso por si só.",
+          "Verifique também o objetivo e as infrações visadas nas condições da lei. Não invente esses fatos se o enunciado não os forneceu.",
+          "Como só sabemos do número e da reunião, faltam informações para afirmar que a organização criminosa está demonstrada.",
+          "Resposta: não, esses dados sozinhos não bastam. Cumprir um requisito de uma definição não equivale a cumprir a definição inteira."
+        ],
+        "goal": "Verificar uma lista de requisitos, em vez de decidir apenas pelo número de pessoas.",
+        "start": "O caso informa quatro pessoas reunidas uma vez. Número e reunião são os fatos dados; outras características não foram descritas.",
+        "checkpoint": {
+          "prompt": "Qual é o erro de concluir apenas “são quatro, então é organização criminosa”?",
+          "answer": "Tratar o requisito numérico como se fosse o único, ignorando os demais elementos legais."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "organizacao-q1",
+        "prompt": "A organização criminosa exige:",
+        "options": [
+          "Número de pessoas e demais requisitos legais",
+          "Qualquer reunião de quatro amigos",
+          "Somente opinião do investigador",
+          "Apenas existência de dinheiro",
+          "Qualquer dupla"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O número de pessoas é uma parte da definição, mas não a definição inteira.",
+          "Também devem ser examinados os demais requisitos legais, como estrutura, divisão de tarefas e objetivo nas condições previstas.",
+          "Uma reunião de pessoas não demonstra automaticamente todos esses elementos.",
+          "A alternativa correta é número de pessoas e demais requisitos legais. Ela impede uma conclusão baseada em um único detalhe."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Leis 12.850/2013 e 9.613/1998",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm?lang=pt"
+      }
+    ]
+  },
+  {
+    "id": "transito",
+    "title": "CTB: infração, penalidade, medida e crime",
+    "scope": "Lei 9.503/1997",
+    "sections": [
+      {
+        "title": "Entenda a regra",
+        "paragraphs": [
+          "O CTB organiza circulação, competências, habilitação, fiscalização e responsabilização. Infração administrativa de trânsito não equivale necessariamente a crime de trânsito. Uma conduta pode ter consequências em mais de uma esfera."
+        ]
+      },
+      {
+        "title": "Compare antes de responder",
+        "paragraphs": [
+          "Penalidade é resposta sancionatória prevista, como multa ou suspensão; medida administrativa atende à regularização/proteção nas hipóteses legais, como retenção ou remoção. Suspensão e cassação da habilitação não são sinônimos. Leia motivo, competência e procedimento de cada uma."
+        ]
+      },
+      {
+        "title": "Leitura orientada",
+        "paragraphs": [
+          "Ao abrir a fonte, marque os sujeitos, verbos, condições e exceções de cada dispositivo. Monte um quadro separado para conduta, requisito, consequência e competência.",
+          "Para a prova PMERJ de referência, observe a redação exigida no edital histórico; para a Guarda SG, observe o marco do edital de 2026. O texto consolidado online pode conter alterações posteriores. Este capítulo explica as distinções centrais e não transcreve todos os tipos, penas ou exceções da lei."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma questão chama a remoção do veículo de pena criminal. Qual é a confusão?",
+        "steps": [
+          "Remoção é uma medida administrativa nas hipóteses previstas no CTB. Ela é uma providência ligada à situação do veículo.",
+          "Uma pena criminal pertence a outro campo: pressupõe previsão penal e o processo correspondente.",
+          "A palavra medida não é sinônimo automático de pena. O fato de uma providência ser desfavorável à pessoa não a torna criminal.",
+          "Por isso, chamar a remoção de pena criminal confunde categorias distintas.",
+          "Resposta: a classificação apresentada está errada. Em uma questão concreta, confira também as condições em que a remoção é permitida."
+        ],
+        "goal": "Distinguir uma providência administrativa de uma pena criminal.",
+        "start": "O exemplo menciona remoção do veículo. Vamos perguntar a que categoria essa providência pertence no CTB.",
+        "checkpoint": {
+          "prompt": "Por que “trouxe uma consequência ruim” não basta para chamar algo de pena criminal?",
+          "answer": "Porque existem consequências administrativas e de outras naturezas. A classificação depende da previsão jurídica, não apenas do efeito para a pessoa."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "transito-q1",
+        "prompt": "Qual distinção deve orientar o estudo do CTB?",
+        "options": [
+          "Infração, penalidade e medida administrativa são conceitos distintos",
+          "Toda infração é crime",
+          "Remoção é sempre prisão",
+          "Suspensão é igual a cassação",
+          "Multa elimina necessidade de procedimento"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Infração é o descumprimento de uma regra. Penalidade é uma consequência prevista para a infração.",
+          "Medida administrativa é uma providência definida pelo CTB, que não se confunde automaticamente com penalidade ou pena criminal.",
+          "Por exemplo, chamar toda remoção de veículo de pena criminal mistura categorias diferentes.",
+          "A distinção correta é reconhecer infração, penalidade e medida administrativa como conceitos distintos e verificar a regra aplicável a cada um."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não trate um resumo de conceitos como substituto de todos os artigos exigidos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 9.503/1997",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+      }
+    ]
+  }
+]

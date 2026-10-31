@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "pt-fonologia",
+    "title": "Letras, sílabas, acentos e ortografia",
+    "scope": "Base de Português: escrita e pronúncia",
+    "sections": [
+      {
+        "title": "Letra, fonema e encontros",
+        "paragraphs": [
+          "Letra é sinal escrito; fonema é unidade sonora. Em “chave”, ch representa um som: dígrafo. Em “táxi”, x representa dois sons. Não conte fonemas pelo número de letras.",
+          "Ditongo reúne vogal e semivogal na mesma sílaba, como pai. Hiato separa vogais em sílabas diferentes, como sa-ú-de. Dígrafos rr e ss se separam na divisão silábica: car-ro, pas-so. Ch, lh e nh ficam juntos: cha-ve, fi-lho, ni-nho."
+        ]
+      },
+      {
+        "title": "Separação e tonicidade",
+        "paragraphs": [
+          "Pronuncie devagar, identifique os núcleos vocálicos e separe sílabas: ca-sa, es-co-la, mé-di-co. Monossílabo tem uma sílaba; dissílabo, duas; trissílabo, três; polissílabo, quatro ou mais.",
+          "A sílaba tônica é a pronunciada com maior intensidade. Última: oxítona, como café; penúltima: paroxítona, como casa; antepenúltima: proparoxítona, como médico. Tonicidade existe mesmo sem acento escrito."
+        ]
+      },
+      {
+        "title": "Principais regras de acentuação",
+        "paragraphs": [
+          "Acentuam-se todas as proparoxítonas. Oxítonas terminadas em a(s), e(s), o(s), em, ens recebem acento: sofá, café, cipó, também, parabéns. Monossílabos tônicos em a(s), e(s), o(s): pá, pé, pó.",
+          "Paroxítonas recebem acento em terminações como l, n, r, x, ps, i(s), us, um(uns), ã(s), ão(s) e ditongo: fácil, hífen, caráter, tórax, lápis, álbum, órfã, órgão, história. Atenção a hifens, sem acento. Acentuam-se i e u tônicos em hiato, sozinhos ou com s, nas condições da regra: saída, país; não em rainha, por causa de nh na sílaba seguinte."
+        ]
+      },
+      {
+        "title": "Ortografia e palavras parecidas",
+        "paragraphs": [
+          "“Mas” expressa oposição; “mais”, quantidade. “Mal” opõe-se a bem; “mau”, a bom. “Há” indica existência ou tempo decorrido; “a” pode indicar distância ou tempo futuro.",
+          "“Por que” aparece em perguntas e pode equivaler a pelo qual; “porque” introduz explicação; “por quê” fica antes de pausa final; “porquê” é substantivo, normalmente com determinante: o porquê. Ideia e heroico perderam o acento nos ditongos abertos das paroxítonas; herói mantém, por ser oxítona."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Por que “saúde” tem acento e “casa” não?",
+        "steps": [
+          "Divida saúde: sa-ú-de. O pedaço mais forte é ú. As vogais a e u ficaram em sílabas separadas; esse encontro separado se chama hiato.",
+          "Nesse caso, o u é forte e está sozinho em sua sílaba. Essa combinação explica o acento de saúde pela regra do i e do u em hiato.",
+          "Agora divida casa: ca-sa. O pedaço mais forte é ca, que é o penúltimo. Palavras assim são chamadas de paroxítonas.",
+          "Casa termina em a. Pela regra geral, paroxítonas com essa terminação não recebem acento gráfico.",
+          "Conclusão: as duas palavras têm uma sílaba mais forte, mas só saúde precisa de sinal escrito. Falar uma parte mais forte não significa sempre colocar acento."
+        ],
+        "goal": "Entender a regra de escrita que explica o acento em cada palavra.",
+        "start": "Fale as palavras devagar. Uma sílaba é cada pedaço pronunciado da palavra; a sílaba tônica é o pedaço que soa mais forte.",
+        "checkpoint": {
+          "prompt": "Qual diferença existe entre sílaba tônica e acento gráfico?",
+          "answer": "A sílaba tônica é a parte mais forte da pronúncia. O acento gráfico é um sinal na escrita e só aparece quando uma regra o exige."
+        }
+      },
+      {
+        "question": "Escolha entre mas/mais e mal/mau: “Estudou __, __ ainda foi __ na prova”.",
+        "steps": [
+          "Na primeira lacuna, queremos quantidade: estudou em maior quantidade. Use mais, com i.",
+          "Na segunda, a frase apresenta um contraste: esperávamos um resultado bom, mas aconteceu o contrário. Use mas, sem i, com o sentido de porém.",
+          "Na última, faça o teste do contrário: “foi bem na prova”. Como a palavra contrária é bem, usamos mal.",
+          "Mau seria o contrário de bom, como em “um resultado mau”. Aqui a construção é “foi mal”, não “foi mau”.",
+          "Leia tudo: “Estudou mais, mas ainda foi mal na prova”. Cada escolha agora tem uma justificativa pelo sentido."
+        ],
+        "goal": "Preencher as lacunas pelo sentido, e não só pelo som das palavras.",
+        "start": "Leia a frase imaginando o que ela quer dizer: a pessoa aumentou o estudo, porém o resultado ainda foi ruim.",
+        "checkpoint": {
+          "prompt": "Qual palavra poderia substituir mas nessa frase?",
+          "answer": "Porém. Essa troca preserva a oposição entre estudar mais e ainda ter um resultado ruim."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-fonologia-q1",
+        "prompt": "Qual palavra é proparoxítona?",
+        "options": [
+          "Lâmpada",
+          "Café",
+          "Papel",
+          "Casa",
+          "Herói"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Proparoxítona é uma palavra cuja parte mais forte é a antepenúltima sílaba, isto é, a terceira contando do fim para o começo.",
+          "Separe lâmpada: lâm-pa-da. Contando do fim, da é a última, pa a penúltima e lâm a antepenúltima.",
+          "A pronúncia mais forte está em lâm. Por isso lâmpada é proparoxítona.",
+          "Confira as outras: café, papel e herói têm força na última sílaba; casa tem na penúltima. Não basta procurar qualquer acento escrito."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-fonologia-q2",
+        "prompt": "Qual frase emprega “há” corretamente?",
+        "options": [
+          "Há dois anos comecei a estudar.",
+          "Daqui há dois dias farei a prova.",
+          "Estou há dois metros da porta.",
+          "Vou há escola.",
+          "Começarei há estudar amanhã."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Na frase “Há dois anos comecei a estudar”, estamos contando um tempo que já passou.",
+          "Tente substituir há por faz: “Faz dois anos que comecei a estudar”. O sentido de tempo decorrido confirma o uso.",
+          "Para tempo futuro, use a: “Daqui a dois dias”. Para distância, também: “a dois metros”.",
+          "Em “vou à escola”, há outra construção: preposição a com artigo a. Não usamos haver. A frase correta com há é a do tempo passado."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-fonologia-q3",
+        "prompt": "Qual divisão está correta?",
+        "options": [
+          "car-ro",
+          "c-ha-ve",
+          "fi-lh-o",
+          "pa-í-s",
+          "saú-de"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Vamos conferir como as letras se agrupam nas sílabas. Em carro, pronunciamos car-ro.",
+          "As duas letras rr representam um som, mas são separadas na divisão silábica: um r fica em cada parte.",
+          "Ch e lh não se separam: cha-ve e fi-lho. País se divide pa-ís; saúde, sa-ú-de.",
+          "Portanto car-ro é a divisão correta entre as opções. Contar letras e separar sílabas são tarefas diferentes."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não classifique pela presença do acento: “papel” é oxítona sem acento.",
+      "Uma regra de acentuação não resolve toda a ortografia; confirme a grafia das exceções."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-classes",
+    "title": "Classes de palavras e função no contexto",
+    "scope": "Substantivo, artigo, adjetivo, numeral, pronome e conectivos",
+    "sections": [
+      {
+        "title": "Nomear, caracterizar e determinar",
+        "paragraphs": [
+          "Substantivo nomeia seres, lugares, ações, estados e ideias. Próprio individualiza: Brasil; comum generaliza: país. Concreto designa ser de existência independente na concepção, inclusive imaginário; abstrato designa ação, estado ou qualidade dependente de um ser: corrida, tristeza.",
+          "Adjetivo caracteriza: guarda atento. Artigo determina o substantivo: o guarda, um guarda. A mesma palavra pode mudar de classe: “o jovem” tem jovem substantivado; “o aluno jovem” tem jovem adjetivo."
+        ]
+      },
+      {
+        "title": "Quantificar e retomar",
+        "paragraphs": [
+          "Numeral indica quantidade ou ordem: dois, segundo, dobro, metade. Pronome acompanha ou substitui nomes: ele, meu, esse, alguém, quem. Em “Ana estudou e ela passou”, ela retoma Ana.",
+          "Pronomes relativos ligam orações e retomam antecedentes: “o livro que li”. “Cujo” indica posse e concorda com o elemento possuído: a autora cujos livros li. Não se emprega artigo depois de cujo."
+        ]
+      },
+      {
+        "title": "Circunstâncias e relações",
+        "paragraphs": [
+          "Advérbio modifica verbo, adjetivo ou outro advérbio: estudou ontem; muito atento; muito cedo. Em geral é invariável. Preposição estabelece relação de dependência: livro de Ana, ir a casa.",
+          "Conjunção liga orações ou termos equivalentes. E pode somar; mas opõe; porque explica ou indica causa; se indica condição; embora introduz concessão. O valor depende do contexto, não só de uma lista decorada. Interjeição exprime reação: ah!, cuidado!"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Analise “Os dois alunos atentos chegaram muito cedo”.",
+        "steps": [
+          "Procure primeiro de quem estamos falando: alunos. Essa palavra dá nome às pessoas, então é um substantivo. Os acompanha esse nome e o apresenta de modo definido: é artigo.",
+          "Dois informa quantos alunos: é numeral. Atentos informa uma característica deles: é adjetivo. Se fosse “a aluna”, escreveríamos “atenta”.",
+          "Chegaram conta o que aconteceu: é verbo. A forma no plural combina com alunos.",
+          "Cedo informa quando chegaram: é advérbio de tempo. Muito modifica cedo, aumentando essa ideia: chegaram bem cedo.",
+          "Muito não está contando alunos. Por isso não vira “muitos cedo”. Para entender uma classe, observe a palavra que ela acompanha e o sentido produzido."
+        ],
+        "goal": "Descobrir o trabalho de cada palavra dentro da frase.",
+        "start": "Vamos olhar para “Os dois alunos atentos chegaram muito cedo”. Classe de palavra é uma categoria, como nome, ação ou característica.",
+        "checkpoint": {
+          "prompt": "Em “muitos alunos”, muito teria o mesmo papel de “muito cedo”?",
+          "answer": "Não. Em “muitos alunos”, indica quantidade ligada a alunos e aparece no plural. Em “muito cedo”, intensifica cedo e fica invariável."
+        }
+      },
+      {
+        "question": "Compare “meio cansada” e “meia garrafa”.",
+        "steps": [
+          "Em “meio cansada”, tente “um pouco cansada”. A troca funciona. Meio está indicando intensidade do cansaço.",
+          "Quando tem esse papel, meio funciona como advérbio: não acompanha o feminino de cansada. Escrevemos “ela está meio cansada”.",
+          "Em “meia garrafa”, tente “metade de uma garrafa”. Agora estamos indicando uma quantidade do objeto.",
+          "Nesse caso, meia acompanha garrafa, palavra feminina. Compare com “meio copo”, porque copo é masculino.",
+          "Conclusão: não decore que meio sempre muda ou nunca muda. Pergunte primeiro se significa “um pouco” ou “metade”."
+        ],
+        "goal": "Entender por que meio muda numa frase e permanece igual na outra.",
+        "start": "A mesma palavra pode ter trabalhos diferentes. Vamos substituir meio por expressões mais fáceis para descobrir o sentido.",
+        "checkpoint": {
+          "prompt": "Como escrever: “As pessoas estavam meio cansadas” ou “meias cansadas”?",
+          "answer": "Meio cansadas, pois meio significa um pouco. Quem vai ao feminino plural é cansadas, referindo-se às pessoas."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-classes-q1",
+        "prompt": "Em “A candidata estudou bastante”, bastante funciona como:",
+        "options": [
+          "Advérbio",
+          "Substantivo",
+          "Artigo",
+          "Pronome relativo",
+          "Preposição"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Na frase, bastante informa quanto a candidata estudou. Ele modifica a ação estudou.",
+          "Palavras que modificam o verbo indicando circunstância ou intensidade podem funcionar como advérbios. Aqui temos esse uso.",
+          "Compare com “bastantes livros”: nessa outra frase, a palavra acompanha um nome e pode variar.",
+          "A resposta é advérbio porque analisamos o papel de bastante nesta frase, não um rótulo fixo para todos os contextos."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-classes-q2",
+        "prompt": "Qual frase emprega “cujo” adequadamente?",
+        "options": [
+          "O autor cujos livros li chegou.",
+          "O autor cujo os livros li chegou.",
+          "O autor cujas livros li chegou.",
+          "O autor cujo li chegou.",
+          "O autor cujos a obra li chegou."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Cujo liga duas ideias indicando posse ou relação semelhante: os livros são do autor.",
+          "Em “O autor cujos livros li chegou”, cujos acompanha livros. Como livros é masculino plural, usamos cujos.",
+          "Não acrescentamos um artigo depois: não é “cujos os livros”. O próprio cujos faz a ligação com livros.",
+          "Confira o sentido: li os livros daquele autor, e o autor chegou. A frase preserva essas duas informações."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Não classifique uma palavra sem ler a frase inteira."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-verbos",
+    "title": "Verbos, locuções, tempos e modos",
+    "scope": "Emprego e correlação verbal",
+    "sections": [
+      {
+        "title": "Tempo localiza; modo mostra atitude",
+        "paragraphs": [
+          "Indicativo apresenta fato como real: estudo, estudei, estudarei. Subjuntivo apresenta hipótese, desejo ou possibilidade: talvez estude, se estudasse, quando estudar. Imperativo exprime ordem, pedido ou orientação: estude.",
+          "Pretérito perfeito indica fato concluído: estudei ontem. Imperfeito pode indicar hábito ou duração: estudava diariamente. Mais-que-perfeito indica anterioridade a outro passado: já estudara quando fui chamado."
+        ]
+      },
+      {
+        "title": "Formas nominais e locuções",
+        "paragraphs": [
+          "Infinitivo nomeia a ação: estudar. Gerúndio mostra desenvolvimento: estudando. Particípio aparece em tempos compostos e passivas: estudado, escrito.",
+          "Uma locução verbal une auxiliar e principal: estava estudando, tinha lido, será convocado. O auxiliar marca tempo, modo e pessoa; o principal carrega o significado central. Nem toda sequência de dois verbos forma locução: em “quero que você venha”, existem duas orações."
+        ]
+      },
+      {
+        "title": "Correlação que produz sentido",
+        "paragraphs": [
+          "“Se eu estudasse, passaria”: hipótese com imperfeito do subjuntivo e futuro do pretérito. “Se eu estudar, passarei”: possibilidade futura com futuro do subjuntivo e futuro do presente.",
+          "Observe formas irregulares: se eu vir (ver), quando eu vier (vir), se eu puser (pôr). “Quando eu ver” não é a forma padrão para esse contexto."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Complete: “Se eu __ o aviso, avisarei a equipe”, usando ver.",
+        "steps": [
+          "A palavra se abre uma condição: só avisarei se enxergar o aviso. Não estamos dizendo que isso já aconteceu.",
+          "Para essa condição futura, ver aparece como vir: “se eu vir”. Esse tempo recebe o nome de futuro do subjuntivo.",
+          "Complete a frase: “Se eu vir o aviso, avisarei a equipe”. A primeira ação é a condição da segunda.",
+          "Cuidado: “vier” pertence ao verbo vir, no sentido de chegar ou deslocar-se. Exemplo diferente: “Se ele vier à reunião, conversaremos”.",
+          "Confira pelo sentido: estamos falando de enxergar o aviso, não de chegar a algum lugar. Por isso a escolha é vir, forma do verbo ver."
+        ],
+        "goal": "Escolher a forma do verbo ver numa condição futura.",
+        "start": "A frase fala de uma coisa que pode acontecer depois: “Se eu __ o aviso, avisarei a equipe”. O verbo pedido é ver, com sentido de enxergar ou tomar conhecimento.",
+        "checkpoint": {
+          "prompt": "“Se eu vier o aviso” usaria o verbo pedido?",
+          "answer": "Não. Vier é forma de vir, não de ver. Para ver numa condição futura, usamos vir."
+        }
+      },
+      {
+        "question": "O que muda entre “ele estudou” e “ele estudava”?",
+        "steps": [
+          "Leia “ele estudou”. A frase apresenta o estudo como um acontecimento concluído: “Ontem ele estudou por duas horas”.",
+          "Agora leia “ele estudava”. Podemos completar com “todos os dias”: a forma permite mostrar um hábito passado.",
+          "Também podemos dizer “ele estudava quando a luz acabou”. Aqui o estudo estava acontecendo naquele momento.",
+          "Portanto estudava pode mostrar hábito ou ação em andamento, dependendo do contexto. Estudou apresenta a ação como concluída.",
+          "Para conferir uma reescrita, coloque cada forma na frase inteira. Trocar uma pela outra pode mudar a ideia, mesmo mantendo o passado."
+        ],
+        "goal": "Perceber o que muda no jeito de apresentar uma ação passada.",
+        "start": "As duas frases falam de estudar no passado. A diferença não é apenas quando: é também como o acontecimento é mostrado.",
+        "checkpoint": {
+          "prompt": "Qual forma combina com “todos os dias, naquela época”?",
+          "answer": "Estudava combina naturalmente com esse hábito passado. O contexto ajuda a escolher a forma."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-verbos-q1",
+        "prompt": "Qual correlação está adequada à hipótese?",
+        "options": [
+          "Se pudesse, estudaria.",
+          "Se pudesse, estudará ontem.",
+          "Se poder, estudasse.",
+          "Quando ver, avisaria ontem.",
+          "Se estudasse, passou amanhã."
+        ],
+        "correct": 0,
+        "explanation": [
+          "A frase apresenta uma hipótese: a pessoa estudaria se tivesse a possibilidade.",
+          "“Se pudesse” coloca essa possibilidade como condição. “Estudaria” apresenta o que aconteceria nessa condição.",
+          "A combinação “Se pudesse, estudaria” mantém as duas partes no mesmo cenário hipotético.",
+          "Os nomes dos tempos são imperfeito do subjuntivo e futuro do pretérito. Mais importante que decorá-los aqui é perceber a relação entre condição e resultado possível."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-verbos-q2",
+        "prompt": "Em “tinha escrito”, escrito é:",
+        "options": [
+          "Particípio",
+          "Gerúndio",
+          "Infinitivo",
+          "Imperativo",
+          "Substantivo obrigatório"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Em “tinha escrito”, duas formas trabalham juntas para expressar a ação de escrever.",
+          "Tinha é o verbo auxiliar, que ajuda a formar essa expressão verbal.",
+          "Escrito é uma forma do verbo escrever chamada particípio. É irregular: não usamos “escrevido”.",
+          "A resposta é particípio. Compare outras combinações com a mesma forma: havia escrito, foi escrito."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda vir (futuro de ver) com vier (futuro de vir)."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-sintaxe",
+    "title": "Descubra a estrutura da oração",
+    "scope": "Frase, oração, sujeito, complementos e vozes",
+    "sections": [
+      {
+        "title": "Comece pelo verbo",
+        "paragraphs": [
+          "Frase é enunciado com sentido no contexto, com ou sem verbo. Oração se organiza em torno de verbo ou locução verbal. Período é uma frase constituída de uma ou mais orações.",
+          "Ache o verbo e pergunte quem pratica ou a quem se atribui o estado. Em “Chegaram os candidatos”, o sujeito é os candidatos, mesmo depois do verbo. Predicado é aquilo que se declara do sujeito."
+        ]
+      },
+      {
+        "title": "Sujeito e predicado",
+        "paragraphs": [
+          "Sujeito simples tem um núcleo; composto, dois ou mais; oculto é recuperado pela flexão/contexto. Indeterminado não identifica o agente. Há orações sem sujeito com haver existencial e fazer indicando tempo.",
+          "Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo com verbo de ligação; verbo-nominal reúne ação e atributo: “Os alunos chegaram cansados”. Cansados é predicativo do sujeito."
+        ]
+      },
+      {
+        "title": "Complementos não são todos iguais",
+        "paragraphs": [
+          "Verbo transitivo direto exige objeto sem preposição obrigatória: leu o livro. Indireto exige preposição: gosta de livros. Direto e indireto: entregou o documento ao fiscal. Intransitivo não exige objeto: chegou.",
+          "Complemento nominal completa nome, adjetivo ou advérbio: necessidade de apoio. Adjunto adnominal determina/caracteriza substantivo; adjunto adverbial indica circunstância. Aposto explica outro termo; vocativo chama alguém e não integra sujeito ou predicado."
+        ]
+      },
+      {
+        "title": "Voz ativa e passiva",
+        "paragraphs": [
+          "Ativa: “A equipe revisou o texto”. Passiva analítica: “O texto foi revisado pela equipe”. O objeto direto vira sujeito paciente, o verbo se ajusta e o agente pode aparecer com por.",
+          "Na passiva sintética: “Vendem-se livros”. Livros é sujeito paciente, então o verbo vai ao plural. Em “Precisa-se de servidores”, o verbo transitivo indireto com se indeterminador fica no singular."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Analise “A professora entregou as provas aos alunos ontem”.",
+        "steps": [
+          "Pergunte “quem entregou?”. A resposta é a professora. Esse grupo é o sujeito, isto é, de quem se declara a ação. A palavra principal do grupo é professora.",
+          "Pergunte “entregou o quê?”. A resposta é as provas. Ela completa o verbo sem precisar de uma preposição de ligação; por isso recebe o nome de objeto direto.",
+          "Pergunte “entregou a quem?”. A resposta é aos alunos. O a faz a ligação exigida nessa construção. Esse complemento é chamado de objeto indireto.",
+          "Pergunte “quando entregou?”. Ontem informa o tempo da ação; não é uma pessoa nem o objeto entregue. Chamamos essa informação de adjunto adverbial de tempo.",
+          "Tudo o que se diz sobre o sujeito forma o predicado: “entregou as provas aos alunos ontem”. Releia a frase e veja que cada trecho respondeu a uma pergunta diferente."
+        ],
+        "goal": "Separar quem fez a ação, o que foi entregue, a quem e quando.",
+        "start": "Comece pelo verbo entregou. Ele será nosso ponto de partida para fazer perguntas à frase.",
+        "checkpoint": {
+          "prompt": "Por que aos alunos não é o sujeito, mesmo sendo pessoas?",
+          "answer": "Porque não são eles que entregam na frase. Eles recebem as provas. O sujeito é identificado pela estrutura da oração, não por ser uma pessoa."
+        }
+      },
+      {
+        "question": "Passe “Os fiscais corrigiram as respostas” para a passiva.",
+        "steps": [
+          "Comece por as respostas. Esse grupo era o objeto corrigido e vai abrir a nova frase.",
+          "A ação aconteceu no passado: corrigiram. Na nova forma, use foram corrigidas, mantendo a referência passada.",
+          "Corrigidas precisa combinar com respostas: feminino e plural. Por isso não escrevemos “foi corrigido”.",
+          "Acrescente quem fez a ação usando pelos fiscais.",
+          "Frase pronta: “As respostas foram corrigidas pelos fiscais”. Confira: continuam sendo os fiscais que corrigem e as respostas que são corrigidas; mudou a organização."
+        ],
+        "goal": "Mudar o foco da frase para as respostas, mantendo quem fez a ação.",
+        "start": "Na frase inicial, os fiscais fazem a ação e as respostas recebem essa ação. A voz passiva coloca quem recebe a ação em destaque.",
+        "checkpoint": {
+          "prompt": "O que mudaria se fosse uma única resposta?",
+          "answer": "Escreveríamos “A resposta foi corrigida pelos fiscais”: sujeito, verbo auxiliar e particípio no singular."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-sintaxe-q1",
+        "prompt": "Qual frase apresenta oração sem sujeito?",
+        "options": [
+          "Há muitos candidatos.",
+          "Existem muitos candidatos.",
+          "Chegaram os candidatos.",
+          "Eles estudam.",
+          "Os candidatos passaram."
+        ],
+        "correct": 0,
+        "explanation": [
+          "O verbo haver pode ter sentido de existir. Nesse uso, ele é impessoal: a oração não tem sujeito.",
+          "“Há muitos candidatos” usa haver com esse sentido. Muitos candidatos não se torna sujeito desse haver.",
+          "Compare com “Existem muitos candidatos”: agora candidatos é sujeito e o verbo existir vai ao plural.",
+          "Por isso a oração sem sujeito é “Há muitos candidatos”. Não classifique apenas pela presença de pessoas na frase."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-sintaxe-q2",
+        "prompt": "Em “Ana gosta de música”, de música é:",
+        "options": [
+          "Objeto indireto",
+          "Objeto direto",
+          "Sujeito",
+          "Vocativo",
+          "Aposto"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Comece pelo verbo: gosta. Pergunte “gosta de quê?”. A resposta é de música.",
+          "O verbo gostar pede a ligação de. Essa palavra de ligação é uma preposição.",
+          "Um complemento do verbo ligado por preposição exigida por ele recebe, neste caso, o nome de objeto indireto.",
+          "Assim, de música é objeto indireto. Ana é quem gosta e funciona como sujeito, não como esse complemento."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "A posição antes do verbo não define sujeito; a função sintática define."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-periodo",
+    "title": "Coordenação, subordinação e pontuação",
+    "scope": "Orações e relações de sentido",
+    "sections": [
+      {
+        "title": "Conte orações com critério",
+        "paragraphs": [
+          "Um período simples tem uma oração; composto tem duas ou mais. Uma locução como “estava lendo” pode representar um só núcleo verbal.",
+          "Coordenadas são sintaticamente independentes: “Estudei, mas errei”. Podem adicionar, opor, alternar, concluir ou explicar. Subordinadas desempenham função sintática em relação à principal."
+        ]
+      },
+      {
+        "title": "Tipos de subordinadas",
+        "paragraphs": [
+          "Substantiva pode ocupar lugar de substantivo: “Espero que você venha” → espero isso; a oração é objeto direto. Adjetiva caracteriza antecedente: “Os alunos que estudaram passaram”. Adverbial expressa causa, condição, concessão, tempo, finalidade e outras circunstâncias.",
+          "Restritiva delimita sem vírgulas: os candidatos que estudaram. Explicativa acrescenta comentário isolado por vírgulas: os candidatos, que estudaram, passaram. A mudança pode alterar o conjunto referido."
+        ]
+      },
+      {
+        "title": "Vírgula não é apenas pausa",
+        "paragraphs": [
+          "Não separe sujeito e verbo nem verbo e complemento por vírgula sem haver um termo intercalado que justifique o par. Use vírgula para vocativo, aposto explicativo, enumeração e intercalações.",
+          "Dois-pontos anunciam explicação, enumeração ou fala. Ponto e vírgula pode separar itens complexos; reticências sugerem suspensão ou hesitação. Discurso direto reproduz fala; indireto a integra à voz do narrador e pode exigir mudança de tempo e pronomes."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Qual a diferença entre “Os alunos que faltaram farão reposição” e “Os alunos, que faltaram, farão reposição”?",
+        "steps": [
+          "Leia sem vírgulas: “Os alunos que faltaram farão reposição”. A parte “que faltaram” responde quais alunos. Seleciona os ausentes.",
+          "Nesse caso, não podemos afirmar que todos faltaram. Só o grupo identificado pela falta fará reposição.",
+          "Agora leia com vírgulas: “Os alunos, que faltaram, farão reposição”. A informação entre vírgulas vem como explicação sobre o grupo de alunos mencionado.",
+          "A primeira construção é chamada de restritiva, porque limita o grupo. A segunda é explicativa, porque acrescenta uma informação sobre ele.",
+          "Confira a diferença fazendo a pergunta “quais alunos?”. Na primeira, precisamos da informação sobre a falta para identificar a parte do grupo."
+        ],
+        "goal": "Perceber como as vírgulas mudam o grupo de alunos mencionado.",
+        "start": "A informação “que faltaram” pode selecionar só uma parte dos alunos ou acrescentar uma explicação sobre o grupo já mencionado.",
+        "checkpoint": {
+          "prompt": "Retirar as vírgulas preserva sempre o sentido?",
+          "answer": "Não. Neste exemplo, muda a relação da informação com o grupo: selecionar alguns ou explicar o grupo mencionado."
+        }
+      },
+      {
+        "question": "Classifique “Embora estivesse cansada, Ana estudou”.",
+        "steps": [
+          "Localize as duas formas verbais: estivesse e estudou. Temos duas partes com informação verbal.",
+          "A informação principal é Ana estudou. A outra parte apresenta uma dificuldade: estava cansada.",
+          "Embora indica que a ação aconteceu apesar dessa dificuldade. Podemos testar: “Mesmo estando cansada, Ana estudou”.",
+          "Essa relação é chamada de concessão. Por isso a parte iniciada por embora é uma oração subordinada adverbial concessiva.",
+          "Como essa parte veio antes da principal, ela foi separada por vírgula. O nome comprido resume a relação que acabamos de entender."
+        ],
+        "goal": "Entender a relação entre o cansaço e o estudo antes de dar um nome a ela.",
+        "start": "Leia “Embora estivesse cansada, Ana estudou”. O cansaço poderia dificultar o estudo, mas não impediu que ele acontecesse.",
+        "checkpoint": {
+          "prompt": "A frase diz que Ana estudou por causa do cansaço?",
+          "answer": "Não. Ela estudou apesar do cansaço. Causa e concessão são relações diferentes."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-periodo-q1",
+        "prompt": "“Estudou, portanto avançou.” O conector exprime:",
+        "options": [
+          "Conclusão",
+          "Oposição",
+          "Alternância",
+          "Condição",
+          "Concessão"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A primeira parte informa que a pessoa estudou. A segunda apresenta o avanço como consequência concluída a partir disso.",
+          "Portanto pode ser lido como “por isso” ou “logo” nesse contexto.",
+          "Essa ligação expressa conclusão, não oposição nem condição.",
+          "Confira a leitura: estudou; por isso, avançou. A troca ajuda a perceber a relação sem depender só do nome gramatical."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-periodo-q2",
+        "prompt": "Qual frase evita separação indevida entre sujeito e verbo?",
+        "options": [
+          "Os candidatos chegaram cedo.",
+          "Os candidatos, chegaram cedo.",
+          "A equipe de fiscais, iniciou a prova.",
+          "Todos os alunos, estudaram.",
+          "Meu professor, explicou o assunto."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Procure o sujeito: os candidatos. Agora procure o verbo que se liga a ele: chegaram.",
+          "Na frase simples, não separamos esses dois elementos por uma vírgula só para marcar uma pausa.",
+          "Escreva “Os candidatos chegaram cedo”. Não há uma informação intercalada entre sujeito e verbo que precise de duas vírgulas.",
+          "Essa é a frase correta. A pontuação acompanha a organização da frase, não toda pausa que fazemos ao falar."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Trocar embora por porque muda concessão para causa."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-concordancia",
+    "title": "Concordância verbal e nominal",
+    "scope": "Concordância nos dois editais",
+    "sections": [
+      {
+        "title": "Encontre o núcleo",
+        "paragraphs": [
+          "O verbo concorda, em regra, com o sujeito: “A lista de candidatos chegou”. O núcleo é lista, não candidatos. Com sujeito composto anteposto: “Ana e Pedro chegaram”.",
+          "Haver existencial e fazer indicando tempo são impessoais: há vagas; faz dois anos. Isso se transmite ao auxiliar: deve haver vagas. Existir é pessoal: existem vagas."
+        ]
+      },
+      {
+        "title": "O se muda a análise",
+        "paragraphs": [
+          "“Vendem-se casas”: casas é sujeito paciente; equivale a casas são vendidas. “Precisa-se de voluntários”: de voluntários não é sujeito; o se indetermina o agente e o verbo fica no singular.",
+          "Em “Fui eu que fiz”, o verbo depois de que concorda com o antecedente. Expressões partitivas e porcentagens têm casos próprios; leia a construção inteira antes de aplicar uma regra isolada."
+        ]
+      },
+      {
+        "title": "Nomes concordam em gênero e número",
+        "paragraphs": [
+          "Adjetivos, artigos e numerais ajustam-se ao substantivo: duas candidatas preparadas. “Anexas seguem as cópias”: anexas é adjetivo. “Em anexo” é locução invariável.",
+          "Meio como advérbio é invariável: meio cansadas. Bastante varia quando determina substantivo: bastantes questões; fica invariável como advérbio: estudaram bastante. Menos é invariável: menos dúvidas."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Corrija “Haviam muitas vagas e a lista dos aprovados foram divulgadas”.",
+        "steps": [
+          "Em “haviam muitas vagas”, haver tem sentido de existir. Nesse uso, fica no singular: havia muitas vagas.",
+          "Agora veja “a lista dos aprovados”. A palavra principal é lista. Dos aprovados só explica de quem é a lista.",
+          "É a lista que foi divulgada, e não os aprovados. Como lista é singular, use foi, e não foram.",
+          "Divulgada também acompanha lista: feminino singular. Portanto escreva “a lista dos aprovados foi divulgada”.",
+          "Junte as partes: “Havia muitas vagas e a lista dos aprovados foi divulgada”. Confira cada ajuste pela palavra ou regra que o controla."
+        ],
+        "goal": "Fazer os verbos e as palavras relacionadas combinarem com a estrutura correta.",
+        "start": "Há dois problemas separados. Vamos corrigir primeiro “Haviam muitas vagas” e depois a parte da lista.",
+        "checkpoint": {
+          "prompt": "Por que o plural aprovados não manda no verbo?",
+          "answer": "Porque está dentro do complemento “dos aprovados”. O núcleo do sujeito é lista, no singular."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-concordancia-q1",
+        "prompt": "Qual frase está de acordo com a norma-padrão?",
+        "options": [
+          "Faz três meses que estudo.",
+          "Fazem três meses que estudo.",
+          "Houveram problemas.",
+          "Deverão haver vagas.",
+          "A lista dos inscritos chegaram."
+        ],
+        "correct": 0,
+        "explanation": [
+          "O verbo fazer pode indicar tempo decorrido. Nesse uso, não tem sujeito e fica no singular.",
+          "Em “Faz três meses que estudo”, três meses é o tempo decorrido, não um sujeito plural que obrigue fazem.",
+          "Por isso a forma correta é faz. A mesma atenção vale para haver no sentido de existir, que também é impessoal.",
+          "Confira perguntando o sentido do verbo antes de concordar com o nome mais próximo. Nem todo plural próximo manda no verbo."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "pt-concordancia-q2",
+        "prompt": "Complete: “As cópias seguem __”.",
+        "options": [
+          "anexas",
+          "anexo",
+          "anexos",
+          "anexa",
+          "anexadamente obrigatoriamente"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A palavra que completa a frase descreve cópias. Cópias é feminino plural.",
+          "Anexo, usado como adjetivo, precisa combinar com esse nome: anexas.",
+          "A frase fica “As cópias seguem anexas”. Se fosse um documento, seria “O documento segue anexo”.",
+          "Existe também a expressão “em anexo”, mas é outra construção. Para a lacuna pedida sem em, use anexas."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "O substantivo mais próximo do verbo nem sempre é o núcleo do sujeito."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-regencia",
+    "title": "Regência, crase e colocação pronominal",
+    "scope": "Relação entre termos e posição de pronomes",
+    "sections": [
+      {
+        "title": "Regência: qual preposição é exigida?",
+        "paragraphs": [
+          "Regência é a relação de dependência entre verbo/nome e complemento. Gostar de; obedecer a; necessidade de; favorável a. Alguns verbos mudam de sentido com a construção: assistir a um filme (ver), assistir um paciente (prestar assistência).",
+          "Na norma-padrão de prova: preferir uma coisa a outra, sem “mais… do que”; chegar a um lugar; aspirar a um cargo (desejar). Regência pode afetar o pronome relativo: o assunto de que gosto."
+        ]
+      },
+      {
+        "title": "Crase: fusão, não enfeite",
+        "paragraphs": [
+          "O acento grave marca geralmente a fusão da preposição a com artigo feminino a(s): fui a + a escola = fui à escola. Verifique duas perguntas: o termo anterior exige a? O seguinte admite artigo a?",
+          "Teste masculino: fui ao colégio sugere fui à escola. Não use crase antes de verbo nem, em regra, antes de palavra masculina. Em “a prazo” não há artigo feminino. Nas locuções femininas como à tarde e às pressas, observe a forma consagrada. Com aquele/aquela/aquilo, pode haver fusão com a inicial a: referi-me àquela questão."
+        ]
+      },
+      {
+        "title": "Próclise, ênclise e mesóclise",
+        "paragraphs": [
+          "Próclise coloca pronome antes: não me avisaram. Ênclise, depois: avisaram-me. Mesóclise, no meio do futuro: avisar-me-ão, quando não há atração.",
+          "Palavras negativas, relativos e muitas conjunções subordinativas atraem o pronome: nunca se esqueceu; a prova que me entregaram; quando me chamaram. No padrão formal, evite iniciar oração com pronome átono: “Diga-me”, em vez de “Me diga”. Com atrativo, prefira “não me dirão”, não mesóclise."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Por que “Entreguei a prova à fiscal” tem um a sem acento e outro com?",
+        "steps": [
+          "Pergunte ao verbo: entreguei o quê? A prova. Esse complemento é direto. O a de a prova apenas acompanha o nome prova: é artigo.",
+          "Agora pergunte: entreguei a quem? A fiscal. O verbo pede a ligação a para indicar a pessoa que recebe.",
+          "Fiscal também pode vir com artigo feminino: a fiscal. Juntamos o a da ligação com o a do artigo: a + a = à.",
+          "A frase fica “Entreguei a prova à fiscal”. O primeiro a não tem duas origens; o segundo tem.",
+          "Confira trocando por masculino: “Entreguei a prova ao fiscal”. O ao mostra a mesma união de preposição com artigo, agora a + o."
+        ],
+        "goal": "Entender de onde vêm os dois a e por que apenas um recebe acento.",
+        "start": "Crase é a união de dois sons a, normalmente uma preposição a com o artigo a. O acento grave mostra essa união.",
+        "checkpoint": {
+          "prompt": "Por que não escrevemos “Entreguei à prova”?",
+          "answer": "Porque a prova é o que foi entregue, e esse complemento não pede a preposição a. Ali há apenas o artigo."
+        }
+      },
+      {
+        "question": "Corrija “Não avisaram-me sobre a reunião”.",
+        "steps": [
+          "Identifique o verbo: avisaram. O pronome me se liga a ele.",
+          "Localize não antes do verbo. Palavras negativas como não atraem o pronome para antes do verbo nessa construção.",
+          "Mova me para essa posição: “Não me avisaram sobre a reunião”. Não é preciso hífen quando ele vem separado antes do verbo.",
+          "Essa posição recebe o nome de próclise. Primeiro entenda a posição; depois associe o nome.",
+          "Confira que o sentido foi mantido: eu não recebi o aviso. A mudança foi na colocação do pronome."
+        ],
+        "goal": "Colocar o pronome me na posição adequada depois de uma palavra negativa.",
+        "start": "Me é uma palavra que indica quem recebeu a informação. A frase tem não, que influencia sua posição na norma-padrão.",
+        "checkpoint": {
+          "prompt": "Qual palavra motivou a posição de me antes de avisaram?",
+          "answer": "Não. A presença dessa palavra negativa pede a colocação antes do verbo nessa frase."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-regencia-q1",
+        "prompt": "Qual expressão emprega crase corretamente?",
+        "options": [
+          "Referiu-se à professora.",
+          "Começou à estudar.",
+          "Comprou à prazo.",
+          "Entregou à ele.",
+          "Foi à pé."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Referir-se pede a ligação a: alguém se refere a alguma coisa ou pessoa.",
+          "Professora, nesta construção, admite o artigo a: a professora.",
+          "Juntamos os dois: a da ligação + a do artigo = à. Assim, “Referiu-se à professora”.",
+          "Confira com masculino: “Referiu-se ao professor”. Esse ao ajuda a perceber a união. Não basta uma palavra ser feminina para sempre haver crase."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "pt-regencia-q2",
+        "prompt": "Qual frase respeita a atração pronominal?",
+        "options": [
+          "Nunca me disseram isso.",
+          "Nunca disseram-me isso.",
+          "Não avisaram-me.",
+          "Quem chamou-te?",
+          "Quando entregaram-me a prova, saí."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Localize a palavra negativa nunca. Nessa construção, ela pede o pronome antes do verbo.",
+          "O pronome é me e o verbo é disseram. Coloque me entre nunca e disseram.",
+          "A frase adequada é “Nunca me disseram isso”. Essa posição antes do verbo se chama próclise.",
+          "O sentido não muda; o ajuste é na organização exigida pela norma-padrão após a palavra negativa."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Nem toda palavra feminina exige crase: o contexto precisa fornecer a preposição."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-texto",
+    "title": "Interpretação, semântica e figuras de linguagem",
+    "scope": "Leitura, sentido e organização textual",
+    "sections": [
+      {
+        "title": "Prove a interpretação com o texto",
+        "paragraphs": [
+          "Compreensão recupera informação explícita. Inferência conclui algo sustentado por pistas. Extrapolação acrescenta o que não foi autorizado.",
+          "Separe tema (assunto), tese (posição defendida) e argumento (razão usada para sustentá-la). Identifique quem fala: autor, narrador e personagem podem ter posições diferentes. O título é pista, não substituto da leitura."
+        ]
+      },
+      {
+        "title": "Palavras mudam com o contexto",
+        "paragraphs": [
+          "Sinônimos aproximam sentidos no contexto, mas nem sempre são intercambiáveis em qualquer frase. Antônimos opõem sentidos. Polissemia é a multiplicidade de sentidos de uma palavra; ambiguidade permite mais de uma leitura do enunciado.",
+          "Denotação usa sentido literal; conotação, figurado. Metáfora estabelece associação sem comparação explícita: a vida é uma estrada. Comparação usa como ou equivalente. Metonímia troca por relação de proximidade: ler Machado (a obra). Hipérbole exagera; ironia sugere sentido oposto ao literal; personificação atribui ação humana a não humanos."
+        ]
+      },
+      {
+        "title": "Coesão e coerência",
+        "paragraphs": [
+          "Coesão liga partes com pronomes, substituições, repetições controladas e conectivos. Coerência é compatibilidade de sentidos e organização do raciocínio. Texto pode ter muitos conectivos e ainda ser incoerente.",
+          "Porque pode indicar causa; por isso, consequência; se, condição; mas, oposição; embora, concessão. Trocar o conector pode alterar a relação lógica. Resolva o referente de cada pronome: em “Ana entregou a Bia seu livro”, seu pode gerar ambiguidade."
+        ]
+      },
+      {
+        "title": "Tipo e gênero",
+        "paragraphs": [
+          "Narração apresenta acontecimentos; descrição, características; exposição, conceitos; argumentação, defesa de tese; injunção, instruções. Um gênero pode combinar tipos.",
+          "Notícia, crônica, editorial e ofício são gêneros. Crônica frequentemente parte do cotidiano e pode usar humor/reflexão. Editorial expressa posição institucional; notícia busca relatar fatos. Leia o texto concreto: o rótulo não substitui a análise."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "“O treino foi suspenso porque choveu.” É correto concluir que nunca se treina sob chuva?",
+        "steps": [
+          "Sublinhe o fato: o treino foi suspenso. Sublinhe a causa: porque choveu. São as duas informações dadas.",
+          "A conclusão sugerida usa nunca. Essa palavra abrange todos os treinos, em qualquer ocasião.",
+          "Compare os tamanhos das afirmações: o texto fala de um episódio; a conclusão fala de todos. Faltam informações para fazer esse salto.",
+          "Podemos concluir que a chuva motivou aquela suspensão. Não podemos concluir que qualquer chuva sempre impede qualquer treino.",
+          "Na prova, desconfie de palavras como sempre, nunca e todos quando o texto só descreve uma situação particular. Elas precisam de apoio no texto."
+        ],
+        "goal": "Separar o que o texto realmente diz de uma conclusão exagerada.",
+        "start": "A frase relata uma suspensão específica e explica seu motivo. Não apresenta uma regra para todos os treinos.",
+        "checkpoint": {
+          "prompt": "O texto prova que às vezes se treina na chuva?",
+          "answer": "Também não. Ele não resolve essa questão geral. Só explica a suspensão daquele treino."
+        }
+      },
+      {
+        "question": "“A cidade acordou assustada.” Qual recurso aparece?",
+        "steps": [
+          "Procure as ações e sentimentos: acordar e ficar assustada são atribuídos à cidade.",
+          "Essa atribuição dá características humanas a algo que não é uma pessoa. O recurso se chama personificação.",
+          "A frase cria uma imagem da cidade inteira reagindo a uma situação. No contexto, pode também estar falando da reação dos habitantes.",
+          "Para justificar a resposta, aponte as palavras que criam o efeito: acordou assustada. Não basta escrever o nome do recurso sem mostrar onde ele aparece.",
+          "Se o enunciado trouxer um texto maior, confira nele o sentido. Recursos expressivos podem se combinar, e o contexto orienta a interpretação."
+        ],
+        "goal": "Perceber a imagem criada pela frase, antes de decorar seu nome.",
+        "start": "Leia literalmente “A cidade acordou assustada”. Uma cidade não dorme nem sente medo como uma pessoa.",
+        "checkpoint": {
+          "prompt": "Qual é a evidência de personificação nesta frase?",
+          "answer": "O uso de acordou assustada para cidade: ação e sentimento humanos foram atribuídos a ela."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-texto-q1",
+        "prompt": "“Embora cansado, continuou.” A relação expressa é:",
+        "options": [
+          "Concessão",
+          "Causa",
+          "Finalidade",
+          "Conclusão",
+          "Explicação"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Estar cansado poderia dificultar continuar. Mesmo assim, a pessoa continuou.",
+          "Embora introduz justamente esse obstáculo que não impediu a ação.",
+          "Essa relação se chama concessão. Pense na paráfrase: “Apesar de cansado, continuou”.",
+          "Não é causa: a frase não diz que continuou por causa do cansaço. Ela diz que continuou apesar dele."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-texto-q2",
+        "prompt": "“Li Machado de Assis.” A troca do autor pela obra é:",
+        "options": [
+          "Metonímia",
+          "Hipérbole",
+          "Antítese",
+          "Comparação explícita",
+          "Pleonasmo obrigatório"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Não lemos fisicamente uma pessoa. Na frase, o nome Machado de Assis representa os textos escritos por ele.",
+          "Há uma relação direta entre autor e obra. O nome de um é usado para indicar a outra.",
+          "Essa substituição por proximidade de relação se chama metonímia.",
+          "Explique a resposta com a troca concreta: autor no lugar de obra. Isso demonstra que você entendeu o efeito, além de lembrar o nome."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pt-texto-q3",
+        "prompt": "Qual afirmação é mais segura ao interpretar?",
+        "options": [
+          "A que encontra apoio em passagens do texto",
+          "A que expressa minha opinião",
+          "A que contém sempre",
+          "A que generaliza um exemplo",
+          "A que é verdadeira fora do texto, mesmo sem relação"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Uma interpretação precisa ser sustentada pelo texto apresentado. Comece procurando qual passagem apoia a afirmação.",
+          "Uma ideia pode ser verdadeira no mundo e ainda não ser conclusão daquele texto.",
+          "Por isso, a opção mais segura é a que encontra apoio em passagens do texto.",
+          "Confira também os limites: palavras como sempre ou nunca podem ampliar o que a passagem realmente afirma. Não acrescente informações por conta própria."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Verdade geral não é necessariamente resposta correta a uma pergunta sobre um texto específico."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": []
+  },
+  {
+    "id": "pt-oficial",
+    "title": "Reescrita e correspondência oficial",
+    "scope": "Guarda SG: Manual de Redação da Presidência",
+    "sections": [
+      {
+        "title": "Clareza, precisão e impessoalidade",
+        "paragraphs": [
+          "A comunicação oficial precisa permitir ao destinatário compreender o assunto e agir. Prefira frases diretas, identifique responsáveis, prazos e documentos e evite adjetivos que expressem opinião pessoal desnecessária.",
+          "Impessoalidade não significa linguagem obscura. Concisão elimina redundância sem retirar informação essencial. Formalidade exige tratamento adequado e padrão escrito, não palavras difíceis."
+        ]
+      },
+      {
+        "title": "Estrutura e adequação",
+        "paragraphs": [
+          "No padrão ofício, observe identificação do expediente, local/data, destinatário, assunto, texto, fecho e identificação do signatário. Numeração, alinhamento e forma de tratamento devem seguir o manual aplicável.",
+          "O assunto resume a finalidade: “Solicitação de documentos”. No corpo, apresente motivo, solicitação e prazo de modo encadeado. Respeitosamente e Atenciosamente têm usos definidos pelo contexto hierárquico no manual; não escolha apenas pelo gosto pessoal."
+        ]
+      },
+      {
+        "title": "Reescrever sem mudar o sentido",
+        "paragraphs": [
+          "Ao trocar voz verbal, conectivo ou pronome, preserve agentes, tempo, negação, modalidade e relações lógicas. “Poderá entregar” não equivale a “deverá entregar”.",
+          "Trocar “apesar de” por “porque” muda concessão para causa. Eliminar uma restrição, como somente, pode ampliar o conjunto de destinatários e alterar a regra."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Melhore “Venho através deste pedir que vocês mandem logo os papéis”.",
+        "steps": [
+          "“Os papéis” não informa quais documentos são necessários. Substitua por cópias dos certificados, conforme o contexto que estamos usando.",
+          "“Logo” não informa um prazo verificável. Use até 10 de novembro. Num documento real, confira também o ano e o prazo autorizado.",
+          "“Vocês” pode ser impreciso para o destinatário. O documento deve identificar a pessoa ou o setor responsável, no campo adequado.",
+          "Retire a abertura longa “Venho através deste pedir” e diga a ação diretamente: Solicito o envio.",
+          "Versão: “Solicito o envio das cópias dos certificados até 10 de novembro, para instrução do processo”. Instrução do processo significa reunir os documentos necessários à análise dele.",
+          "Confira quatro pontos: o que deve ser enviado, por quem, até quando e para quê. A clareza depende de esses dados estarem disponíveis no documento."
+        ],
+        "goal": "Transformar um pedido vago em uma mensagem clara e adequada ao contexto oficial.",
+        "start": "Vamos imaginar que os documentos desejados são cópias de certificados e que o prazo combinado é 10 de novembro. Esses detalhes precisam ser definidos, não adivinhados.",
+        "checkpoint": {
+          "prompt": "Por que trocar logo por uma data ajuda?",
+          "answer": "Porque quem recebe passa a saber exatamente qual é o prazo. Logo pode significar tempos diferentes para pessoas diferentes."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pt-oficial-q1",
+        "prompt": "Qual reescrita preserva “O candidato poderá apresentar recurso”?",
+        "options": [
+          "É facultado ao candidato apresentar recurso.",
+          "O candidato deverá apresentar recurso.",
+          "É proibido apresentar recurso.",
+          "Todo candidato apresentará recurso.",
+          "O candidato já apresentou recurso."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Poderá indica possibilidade ou permissão. A frase não obriga o candidato a recorrer nem informa que ele já recorreu.",
+          "“É facultado” significa “é permitido” ou “é uma opção”. Essa expressão mantém a ideia original.",
+          "“Deverá” criaria obrigação. “Já apresentou” diria que a ação ocorreu. Nenhuma dessas mudanças preservaria o sentido.",
+          "Portanto “É facultado ao candidato apresentar recurso” é a reescrita adequada."
+        ],
+        "difficulty": "application"
+      }
+    ],
+    "mistakes": [
+      "Linguagem formal não exige expressões longas e vazias."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Manual de Redação da Presidência da República",
+        "url": "https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica"
+      }
+    ]
+  },
+  {
+    "id": "redacao",
+    "title": "Redação: da proposta ao texto revisado",
+    "scope": "PMERJ: prova discursiva e preparação da escrita",
+    "sections": [
+      {
+        "title": "Leia o comando e delimite",
+        "paragraphs": [
+          "Identifique tema, gênero solicitado, recorte e limites de linhas. Não escreva um texto decorado que tangencie o assunto. A proposta pode exigir análise de um problema específico, não uma discussão genérica de segurança pública.",
+          "Antes de redigir, anote uma tese e dois argumentos independentes. Tese responde à questão; argumento explica por que a resposta faz sentido. Um exemplo ilustra o argumento, mas não substitui a explicação."
+        ]
+      },
+      {
+        "title": "Organize os parágrafos",
+        "paragraphs": [
+          "Introdução contextualiza sem rodeio e apresenta a tese. Cada desenvolvimento tem ideia central, explicação, exemplo pertinente e ligação com a tese. Conclusão retoma a posição à luz do que foi discutido.",
+          "Não invente estatísticas ou citações. Use exemplos hipotéticos claramente apresentados como tais. Uma proposta de ação pode ser útil se o comando pedir, mas não imponha a estrutura do ENEM a qualquer prova."
+        ]
+      },
+      {
+        "title": "Construa frases legíveis",
+        "paragraphs": [
+          "Prefira sujeito e verbo próximos. Evite períodos com muitas intercalações. Cada parágrafo deve desenvolver uma ideia central; não mude de assunto no meio sem transição.",
+          "Use conectivos pelo sentido: portanto para conclusão, porém para oposição, além disso para acréscimo. Variar palavras não justifica escolher um sinônimo inadequado."
+        ]
+      },
+      {
+        "title": "Revisão em camadas",
+        "paragraphs": [
+          "Primeiro confira atendimento ao tema e coerência dos argumentos. Depois procure frases incompletas, contradições, referentes ambíguos e repetições. Por último revise concordância, regência, crase, pontuação e ortografia.",
+          "No edital PMERJ de referência, a redação deve ter entre 25 e 30 linhas. Consulte os critérios e causas de nota zero antes de simular. Planeje o espaço no papel; uma linha digitada não corresponde automaticamente à linha da folha de prova."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Tema de treino autoral: a importância da prevenção na segurança pública. Como planejar?",
+        "steps": [
+          "Defina o que você vai defender: prevenir pode reduzir riscos e complementar o atendimento às ocorrências. Essa ideia central se chama tese.",
+          "Escolha uma primeira razão: identificar riscos cedo permite agir antes do dano. Explique um caminho concreto, como reconhecer um trajeto escuro e melhorar sua iluminação.",
+          "Use o exemplo como hipótese, sem inventar dados. Você pode escrever que a iluminação facilita a circulação e a visibilidade, mas não afirmar sem fonte que elimina todos os crimes.",
+          "Escolha uma segunda razão: o diálogo entre moradores e poder público ajuda a identificar problemas e verificar se as respostas funcionam. Explique quem informa e quem pode agir.",
+          "Organize: introdução apresenta o tema e a tese; um parágrafo desenvolve cada razão; a conclusão retoma o que foi demonstrado.",
+          "Na revisão, pergunte a cada parágrafo: “Como isso explica a importância da prevenção?”. Se o trecho não ajuda a responder, ajuste ou retire."
+        ],
+        "goal": "Montar um plano antes de escrever os parágrafos da redação.",
+        "start": "O tema é a importância da prevenção na segurança pública. Prevenir significa agir antes que o problema aconteça ou se agrave.",
+        "checkpoint": {
+          "prompt": "Uma tese precisa ser uma estatística?",
+          "answer": "Não. A tese é a ideia que você defende. Os argumentos explicam por que ela faz sentido; dados só devem ser usados quando confiáveis."
+        }
+      },
+      {
+        "question": "Reescreva “A prevenção é importante porque ela é importante para a sociedade”.",
+        "steps": [
+          "Separe a afirmação: “A prevenção é importante”. Agora examine a parte depois de porque: ela deveria explicar a afirmação.",
+          "A expressão “é importante para a sociedade” só repete o julgamento. Não mostra o que a prevenção faz.",
+          "Pergunte “o que ela permite fazer?”. Uma resposta possível: identificar situações de risco e agir antes que produzam danos.",
+          "Reescreva: “A prevenção é relevante porque permite identificar situações de risco e agir antes que produzam danos”.",
+          "Agora há um caminho explicado: perceber o risco → agir antes → tentar evitar o dano. Isso sustenta a ideia, em vez de apenas repeti-la."
+        ],
+        "goal": "Trocar uma justificativa repetida por uma explicação de como a prevenção ajuda.",
+        "start": "A frase diz que a prevenção é importante porque é importante. Ela volta à mesma ideia sem oferecer uma razão.",
+        "checkpoint": {
+          "prompt": "Qual pergunta ajuda quando uma justificativa está vazia?",
+          "answer": "Pergunte “como isso acontece?” ou “por que isso ajuda?”. A resposta deve acrescentar uma relação, não repetir o adjetivo importante."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "redacao-q1",
+        "prompt": "Qual alternativa funciona como argumento, e não repetição da tese?",
+        "options": [
+          "A iluminação pode ampliar a visibilidade de um trajeto e facilitar a identificação de riscos.",
+          "A prevenção é boa porque é boa.",
+          "Segurança é segurança.",
+          "O tema é muito importante e relevante.",
+          "Conclui-se que concluo o mesmo."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um argumento precisa acrescentar uma razão à ideia defendida. Repetir “é importante porque é importante” não faz isso.",
+          "A frase sobre iluminação explica um caminho: mais visibilidade pode facilitar a identificação de riscos.",
+          "Ela apresenta um mecanismo que pode apoiar uma tese sobre prevenção, em vez de apenas elogiá-la.",
+          "O uso de pode também evita prometer que iluminação sempre resolve tudo. A resposta é a alternativa que explica esse mecanismo."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "redacao-q2",
+        "prompt": "Na revisão, qual tarefa deve vir primeiro?",
+        "options": [
+          "Conferir se o texto responde à proposta",
+          "Trocar todas as palavras por sinônimos",
+          "Acrescentar citações inventadas",
+          "Contar adjetivos",
+          "Inserir portanto em cada parágrafo"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Primeiro veja o que a proposta de redação pediu: tema, recorte e tarefa.",
+          "Leia seu texto e confira se ele responde a esse pedido. Um texto sem erros de escrita ainda pode estar fora do tema.",
+          "Depois ajuste a organização dos argumentos e aperfeiçoe a linguagem.",
+          "A prioridade é conferir o atendimento à proposta. Corrigir vírgulas não resolve uma redação que responde a outra pergunta."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Um texto elegante que foge do tema não atende à prova."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "PMERJ — edital, item 12",
+        "url": "/materials/pmerj-edital-2023-retificado-2025.pdf#page=22"
+      }
+    ]
+  }
+]

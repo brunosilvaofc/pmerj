@@ -1,0 +1,703 @@
+[
+  {
+    "id": "pc-sistema",
+    "title": "Hardware, software, Windows e Linux",
+    "scope": "Guarda SG: fundamentos e sistemas operacionais",
+    "sections": [
+      {
+        "title": "Do físico ao programa",
+        "paragraphs": [
+          "Hardware é a parte física: processador, memória, disco e periféricos. Software é o conjunto de programas/instruções. CPU executa instruções; RAM armazena temporariamente dados em uso; SSD/HD mantêm dados persistentemente.",
+          "Desligar normalmente apaga o conteúdo volátil da RAM, não todos os arquivos do disco. Dispositivo de entrada envia dados, como teclado; saída apresenta, como monitor; alguns fazem ambos, como tela sensível ao toque."
+        ]
+      },
+      {
+        "title": "Sistema operacional",
+        "paragraphs": [
+          "O sistema gerencia processos, memória, arquivos, dispositivos e permissões. Aplicativo executa uma tarefa do usuário; driver permite interação com dispositivo. Instalar um aplicativo não troca automaticamente o sistema operacional.",
+          "Windows e distribuições Linux têm interfaces, sistemas de arquivos e formas de administração diferentes. Linux não é sinônimo de “sem interface gráfica”. Software livre se refere a liberdades de uso, estudo, modificação e distribuição, conforme a licença; gratuito se refere a preço."
+        ]
+      },
+      {
+        "title": "Arquivos e versões",
+        "paragraphs": [
+          "Pasta organiza arquivos; extensão ajuda a indicar formato, mas renomear .jpg para .pdf não converte o conteúdo. Copiar preserva o original; mover muda localização; excluir pode ou não permitir recuperação pela lixeira.",
+          "O edital lista versões antigas do Windows. Menus e atalhos podem variar por versão e idioma. Estude as versões especificadas; não presuma que uma tela atual é idêntica ao Windows XP ou 7."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um computador perde alterações não salvas após queda de energia. Por quê?",
+        "steps": [
+          "Enquanto você digita, o programa usa a memória de trabalho do computador, chamada RAM, para lidar com as alterações.",
+          "Essa memória é volátil: precisa de energia para manter o conteúdo. Uma queda de energia pode interromper o trabalho antes da gravação.",
+          "Salvar manda registrar o conteúdo no armazenamento, como SSD ou disco. Esse armazenamento mantém dados mesmo sem energia nas condições normais de uso.",
+          "Se as últimas alterações não foram gravadas, o arquivo pode continuar com a versão anterior. Não significa que todos os arquivos do disco desapareceram.",
+          "Alguns programas têm salvamento ou recuperação automática, mas isso depende da configuração e do momento da falha. Não trate esses recursos como garantia de recuperar tudo."
+        ],
+        "goal": "Entender onde ficam as alterações enquanto você trabalha e por que podem se perder.",
+        "start": "Imagine um texto aberto no editor. Há diferença entre o que aparece na tela e o que já foi gravado no arquivo.",
+        "checkpoint": {
+          "prompt": "Qual é a diferença entre perder alterações e perder o arquivo inteiro?",
+          "answer": "O arquivo já salvo pode continuar existindo, mas sem o que foi feito depois da última gravação. São perdas diferentes."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc-sistema-q1",
+        "prompt": "Qual componente é tipicamente volátil?",
+        "options": [
+          "RAM",
+          "SSD",
+          "HD",
+          "DVD gravado",
+          "Pendrive"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Volátil, em memória de computador, significa que o conteúdo depende de energia para ser mantido.",
+          "A RAM é a memória de trabalho usada durante a execução dos programas e tem essa característica.",
+          "SSD, HD e os outros meios de armazenamento listados têm outra função: guardar dados de forma persistente nas condições normais.",
+          "A resposta é RAM. Não confunda o tamanho da memória de trabalho com o espaço disponível para arquivos."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pc-sistema-q2",
+        "prompt": "Mudar relatório.docx para relatório.pdf por renomeação:",
+        "options": [
+          "Não converte o formato interno",
+          "Converte sempre",
+          "Criptografa o arquivo",
+          "Assina digitalmente",
+          "Cria backup automático"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A extensão é o final do nome, como .docx ou .pdf. Ela ajuda a indicar o formato esperado.",
+          "Renomear muda esse texto no nome, mas não reescreve a estrutura interna do arquivo.",
+          "Para obter um PDF de um documento, use um recurso de exportar ou converter apropriado.",
+          "Logo renomear não converte o formato interno. O novo nome pode até dificultar a abertura correta."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda memória RAM com capacidade de armazenamento."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Escopo: edital Guarda SG, p. 51",
+        "url": "/materials/gmsg-edital-2026.pdf#page=51"
+      }
+    ]
+  },
+  {
+    "id": "pc-texto",
+    "title": "Word e Writer: documentos bem estruturados",
+    "scope": "Processamento de texto nas versões do edital",
+    "sections": [
+      {
+        "title": "Caractere, parágrafo e página",
+        "paragraphs": [
+          "Negrito e tamanho de fonte afetam caracteres; alinhamento, recuo e espaçamento afetam parágrafos; margens, orientação e tamanho de papel afetam página/seção conforme o editor.",
+          "Enter cria novo parágrafo; quebra de linha mantém o parágrafo em muitas situações. Não use dezenas de espaços para alinhar: tabulações, tabelas e recuos produzem estrutura estável."
+        ]
+      },
+      {
+        "title": "Estilos e organização",
+        "paragraphs": [
+          "Estilo reúne propriedades. Aplicar títulos hierárquicos facilita sumário automático e navegação. Formatar manualmente uma linha para parecer título pode não atribuir a estrutura necessária.",
+          "Cabeçalho/rodapé repetem informações conforme configuração. Quebra de página inicia nova página; quebra de seção permite mudanças estruturais específicas. Salvar documento editável e exportar PDF têm objetivos diferentes."
+        ]
+      },
+      {
+        "title": "Revisar e compartilhar",
+        "paragraphs": [
+          "Localizar procura texto; substituir altera ocorrências conforme critérios. Revisão ortográfica não detecta todo erro de sentido. Controle de alterações registra sugestões; comentários anotam sem substituir o texto principal.",
+          "DOCX e ODT são formatos editáveis usados por Word/Writer; PDF preserva apresentação para distribuição. Compatibilidade pode não ser perfeita entre programas e versões: confira layout, fontes e recursos após conversão."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Como criar um sumário que acompanha os títulos?",
+        "steps": [
+          "Selecione o nome de um capítulo e aplique um estilo de título do editor. Use um nível principal para capítulos e um nível abaixo para subtítulos.",
+          "Repita a organização nos outros títulos. O programa passa a conhecer a estrutura do documento, não apenas a aparência do texto.",
+          "Use o recurso de inserir sumário automático e escolha quais níveis devem aparecer. O nome e o local do comando variam conforme o editor e a versão.",
+          "Depois de mudar textos ou páginas, use o comando de atualizar o sumário. Isso permite recalcular os números e os títulos conforme a opção escolhida.",
+          "Confira se cada capítulo apareceu no nível correto. Se faltar um, verifique seu estilo antes de digitar manualmente a linha no sumário."
+        ],
+        "goal": "Criar uma lista de capítulos que o editor consegue atualizar.",
+        "start": "Um sumário automático depende de o programa reconhecer os títulos. Só deixar letras grandes não informa necessariamente que elas são títulos.",
+        "checkpoint": {
+          "prompt": "Por que digitar os números de página à mão costuma dar trabalho depois?",
+          "answer": "Porque eles não acompanham automaticamente as mudanças de paginação. O sumário automático usa a estrutura para atualizar essas referências."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc-texto-q1",
+        "prompt": "Qual recurso facilita um sumário automático?",
+        "options": [
+          "Estilos de título",
+          "Espaços repetidos",
+          "Apenas cor vermelha",
+          "Imagem do título",
+          "Nome do arquivo"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um sumário automático precisa saber quais trechos são títulos e qual o nível de cada um.",
+          "Estilos de título fornecem essa organização ao editor: capítulo, subtítulo e assim por diante.",
+          "Só aumentar a fonte pode mudar a aparência sem registrar essa estrutura.",
+          "A resposta é estilos de título. Depois de editar, ainda é necessário atualizar o sumário conforme o editor."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pc-texto-q2",
+        "prompt": "Para começar outra página de forma estável, prefira:",
+        "options": [
+          "Quebra de página",
+          "Dezenas de linhas vazias",
+          "Espaços",
+          "Aumentar a fonte até empurrar o texto",
+          "Renomear o arquivo"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Queremos começar uma nova página de modo que a intenção continue clara mesmo após editar o texto.",
+          "A quebra de página informa ao editor: o conteúdo seguinte deve começar em outra página.",
+          "Várias linhas vazias apenas ocupam espaço. Se a fonte, as margens ou o texto anterior mudarem, elas podem deixar de produzir o resultado desejado.",
+          "Por isso prefira quebra de página. Ela expressa a organização pretendida, em vez de tentar imitá-la com espaços."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "A aparência de título não garante que o texto tenha estilo de título."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Documentação LibreOffice",
+        "url": "https://documentation.libreoffice.org/pt-br/portugues/"
+      }
+    ]
+  },
+  {
+    "id": "pc-planilha",
+    "title": "Excel e Calc: fórmulas e referências passo a passo",
+    "scope": "Planilhas e funções; referências relativas, absolutas e mistas",
+    "sections": [
+      {
+        "title": "Células, intervalos e fórmulas",
+        "paragraphs": [
+          "Colunas usam letras; linhas, números. B3 é coluna B, linha 3. A1:A4 é intervalo contínuo que inclui A1, A2, A3 e A4. Uma fórmula normalmente começa com =.",
+          "=A1+A2 soma duas células; =SOMA(A1:A4) soma o intervalo. MÉDIA calcula média aritmética dos valores numéricos considerados pela função. Texto e célula vazia não são sempre tratados como zero: observe a função e o contexto."
+        ]
+      },
+      {
+        "title": "Copiar muda referências relativas",
+        "paragraphs": [
+          "A1 é relativa: ao copiar uma linha abaixo, torna-se A2. $A$1 é absoluta: coluna e linha ficam fixas na cópia. $A1 fixa a coluna; A$1 fixa a linha.",
+          "O cifrão fixa a parte imediatamente seguinte. Copiar é diferente de mover, e inserções/exclusões podem ajustar referências de outro modo. Faça o deslocamento de cada referência separadamente."
+        ]
+      },
+      {
+        "title": "Funções e lógica",
+        "paragraphs": [
+          "=SE(A1>=7;\"Aprovado\";\"Revisar\") testa uma condição e escolhe um resultado. Aspas indicam texto; operadores comparam valores. Separadores e nomes de função dependem de idioma/configuração.",
+          "SOMA, MÉDIA, MÁXIMO e MÍNIMO respondem perguntas diferentes. HOJE retorna data corrente; MAIÚSCULA transforma texto; TEXTO formata uma representação textual; MARRED arredonda a um múltiplo nos contextos suportados. Resultado exibido arredondado pode diferir do valor armazenado."
+        ]
+      },
+      {
+        "title": "Verifique a operação antes da resposta",
+        "paragraphs": [
+          "Para copiar uma fórmula, anote origem e destino, calcule deslocamento de linhas/colunas e aplique só às partes relativas. Depois, se houver valores, calcule respeitando prioridades.",
+          "Erros como referência inválida ou divisão por zero não significam todos a mesma coisa. Não transforme automaticamente todo erro em zero, pois isso pode esconder problema nos dados."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Em C2 está =A2*$B$1. O que aparece ao copiar para C3?",
+        "steps": [
+          "A fórmula está em C2 e vai para C3. O movimento é de uma linha para baixo, sem mudar de coluna.",
+          "A2 não tem sinais $. É uma referência relativa: acompanha esse movimento. A coluna A continua igual e a linha 2 passa a 3. Ela vira A3.",
+          "Em $B$1, o primeiro $ fixa a coluna B e o segundo fixa a linha 1. Nenhuma das duas muda na cópia.",
+          "Junte novamente a fórmula, mantendo o sinal de multiplicação *: =A3*$B$1.",
+          "Se A3 contém 40 e B1 contém 0,10, a conta é 40 × 0,10 = 4. O sinal = avisa ao editor que aquilo é uma fórmula, não apenas texto.",
+          "Confira o motivo da fixação: o valor de cada linha muda, mas queremos usar sempre o fator guardado em B1."
+        ],
+        "goal": "Prever como uma fórmula muda quando é copiada para a linha seguinte.",
+        "start": "Uma referência como A2 é um endereço: coluna A, linha 2. O sinal $ fixa a parte do endereço que vem logo depois dele.",
+        "checkpoint": {
+          "prompt": "Se B1 estivesse sem os sinais $, para onde apontaria após essa cópia?",
+          "answer": "Para B2, pois a cópia desceu uma linha. Isso poderia usar um fator diferente do pretendido."
+        }
+      },
+      {
+        "question": "A1=4, A2=6, A3=8. Quanto vale =SOMA(A1:A3)/3?",
+        "steps": [
+          "Comece dentro de SOMA: A1:A3 reúne A1, A2 e A3. Não são só a primeira e a última.",
+          "Substitua pelos valores: SOMA(A1:A3) faz 4 + 6 + 8. Primeiro 4 + 6 = 10; depois 10 + 8 = 18.",
+          "A parte que vem depois é /3. A barra significa divisão. Então a fórmula agora é 18 ÷ 3.",
+          "O resultado é 6. Como somamos três valores e dividimos por três, calculamos a média desses valores.",
+          "Confira: se todos fossem iguais a 6, teríamos 6 + 6 + 6 = 18, a mesma soma. Essa é a ideia da média neste exemplo."
+        ],
+        "goal": "Ler a fórmula em partes e acompanhar o cálculo.",
+        "start": "Temos A1 = 4, A2 = 6 e A3 = 8. A expressão A1:A3 indica o intervalo da primeira até a terceira célula, incluindo as duas pontas.",
+        "checkpoint": {
+          "prompt": "O que mudaria se A2 fosse ignorada por engano?",
+          "answer": "A soma ficaria 4 + 8 = 12 e o resultado daria 4. O intervalo inclui A2, então essa leitura estaria errada."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc-planilha-q1",
+        "prompt": "Copiar =$A2+B$1 de C2 para D3 produz:",
+        "options": [
+          "=$A3+C$1",
+          "=$B3+C$2",
+          "=$A2+B$1",
+          "=$B2+B$1",
+          "=$A3+B$2"
+        ],
+        "correct": 0,
+        "explanation": [
+          "De C2 para D3, a cópia anda uma coluna à direita e uma linha para baixo. Guarde os dois movimentos.",
+          "Em $A2, o $ fixa a coluna A, mas a linha está livre. A linha 2 passa a 3: fica $A3.",
+          "Em B$1, a linha 1 está fixa, mas a coluna está livre. B passa a C: fica C$1.",
+          "Mantenha o sinal de soma e o início =. A nova fórmula é =$A3+C$1.",
+          "Confira cada $ separadamente: ele fixa apenas a parte imediatamente seguinte, não necessariamente o endereço inteiro."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "pc-planilha-q2",
+        "prompt": "Se A1=2, A2=5 e A3=8, =MÉDIA(A1:A3) vale:",
+        "options": [
+          "5",
+          "15",
+          "3",
+          "8",
+          "2"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O intervalo A1:A3 inclui A1, A2 e A3. Os valores são 2, 5 e 8.",
+          "MÉDIA soma esses valores numéricos e divide pela quantidade deles.",
+          "Some: 2 + 5 + 8 = 15. Como são três números, faça 15 ÷ 3 = 5.",
+          "Resultado: 5. Se a função fosse SOMA, retornaria 15, pois não faria a divisão final."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "pc-planilha-q3",
+        "prompt": "Em uma referência, $B$4 é:",
+        "options": [
+          "Absoluta para cópia",
+          "Relativa em ambas as partes",
+          "Mista com linha móvel",
+          "Mista com coluna móvel",
+          "Um valor monetário obrigatório"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Leia os dois sinais $ separadamente em $B$4.",
+          "O primeiro fixa a coluna B. O segundo fixa a linha 4.",
+          "Ao copiar a fórmula para outra posição, essa referência continua apontando a B4.",
+          "Por isso ela é absoluta para cópia. O exemplo trata de copiar fórmulas, não de todas as operações possíveis sobre a planilha."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda A1:A3, um intervalo, com apenas A1 e A3."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Microsoft — fórmulas",
+        "url": "https://support.microsoft.com/pt-br/excel/get-started/overview-of-formulas-in-excel"
+      },
+      {
+        "label": "LibreOffice — referências",
+        "url": "https://help.libreoffice.org/latest/pt/text/scalc/guide/relativ_absolut_ref.html?DbPAR=CALC"
+      }
+    ]
+  },
+  {
+    "id": "pc-apresentacao",
+    "title": "PowerPoint, Impress e multimídia",
+    "scope": "Apresentações, áudio, vídeo e imagens",
+    "sections": [
+      {
+        "title": "Slides e consistência",
+        "paragraphs": [
+          "Slide é unidade da apresentação. Layout organiza espaços; tema define conjunto visual; slide mestre controla padrões compartilhados. Alterar o mestre pode afetar muitos slides que o utilizam.",
+          "Transição ocorre entre slides. Animação atua em objetos dentro do slide. Efeito bonito não substitui legibilidade; evite texto pequeno e excesso de movimento."
+        ]
+      },
+      {
+        "title": "Formatos e conteúdo",
+        "paragraphs": [
+          "PPTX e ODP são formatos editáveis típicos de apresentações. Exportar PDF preserva páginas estáticas, mas não reproduz todas as animações/interações. Vídeo incorporado e vinculado têm dependências diferentes.",
+          "JPEG usa compressão com perdas e é comum em fotos; PNG permite transparência e compressão sem perdas; SVG descreve vetores e pode ser ampliado sem a mesma pixelização de raster. GIF pode conter animação. Escolha formato conforme a necessidade."
+        ]
+      },
+      {
+        "title": "Áudio e vídeo",
+        "paragraphs": [
+          "Codec define codificação/decodificação; contêiner reúne fluxos e metadados. MP4 é contêiner, não sinônimo de um único codec. Resolução descreve dimensões da imagem; taxa de quadros, frequência temporal; taxa de bits influencia qualidade/tamanho.",
+          "Comprimir pode reduzir tamanho com perda de informação. Converter extensão por renomeação não recodifica mídia. Teste reprodução no equipamento de apresentação, incluindo áudio e fontes."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um título precisa aparecer na mesma posição em todos os slides. Qual estratégia usar?",
+        "steps": [
+          "Identifique o que deve ser comum: posição e estilo do título. O conteúdo das palavras pode mudar de slide para slide.",
+          "Procure a estrutura de layout ou mestre do programa. Ela funciona como um modelo de organização para os slides que a utilizam.",
+          "Ajuste nesse modelo o espaço do título, sua posição e o estilo desejado. Os comandos exatos variam entre programas e versões.",
+          "Aplique o layout adequado aos slides. Assim, eles passam a seguir o mesmo padrão em vez de depender de cópias manuais.",
+          "Confira os slides, principalmente os que tenham alterações individuais. Um slide com formatação própria pode precisar de ajuste para voltar ao padrão."
+        ],
+        "goal": "Definir um padrão de título que possa ser reutilizado nos slides.",
+        "start": "Se vários slides precisam da mesma posição, ajustar cada um separadamente aumenta o risco de desalinhamento.",
+        "checkpoint": {
+          "prompt": "Mudar o título de um slide e mudar seu layout são a mesma coisa?",
+          "answer": "Não. O texto é o conteúdo específico; o layout define a organização que pode ser compartilhada por vários slides."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc-apresentacao-q1",
+        "prompt": "Efeito entre um slide e outro chama-se:",
+        "options": [
+          "Transição",
+          "Fórmula",
+          "Referência absoluta",
+          "Mala direta",
+          "Criptografia"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A pergunta fala da passagem de um slide para o próximo.",
+          "O efeito nessa mudança recebe o nome de transição.",
+          "Animação é um efeito aplicado a objetos do slide, como um texto que aparece ou uma figura que se move.",
+          "Resposta: transição. Para distinguir, pergunte se o efeito age na troca de página ou em um elemento dentro dela."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pc-apresentacao-q2",
+        "prompt": "Qual formato é vetorial?",
+        "options": [
+          "SVG",
+          "JPEG",
+          "BMP",
+          "MP3",
+          "WAV"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Uma imagem vetorial descreve formas, como linhas e curvas, em vez de apenas uma grade de pontos.",
+          "SVG é um formato que usa essa descrição vetorial.",
+          "JPEG e BMP representam imagens em pixels; MP3 e WAV são formatos de áudio.",
+          "A resposta é SVG. A distinção é sobre a forma de representar o conteúdo, não sobre uma imagem ser bonita ou ter muitas cores."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Formato, extensão e codec não são sinônimos."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Documentação LibreOffice",
+        "url": "https://documentation.libreoffice.org/pt-br/portugues/"
+      }
+    ]
+  },
+  {
+    "id": "pc-redes",
+    "title": "Redes, internet, navegação e comunicação",
+    "scope": "Redes, protocolos e serviços web",
+    "sections": [
+      {
+        "title": "Equipamentos e transmissão",
+        "paragraphs": [
+          "Rede conecta dispositivos para compartilhar dados/recursos. Switch encaminha quadros na rede local; roteador interliga redes; ponto de acesso conecta clientes sem fio. Um equipamento doméstico pode reunir várias funções.",
+          "Cabo de par trançado transmite sinais elétricos; fibra usa luz; Wi-Fi usa ondas de rádio. Topologia física descreve arranjo das conexões; lógica, fluxo/comunicação. Largura de banda não é a mesma medida que latência."
+        ]
+      },
+      {
+        "title": "Endereços e protocolos",
+        "paragraphs": [
+          "IP endereça interfaces para comunicação em rede; DNS resolve nomes para registros como endereços. HTTP é protocolo de aplicação da web; HTTPS acrescenta proteção TLS à comunicação. TCP oferece transporte orientado à conexão; UDP tem características distintas, sem as mesmas garantias.",
+          "Internet é rede de redes; web é um serviço que opera sobre ela. Intranet usa tecnologias de rede para acesso interno/restrito. Estar na intranet não elimina necessidade de controle de acesso."
+        ]
+      },
+      {
+        "title": "Navegador e busca",
+        "paragraphs": [
+          "Navegador acessa páginas; buscador indexa e localiza conteúdo. Favorito guarda referência; histórico registra navegação; cache guarda recursos; cookies armazenam dados associados a sites. Janela privada reduz rastros locais específicos, não torna o usuário invisível à rede.",
+          "Aspas em buscas costumam restringir expressão; site: restringe domínio conforme o buscador. Avalie autoria, data e fonte. HTTPS não garante que o conteúdo ou o vendedor seja confiável."
+        ]
+      },
+      {
+        "title": "E-mail e colaboração",
+        "paragraphs": [
+          "SMTP é associado ao envio/transferência de e-mail; IMAP ao acesso sincronizado a mensagens; POP3 tradicionalmente à recuperação. Webmail é acesso pelo navegador, não um novo formato de mensagem.",
+          "Para indica destinatário principal; Cc envia cópia visível; Cco oculta o destinatário dos demais destinatários usuais. Wiki permite edição colaborativa; fórum organiza discussões; rede social estrutura interações. Web 2.0 destaca participação; web 3.0 pode designar propostas semânticas/descentralizadas conforme a abordagem — o termo não identifica um único protocolo."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um navegador e um buscador são a mesma coisa?",
+        "steps": [
+          "Chrome e Firefox são exemplos de navegadores. Eles são aplicativos que carregam e apresentam conteúdo web.",
+          "Um buscador recebe uma pesquisa e apresenta resultados com links. É um serviço para encontrar conteúdo.",
+          "Você pode abrir um buscador dentro do Chrome e depois abrir outro no mesmo Chrome. O navegador continuou igual; o serviço mudou.",
+          "Também pode digitar diretamente o endereço de um site, sem fazer uma busca antes. Isso mostra que navegar não depende sempre de pesquisar.",
+          "Conclusão: navegador e buscador não são a mesma coisa, mesmo que a barra do navegador permita iniciar pesquisas."
+        ],
+        "goal": "Separar o aplicativo usado para navegar do serviço usado para encontrar páginas.",
+        "start": "Pense no navegador como o programa em que você abre endereços da web. Dentro dele você pode usar vários serviços.",
+        "checkpoint": {
+          "prompt": "Usar dois buscadores exige instalar dois navegadores?",
+          "answer": "Não. Você pode acessar serviços de busca diferentes pelo mesmo navegador."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc-redes-q1",
+        "prompt": "Qual serviço resolve nomes de domínio?",
+        "options": [
+          "DNS",
+          "SMTP",
+          "Editor de texto",
+          "Antivírus",
+          "Planilha"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Um domínio é um nome como exemplo.com. Os sistemas precisam consultar registros associados a esse nome.",
+          "DNS é o serviço usado nessa resolução de nomes, podendo fornecer endereços e outros registros conforme a consulta.",
+          "Isso é diferente de enviar uma mensagem de e-mail ou mostrar uma página na tela.",
+          "A resposta é DNS. Pense nele como a consulta que ajuda a localizar informações técnicas associadas a um nome."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pc-redes-q2",
+        "prompt": "HTTPS garante necessariamente que uma loja é honesta?",
+        "options": [
+          "Não; protege a conexão, mas não prova honestidade",
+          "Sim, sempre",
+          "Sim, se houver cadeado",
+          "Sim, mesmo com endereço imitando outro",
+          "Sim, pois dispensa verificar domínio"
+        ],
+        "correct": 0,
+        "explanation": [
+          "HTTPS protege a comunicação entre navegador e site nas condições do protocolo.",
+          "Isso não significa que o responsável pelo site seja honesto. Um site malicioso também pode usar uma conexão protegida.",
+          "Por isso o cadeado ou o HTTPS não substitui verificar o domínio e o contexto do pedido.",
+          "A resposta é não: protege a conexão, mas não prova honestidade. Conexão protegida e intenção do destinatário são questões diferentes."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pc-redes-q3",
+        "prompt": "Para ocultar endereços de destinatários dos demais destinatários usuais, use:",
+        "options": [
+          "Cco",
+          "Cc",
+          "Para em todos",
+          "Assunto",
+          "Responder a todos"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Cc indica cópia e normalmente deixa os endereços desses destinatários visíveis aos outros.",
+          "Cco significa cópia oculta e é o campo destinado a não expor esses endereços aos demais destinatários usuais.",
+          "Portanto use Cco para a finalidade descrita.",
+          "Isso não transforma a mensagem em anônima para o remetente ou para os sistemas de e-mail. A pergunta é sobre a visibilidade entre destinatários."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Internet e web não são o mesmo conceito."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Cartilha CERT.br",
+        "url": "https://cartilha.cert.br/"
+      }
+    ]
+  },
+  {
+    "id": "pc-seguranca",
+    "title": "Segurança, backup, criptografia e assinatura digital",
+    "scope": "Proteção de dados e identificação de ameaças",
+    "sections": [
+      {
+        "title": "Três propriedades centrais",
+        "paragraphs": [
+          "Confidencialidade limita acesso a autorizados. Integridade protege contra alteração indevida. Disponibilidade permite acesso quando necessário. Autenticação verifica identidade alegada; autorização define o que essa identidade pode fazer.",
+          "Senha forte e única reduz risco; múltiplos fatores acrescentam proteção. Não compartilhe códigos de verificação. Atualizações corrigem falhas, mas nenhum controle isolado elimina todo risco."
+        ]
+      },
+      {
+        "title": "Ameaça, vulnerabilidade e golpe",
+        "paragraphs": [
+          "Vulnerabilidade é fraqueza explorável; ameaça é fonte/evento potencial de dano; risco considera possibilidade e impacto. Phishing usa engano para induzir ação ou obter informação. Ransomware pode bloquear/cifrar dados e exigir pagamento.",
+          "Vírus se associa a código hospedeiro; worm se propaga por mecanismos próprios de rede; trojan se apresenta como útil/legítimo. Antivírus auxilia, mas não identifica necessariamente toda ameaça nova nem substitui cuidado com links e permissões."
+        ]
+      },
+      {
+        "title": "Backup precisa restaurar",
+        "paragraphs": [
+          "Cópia de segurança deve permitir recuperar dados após falha, exclusão ou ataque. Sincronização pode replicar uma exclusão e não equivale, sozinha, a backup com histórico.",
+          "Completo copia todo o conjunto definido; incremental copia alterações desde o último backup; diferencial, desde o último completo. Para restaurar incremental, pode ser necessário completo e toda a cadeia posterior. Teste recuperação e mantenha cópia protegida/separada."
+        ]
+      },
+      {
+        "title": "Criptografia e assinatura",
+        "paragraphs": [
+          "Criptografia simétrica usa chave compartilhada; assimétrica usa par de chaves com funções relacionadas. Cifrar conteúdo protege confidencialidade nas condições do sistema. Hash produz resumo para comparação de integridade, mas não é cifra reversível.",
+          "Assinatura digital usa a chave privada do signatário e verificação com chave pública, permitindo verificar autoria/integridade dentro do modelo de confiança. Assinar não torna o texto necessariamente secreto. Imagem de assinatura não equivale tecnicamente à assinatura digital criptográfica."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um documento assinado digitalmente pode ser lido por todos. Isso invalida a assinatura?",
+        "steps": [
+          "Assinatura digital ajuda a verificar autoria e integridade nas condições do sistema. Integridade significa verificar se o conteúdo foi alterado.",
+          "Sigilo, ou confidencialidade, trata de quem consegue ler o conteúdo. É outra necessidade.",
+          "Um documento pode estar assinado e continuar publicamente legível. Isso não invalida automaticamente sua assinatura.",
+          "Para restringir leitura, seriam necessários controles de acesso ou criptografia apropriados. Criptografia pode tornar o conteúdo ilegível a quem não tem a chave adequada.",
+          "Conclusão: poder ler o documento não prova falha da assinatura. Para conferir a assinatura, use o processo de validação correspondente."
+        ],
+        "goal": "Distinguir verificar a origem de um documento de impedir sua leitura.",
+        "start": "Assinatura digital e sigilo resolvem problemas diferentes. Vamos fazer uma pergunta para cada um.",
+        "checkpoint": {
+          "prompt": "Qual pergunta está ligada à integridade?",
+          "answer": "“O conteúdo foi alterado?” Já “quem pode ler?” está ligada à confidencialidade."
+        }
+      },
+      {
+        "question": "Uma pasta sincronizada foi apagada e a exclusão chegou a todos os aparelhos. Por que isso ocorreu?",
+        "steps": [
+          "A pasta foi apagada em um aparelho. O serviço de sincronização registrou essa mudança.",
+          "Ao atualizar os outros aparelhos, o serviço reproduziu a exclusão para que eles ficassem iguais. Isso explica por que o arquivo sumiu em todos.",
+          "Se não houver versão anterior ou cópia independente, os aparelhos sincronizados podem mostrar apenas o estado já apagado.",
+          "Backup é uma cópia pensada para recuperação. Para proteger contra esse tipo de erro, o plano precisa considerar versões e cópias que não sejam simplesmente apagadas junto.",
+          "Confira as opções reais de recuperação do serviço. Não presuma que sincronizar sozinho garante histórico ilimitado ou proteção contra qualquer perda."
+        ],
+        "goal": "Entender por que sincronizar não garante uma cópia recuperável.",
+        "start": "Sincronizar significa manter locais acompanhando as alterações uns dos outros. Uma exclusão também é uma alteração.",
+        "checkpoint": {
+          "prompt": "O que uma cópia independente acrescenta à recuperação?",
+          "answer": "Ela pode preservar um estado anterior sem reproduzir imediatamente a mesma exclusão, conforme a forma como foi criada e protegida."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "pc-seguranca-q1",
+        "prompt": "Assinatura digital garante por si só sigilo do texto?",
+        "options": [
+          "Não",
+          "Sim, sempre",
+          "Sim, se houver PDF",
+          "Sim, se houver uma imagem de assinatura",
+          "Sim, sem chave pública"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Assinatura digital ajuda a verificar autoria e integridade, isto é, origem e alterações do conteúdo nas condições do sistema.",
+          "Sigilo é outra propriedade: controlar quem consegue ler o texto.",
+          "Um documento pode estar assinado e ser público. Isso não é uma contradição.",
+          "A resposta é não. Para confidencialidade, são necessários mecanismos próprios, como acesso restrito ou criptografia apropriada."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "pc-seguranca-q2",
+        "prompt": "Qual medida verifica se o backup é utilizável?",
+        "options": [
+          "Teste de restauração",
+          "Apenas conferir o nome da pasta",
+          "Apagar o original antes de testar",
+          "Só sincronizar",
+          "Renomear arquivos"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Ter um arquivo chamado backup não prova que será possível recuperar os dados quando necessário.",
+          "O teste de restauração tenta recuperar a cópia e abrir ou utilizar o conteúdo restaurado.",
+          "Isso pode revelar arquivos ausentes, corrupção, falta de chaves ou dependências necessárias.",
+          "A resposta é teste de restauração. A verificação deve ser feita de forma controlada, sem sobrescrever os dados atuais que precisam ser preservados."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Um backup permanentemente exposto à mesma ameaça pode ser comprometido junto com os originais."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "CERT.br — cartilha",
+        "url": "https://cartilha.cert.br/"
+      },
+      {
+        "label": "ITI — certificação digital",
+        "url": "https://www.gov.br/iti/pt-br/acesso-a-informacao/perguntas-frequentes/certificacao-digital"
+      }
+    ]
+  }
+]

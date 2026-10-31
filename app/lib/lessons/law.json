@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "constitucional",
+    "title": "Constituição: direitos, Estado e poderes",
+    "scope": "CF: arts. 1–16, 18–31, 37–41, 44–135 e 144; extensão conforme o edital",
+    "sections": [
+      {
+        "title": "Como ler a Constituição",
+        "paragraphs": [
+          "Artigo é uma unidade principal; caput é o texto de abertura; incisos detalham hipóteses; parágrafos complementam ou excepcionam. Ao ler uma alternativa, identifique sujeito da regra, verbo, condição e exceção.",
+          "Fundamentos do art. 1º incluem soberania, cidadania, dignidade humana, valores sociais do trabalho e da livre iniciativa e pluralismo político. Objetivos do art. 3º são finalidades a perseguir, como reduzir desigualdades; princípios internacionais do art. 4º orientam relações com outros países. Não troque as três listas."
+        ]
+      },
+      {
+        "title": "Direitos e garantias",
+        "paragraphs": [
+          "Direito é o bem protegido; garantia é instrumento de proteção. Habeas corpus protege liberdade de locomoção diante de ilegalidade/abuso; habeas data relaciona-se ao acesso/retificação de dados pessoais nas condições constitucionais; mandado de segurança protege direito líquido e certo não amparado por esses instrumentos.",
+          "A casa é protegida contra entrada sem consentimento, com exceções constitucionais: flagrante delito, desastre, socorro ou determinação judicial durante o dia. Suspeita vaga não equivale automaticamente a flagrante. Liberdade de expressão não elimina a vedação ao anonimato nem a responsabilidade por abusos."
+        ]
+      },
+      {
+        "title": "Direitos sociais, nacionalidade e política",
+        "paragraphs": [
+          "Direitos sociais tratam de condições materiais como educação, saúde, trabalho e moradia. Nacionalidade é vínculo jurídico com o Estado: diferencie brasileiro nato e naturalizado. Direitos políticos tratam da participação na vida política.",
+          "Não confunda nacionalidade, cidadania e residência. Uma pessoa estrangeira não perde a proteção básica à vida e à dignidade por não ter direitos eleitorais. Requisitos de elegibilidade e hipóteses de perda/suspensão de direitos políticos exigem leitura dos artigos próprios."
+        ]
+      },
+      {
+        "title": "Federação e competências",
+        "paragraphs": [
+          "União, estados, Distrito Federal e municípios têm autonomia; soberania pertence à República Federativa do Brasil no plano internacional. Autonomia não autoriza descumprir a Constituição.",
+          "Competência administrativa é poder/dever de agir; legislativa é poder de produzir normas. Competência comum do art. 23 não se confunde com concorrente do art. 24. Município legisla sobre interesse local e suplementa legislação federal/estadual no que couber."
+        ]
+      },
+      {
+        "title": "Separação e controle",
+        "paragraphs": [
+          "Legislativo legisla e fiscaliza; Executivo governa e administra; Judiciário exerce jurisdição. Cada poder também pratica funções atípicas, como administrar seus servidores.",
+          "Ministério Público, advocacia pública, advocacia e Defensoria têm funções essenciais à Justiça, mas não são todos órgãos do Judiciário. Segurança pública é tratada no art. 144; competências institucionais devem ser lidas separadamente, sem presumir que todos os órgãos têm atribuições idênticas."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um enunciado permite entrada forçada em residência apenas porque há uma denúncia genérica. Como avaliar?",
+        "steps": [
+          "Comece pela regra: a casa é protegida contra entrada sem consentimento. A Constituição traz exceções; por isso precisamos comparar os fatos com elas.",
+          "Denúncia é uma informação de que algo pode ter acontecido. Ela não é, por si só, demonstração de flagrante. Flagrante se refere à situação do crime nas hipóteses legais.",
+          "Procure no enunciado fatos que indiquem uma hipótese autorizadora: flagrante, desastre, socorro ou determinação judicial nas condições previstas na Constituição.",
+          "Neste exemplo, só foi dada uma denúncia genérica. Não há fato suficiente para tratar a proteção da casa como afastada automaticamente.",
+          "Conclusão de estudo: a denúncia isolada não basta. Em uma questão concreta, examine os detalhes; não transforme a conclusão em proibição de toda entrada sem consentimento."
+        ],
+        "goal": "Ver se os fatos narrados justificam entrar numa casa sem autorização do morador.",
+        "start": "O exemplo fala apenas de uma denúncia genérica. Não acrescente mentalmente uma perseguição, um pedido de socorro ou uma ordem judicial que não foram informados.",
+        "checkpoint": {
+          "prompt": "Qual erro ocorre ao imaginar um flagrante que o enunciado não descreveu?",
+          "answer": "Você acrescenta um fato novo para justificar a resposta. A análise precisa partir das condições efetivamente dadas."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "constitucional-q1",
+        "prompt": "Qual afirmação distingue soberania de autonomia?",
+        "options": [
+          "A República é soberana; entes federativos têm autonomia.",
+          "Cada município é soberano.",
+          "Somente a União possui autonomia e soberania internacional próprias.",
+          "Estados podem ignorar a Constituição.",
+          "Autonomia elimina controles."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Soberania se refere à posição do Estado brasileiro, especialmente nas relações internacionais.",
+          "Autonomia é poder de se organizar e agir dentro dos limites da Constituição. É o que possuem os entes federativos.",
+          "Assim, a República é soberana e os entes têm autonomia. Um município não vira um país independente por ter governo próprio.",
+          "A resposta correta preserva essa diferença, em vez de permitir que estados ou municípios ignorem a Constituição."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "constitucional-q2",
+        "prompt": "Qual garantia se relaciona diretamente à liberdade de locomoção?",
+        "options": [
+          "Habeas corpus",
+          "Habeas data",
+          "Ação de cobrança",
+          "Mandado de injunção em qualquer caso",
+          "Recurso administrativo obrigatório"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Locomoção é o direito de ir e vir. A pergunta pede a garantia ligada diretamente a essa liberdade.",
+          "O habeas corpus protege contra ameaça ou restrição ilegal ou abusiva à locomoção nas condições jurídicas aplicáveis.",
+          "Outras garantias protegem objetos diferentes, como dados pessoais ou outros direitos.",
+          "A resposta é habeas corpus. Não amplie para “serve para qualquer problema”: é o bem protegido que orienta a escolha."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não transporte regras de um órgão constitucional para outro só porque ambos atuam na segurança."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Constituição Federal — texto oficial",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ]
+  },
+  {
+    "id": "dh",
+    "title": "Direitos humanos: fundamento, DUDH e proteção internacional",
+    "scope": "PMERJ: DUDH, art. 5º, tratados, convencionalidade e Estatuto de Roma",
+    "sections": [
+      {
+        "title": "A proteção pertence à pessoa",
+        "paragraphs": [
+          "Direitos humanos são proteções associadas à dignidade de todas as pessoas. Universalidade significa que não dependem de raça, nacionalidade, condição social ou aprovação moral da conduta do indivíduo.",
+          "Indivisibilidade e interdependência indicam que liberdades, direitos políticos e direitos sociais se relacionam. As chamadas dimensões são recurso histórico de organização; uma dimensão não apaga a anterior."
+        ]
+      },
+      {
+        "title": "DUDH: leia por grupos de direitos",
+        "paragraphs": [
+          "A Declaração Universal de 1948 reúne igualdade/dignidade, vida/liberdade/segurança, proibição de escravidão e tortura, garantias judiciais, liberdades e direitos sociais. É uma declaração, não um tratado que o Brasil “ratificou” como uma convenção.",
+          "Presunção de inocência exige respeito às garantias até a responsabilização nos termos legais. Pessoas acusadas ou presas mantêm direitos. Uma alternativa que autoriza tortura para obter confissão contraria a proteção, mesmo que invoque uma finalidade considerada útil."
+        ]
+      },
+      {
+        "title": "Tratados e convencionalidade",
+        "paragraphs": [
+          "O sistema global se liga à ONU; o interamericano inclui a Convenção Americana e seus órgãos de proteção. Comissão e Corte Interamericanas não são a mesma instituição.",
+          "Pelo art. 5º, §3º, tratado de direitos humanos aprovado em cada Casa do Congresso, em dois turnos, por três quintos, equivale a emenda constitucional. O STF reconhece caráter supralegal aos tratados de direitos humanos incorporados sem esse rito. Supralegal significa acima da lei e abaixo da Constituição.",
+          "Controle de convencionalidade examina compatibilidade de normas internas com compromissos internacionais pertinentes. Não é mera repetição do controle de constitucionalidade, cujo parâmetro é a Constituição."
+        ]
+      },
+      {
+        "title": "Tribunal Penal Internacional",
+        "paragraphs": [
+          "O Estatuto de Roma institui um tribunal voltado à responsabilidade penal individual por crimes internacionais dentro de sua competência: genocídio, crimes contra a humanidade, crimes de guerra e agressão, com requisitos próprios.",
+          "A atuação é complementar às jurisdições nacionais; não é uma instância comum de recurso de toda condenação brasileira. Genocídio exige intenção específica de destruir, no todo ou em parte, grupo protegido; gravidade ou número de vítimas, sozinhos, não bastam. Crimes contra a humanidade e crimes de guerra possuem contextos jurídicos distintos."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma alternativa diz que direitos humanos só protegem pessoas sem antecedentes. Qual é o erro?",
+        "steps": [
+          "Universalidade quer dizer que os direitos humanos se dirigem a todas as pessoas por serem humanas. Não são um prêmio por bom comportamento.",
+          "Ter antecedentes não faz a pessoa deixar de ser humana. Portanto essa condição, sozinha, não retira sua proteção básica.",
+          "Uma condenação pode restringir determinados direitos dentro da lei, como a liberdade em caso de pena de prisão. Isso é diferente de perder todos os direitos.",
+          "Mesmo presa, a pessoa mantém proteção contra tortura e respeito à dignidade. Responsabilização e proteção jurídica podem existir ao mesmo tempo.",
+          "A alternativa está errada porque transforma uma possível restrição legal em exclusão total de direitos humanos."
+        ],
+        "goal": "Entender por que antecedentes não retiram a condição de titular de direitos humanos.",
+        "start": "A alternativa usa só para excluir um grupo inteiro: pessoas que têm antecedentes. Vamos testar essa exclusão pela ideia de universalidade.",
+        "checkpoint": {
+          "prompt": "Proteger direitos significa impedir qualquer punição?",
+          "answer": "Não. Significa que a responsabilização precisa respeitar os limites jurídicos e os direitos que continuam protegidos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "dh-q1",
+        "prompt": "Uma nova dimensão de direitos humanos:",
+        "options": [
+          "Acrescenta proteção sem apagar as anteriores",
+          "Revoga a primeira dimensão",
+          "Elimina direitos sociais",
+          "Só protege cidadãos nacionais",
+          "Permite tortura excepcional"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Dimensões de direitos são uma forma de estudar historicamente a ampliação das proteções.",
+          "Quando surge o reconhecimento de novos direitos, isso não apaga automaticamente os já reconhecidos.",
+          "Pense em acrescentar camadas de proteção, não em trocar uma lista inteira por outra.",
+          "Por isso a resposta é acrescentar proteção sem apagar as anteriores. A classificação histórica não funciona como uma lei que revoga outra."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "dh-q2",
+        "prompt": "Um tratado de direitos humanos aprovado pelo rito do art. 5º, §3º, equivale a:",
+        "options": [
+          "Emenda constitucional",
+          "Decreto municipal",
+          "Lei ordinária em qualquer situação",
+          "Portaria",
+          "Norma sem efeito interno"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A pergunta menciona um procedimento específico: o rito do art. 5º, §3º. Rito significa a forma exigida para aprovar.",
+          "Esse procedimento exige aprovação em cada Casa do Congresso, em dois turnos, por três quintos dos votos dos respectivos membros.",
+          "Quando o tratado de direitos humanos passa por esse rito, tem equivalência a emenda constitucional.",
+          "Não conclua que todo tratado recebe automaticamente essa posição. O detalhe do procedimento é decisivo para a resposta."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não confunda o TPI, que julga indivíduos, com a Corte Interamericana, que examina responsabilidade internacional estatal."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "DUDH — ONU",
+        "url": "https://www.ohchr.org/en/human-rights/universal-declaration/translations/portuguese"
+      },
+      {
+        "label": "Constituição, art. 5º",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      },
+      {
+        "label": "Convenção Americana",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm"
+      },
+      {
+        "label": "Estatuto de Roma",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/2002/d4388.htm"
+      }
+    ]
+  },
+  {
+    "id": "administracao",
+    "title": "Administração Pública, fontes e organização",
+    "scope": "Organização administrativa e princípios",
+    "sections": [
+      {
+        "title": "Estado, governo e Administração",
+        "paragraphs": [
+          "Estado é a organização política permanente; governo define orientação política; Administração executa funções administrativas. Em sentido subjetivo, Administração indica órgãos e entidades; em sentido objetivo, a atividade administrativa.",
+          "Direito Administrativo não está reunido em um único código. Constituição, leis, regulamentos, jurisprudência e doutrina exercem papéis diferentes. Um costume administrativo não autoriza violar uma lei."
+        ]
+      },
+      {
+        "title": "Direta, indireta e órgãos",
+        "paragraphs": [
+          "Administração direta compreende a atuação dos entes por seus órgãos. A indireta reúne entidades com personalidade própria, como autarquias, fundações públicas, empresas públicas e sociedades de economia mista.",
+          "Órgão é centro de competências, em regra sem personalidade jurídica própria. Entidade tem personalidade. Desconcentração distribui competências dentro da mesma pessoa; descentralização envolve outra pessoa. Secretaria é exemplo de órgão; autarquia é entidade. Vinculação não é a mesma coisa que subordinação hierárquica."
+        ]
+      },
+      {
+        "title": "Princípios aplicados",
+        "paragraphs": [
+          "Legalidade/juridicidade exige atuação conforme o ordenamento, não vontade pessoal. Impessoalidade veda favorecimento e perseguição; moralidade exige padrões éticos jurídicos; publicidade favorece transparência, com sigilos legítimos; eficiência exige boa execução e uso racional de recursos.",
+          "Proporcionalidade examina adequação, necessidade e equilíbrio da medida. Continuidade protege a prestação dos serviços. Segurança jurídica e confiança legítima exigem cuidado com mudanças e situações consolidadas. Interesse público não é autorização genérica para afastar direitos."
+        ]
+      },
+      {
+        "title": "Fontes e controle",
+        "paragraphs": [
+          "Lei cria obrigações nos termos constitucionais; regulamento detalha execução dentro de seus limites. Doutrina sistematiza conceitos; jurisprudência interpreta casos e pode produzir precedentes vinculantes conforme o sistema.",
+          "A Administração exerce autotutela sobre seus atos. Controle externo e judicial não desaparecem. Sempre pergunte quem tem competência, qual finalidade é atendida e qual fundamento autoriza a decisão."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um prefeito usa publicidade oficial para promover seu nome e sua imagem pessoal. Qual princípio deve ser examinado?",
+        "steps": [
+          "A divulgação oficial usa uma estrutura pública. Ela deve atender à informação de interesse público nas condições constitucionais.",
+          "No caso, a finalidade narrada é destacar pessoalmente o prefeito. Esse detalhe diferencia informação institucional de promoção pessoal.",
+          "O princípio da impessoalidade exige que a atuação pública não seja orientada a favorecer pessoalmente quem ocupa o cargo.",
+          "Por isso, a promoção do nome e da imagem pessoal descrita no caso aponta para violação da impessoalidade.",
+          "Pagar a campanha de modo regular não resolve esse problema. Uma despesa pode ter um procedimento formal e ainda perseguir uma finalidade inadequada."
+        ],
+        "goal": "Perceber quando uma divulgação pública está servindo à promoção pessoal.",
+        "start": "O exemplo diz que o prefeito usa a publicidade oficial para promover a própria imagem. Vamos olhar a finalidade, isto é, para que a ação foi feita.",
+        "checkpoint": {
+          "prompt": "Qual palavra do caso orienta a escolha de impessoalidade?",
+          "answer": "Promoção pessoal. O problema é usar a publicidade pública para favorecer a imagem do agente."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "administracao-q1",
+        "prompt": "Criar departamentos dentro da mesma secretaria é exemplo de:",
+        "options": [
+          "Desconcentração",
+          "Descentralização obrigatória",
+          "Privatização",
+          "Criação de pessoa jurídica distinta",
+          "Concessão"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Os departamentos foram criados dentro da mesma secretaria. A organização foi dividida internamente.",
+          "Não foi criada outra pessoa jurídica, isto é, outra entidade com identidade jurídica própria.",
+          "Essa distribuição interna de atribuições se chama desconcentração.",
+          "A palavra-chave é dentro da mesma estrutura. Não confunda com transferir atividades a uma entidade diferente."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "administracao-q2",
+        "prompt": "Uma autarquia é:",
+        "options": [
+          "Pessoa jurídica da Administração indireta",
+          "Órgão sem personalidade, sempre",
+          "Empresa privada contratada, sempre",
+          "Poder da República",
+          "Departamento de qualquer secretaria"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Uma autarquia tem identidade jurídica própria: não é apenas uma sala ou departamento de um órgão.",
+          "Ela integra a Administração indireta, formada por entidades com personalidade própria nas condições legais.",
+          "Personalidade jurídica é a capacidade reconhecida à entidade para ter direitos e deveres em seu próprio nome.",
+          "A resposta é pessoa jurídica da Administração indireta. A existência dessa personalidade diferencia o caso de uma divisão interna."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Administração indireta não significa administração privada sem controles."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "CF, arts. 37–41",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ]
+  },
+  {
+    "id": "atos",
+    "title": "Atos administrativos: elementos, atributos e desfazimento",
+    "scope": "Elementos, mérito, espécies e controle",
+    "sections": [
+      {
+        "title": "Cinco elementos para analisar",
+        "paragraphs": [
+          "Competência: quem pode decidir. Finalidade: interesse público previsto. Forma: modo de exteriorização exigido. Motivo: fatos e fundamento jurídico. Objeto: efeito jurídico produzido.",
+          "Motivo e motivação não são sinônimos: motivo é a razão de fato/direito; motivação é sua exposição. A teoria dos motivos determinantes vincula a validade do ato aos motivos declarados, quando aplicável."
+        ]
+      },
+      {
+        "title": "Vinculação e discricionariedade",
+        "paragraphs": [
+          "Ato vinculado tem requisitos e solução definidos pela norma. Discricionário admite escolha legítima dentro dos limites legais. Mérito se relaciona à conveniência/oportunidade nessa margem.",
+          "O Judiciário controla legalidade, inclusive finalidade, motivos e proporcionalidade, mas não deve simplesmente substituir uma escolha administrativa legítima por preferência própria."
+        ]
+      },
+      {
+        "title": "Atributos e espécies",
+        "paragraphs": [
+          "Presunção de legitimidade é relativa, admite prova em contrário. Imperatividade permite impor obrigações unilateralmente nos atos que a comportam. Autoexecutoriedade não existe em todo ato: depende de autorização legal ou situação que a justifique.",
+          "Atos normativos estabelecem comandos gerais; ordinatórios organizam funcionamento; negociais consentem atividades; enunciativos certificam/opinam; punitivos aplicam sanções. Simples deriva de uma manifestação orgânica; complexo se forma com manifestações de órgãos distintos; composto tem ato principal e manifestação acessória."
+        ]
+      },
+      {
+        "title": "Desfazer não é sempre revogar",
+        "paragraphs": [
+          "Anulação enfrenta ilegalidade; revogação retira ato válido por conveniência/oportunidade, respeitados limites. Convalidação corrige vício sanável, quando admitida, sem lesão ao interesse público ou prejuízo a terceiros.",
+          "Cassação se relaciona ao descumprimento de condições pelo beneficiário; caducidade pode decorrer de norma superveniente incompatível. Perfeição, validade e eficácia são planos distintos: ato formado pode ser inválido ou ainda não produzir efeitos."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma licença foi concedida por erro sobre um requisito legal que não estava preenchido. Deve-se falar automaticamente em revogação?",
+        "steps": [
+          "A licença exigia um requisito legal que não estava preenchido. Portanto o problema existe na legalidade da concessão.",
+          "Anular é examinar a retirada de um ato por ilegalidade. Essa é a categoria que corresponde ao defeito apresentado.",
+          "Revogar é outra situação: o ato é válido, mas a Administração decide que não é mais conveniente ou oportuno mantê-lo, quando isso é permitido.",
+          "Como o exemplo não fala apenas de mudança de conveniência, chamar o caso automaticamente de revogação confunde os motivos.",
+          "A conclusão é examinar a anulação, respeitando o processo e os limites aplicáveis. Isso não significa apagar qualquer ato sem ouvir interessados ou verificar regras específicas."
+        ],
+        "goal": "Distinguir corrigir uma ilegalidade de mudar uma decisão por conveniência.",
+        "start": "Anulação e revogação retiram efeitos de atos administrativos em situações diferentes. Vamos primeiro descobrir qual é o defeito narrado.",
+        "checkpoint": {
+          "prompt": "Que mudança no enunciado apontaria para revogação?",
+          "answer": "Um ato válido que deixou de ser conveniente, numa situação em que a Administração possa revogá-lo. O motivo seria diferente da ilegalidade original."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "atos-q1",
+        "prompt": "Qual elemento responde “quem pode praticar o ato”?",
+        "options": [
+          "Competência",
+          "Objeto",
+          "Motivo",
+          "Forma",
+          "Finalidade"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A pergunta “quem pode praticar?” procura a atribuição legal para agir.",
+          "Essa atribuição recebe o nome de competência. Não é só habilidade pessoal: é autorização jurídica vinculada à função.",
+          "Objeto responde sobre o efeito ou conteúdo do ato; finalidade, sobre o propósito legal. São perguntas diferentes.",
+          "Logo o elemento pedido é competência. Associe cada nome à pergunta que ele ajuda a responder."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "atos-q2",
+        "prompt": "Retirar ato válido por conveniência/oportunidade corresponde, em regra, a:",
+        "options": [
+          "Revogação",
+          "Anulação",
+          "Convalidação",
+          "Presunção",
+          "Delegação"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O enunciado diz que o ato é válido. Portanto o motivo da retirada não é um defeito de legalidade.",
+          "A mudança decorre de conveniência ou oportunidade: a Administração avalia a utilidade de manter o ato, quando pode fazer esse exame.",
+          "Essa retirada é, em regra, revogação.",
+          "Anulação corresponde à análise de ilegalidade. A palavra válido é a pista que separa as duas situações aqui."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Presunção de legitimidade não torna o ato infalível nem impede defesa."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Lei 9.784/1999 — referência federal, arts. 2º, 50 e 53–55",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+      },
+      {
+        "label": "CF, art. 37",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ]
+  },
+  {
+    "id": "poderes",
+    "title": "Poderes administrativos e seus limites",
+    "scope": "Hierarquia, disciplina, regulamento e polícia",
+    "sections": [
+      {
+        "title": "Quatro poderes, quatro funções",
+        "paragraphs": [
+          "Hierárquico organiza, coordena, fiscaliza e distribui funções em relações de subordinação. Disciplinar permite apurar e sancionar infrações de quem mantém vínculo sujeito à disciplina administrativa.",
+          "Regulamentar/normativo detalha a execução da lei nos limites de competência. Poder de polícia condiciona ou limita direitos/atividades para proteção de interesses públicos, como fiscalização sanitária e de trânsito, dentro da base legal."
+        ]
+      },
+      {
+        "title": "Poder de polícia não é só polícia uniformizada",
+        "paragraphs": [
+          "Licenças, fiscalização e sanções administrativas podem ser manifestações do poder de polícia. Nem toda atuação exige força física. Competência, procedimento e proporcionalidade continuam obrigatórios.",
+          "A polícia administrativa incide sobre atividades/bens/direitos; a investigação criminal tem finalidade e regime próprios. A semelhança do nome não torna as atribuições intercambiáveis."
+        ]
+      },
+      {
+        "title": "Abuso: excesso e desvio",
+        "paragraphs": [
+          "Excesso ocorre quando o agente ultrapassa sua competência. Desvio de finalidade ocorre quando usa competência para finalidade diferente da prevista, como perseguir alguém.",
+          "Ato discricionário também tem limites. Sanção disciplinar exige procedimento e garantias cabíveis. Delegação e avocação dependem das condições legais; não transferem indistintamente toda atribuição."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um fiscal competente fecha um estabelecimento apenas para prejudicar um desafeto, sem motivo público. Qual vício aparece?",
+        "steps": [
+          "Separe duas perguntas: “ele pode praticar esse tipo de ato?” e “para que praticou esse ato?”. A primeira trata da competência; a segunda, da finalidade.",
+          "O enunciado já diz que o fiscal é competente. Não precisamos inventar falta de atribuição como problema central.",
+          "O fechamento foi feito apenas para prejudicar um desafeto. O objetivo descrito é pessoal, sem motivo público.",
+          "Isso aponta para desvio de finalidade: a atribuição pública foi usada para um fim diferente daquele que a justifica.",
+          "O desvio é uma forma de abuso de poder. Outros problemas podem existir no caso, mas a pista central é o objetivo de perseguição."
+        ],
+        "goal": "Identificar o uso de uma atribuição pública para um objetivo pessoal.",
+        "start": "O fiscal tem competência formal: isso significa que o cargo lhe dá determinada atribuição. Mas ter a atribuição não permite usá-la para qualquer objetivo.",
+        "checkpoint": {
+          "prompt": "Ter competência torna qualquer decisão do fiscal válida?",
+          "answer": "Não. Além de ter atribuição, ele precisa respeitar os demais requisitos, incluindo a finalidade pública."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "poderes-q1",
+        "prompt": "A fiscalização sanitária é manifestação típica de:",
+        "options": [
+          "Poder de polícia administrativa",
+          "Poder jurisdicional",
+          "Soberania individual",
+          "Poder constituinte",
+          "Imunidade administrativa"
+        ],
+        "correct": 0,
+        "explanation": [
+          "A fiscalização sanitária verifica condições de atividades que podem afetar a coletividade.",
+          "O Estado pode impor condições e limites legais para proteger interesses coletivos, como a saúde.",
+          "Essa atuação é manifestação do poder de polícia administrativa. O nome não significa que só uma instituição policial o exerce.",
+          "A resposta se liga à função de condicionar atividades dentro da lei, e não a punir qualquer pessoa sem limites."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "poderes-q2",
+        "prompt": "Agente ultrapassa a atribuição legal de seu cargo. O caso aponta para:",
+        "options": [
+          "Excesso de poder",
+          "Finalidade legítima automática",
+          "Convalidação obrigatória",
+          "Ausência de controle",
+          "Poder ilimitado"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O agente tinha uma atribuição, mas foi além do limite que a lei lhe deu.",
+          "Ultrapassar esse limite de competência caracteriza a análise de excesso de poder.",
+          "Compare com desvio de finalidade: ali a atenção está no objetivo inadequado usado para orientar a atuação.",
+          "Aqui a pista é ultrapassa a atribuição. Portanto a resposta é excesso de poder."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Poder público é competência acompanhada de deveres, não permissão irrestrita."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Código Tributário Nacional, art. 78",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+      },
+      {
+        "label": "CF, art. 37",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ]
+  },
+  {
+    "id": "agentes",
+    "title": "Agentes públicos, responsabilidade e processo disciplinar",
+    "scope": "Servidores, concurso, responsabilidade estatal e PAD",
+    "sections": [
+      {
+        "title": "Quem atua pelo Estado",
+        "paragraphs": [
+          "Agentes públicos incluem categorias distintas: agentes políticos, servidores e particulares em colaboração, conforme classificação doutrinária. Agente de fato atua sob aparência de investidura ou situação excepcional; isso não se confunde automaticamente com usurpação criminosa.",
+          "Cargo, emprego e função não são sinônimos. Regime estatutário se baseia em lei; emprego público tem vínculo trabalhista, submetido também a exigências constitucionais. Concurso é regra para investidura em cargo/emprego, ressalvadas hipóteses constitucionais."
+        ]
+      },
+      {
+        "title": "Estabilidade e deveres",
+        "paragraphs": [
+          "Estabilidade constitucional tem requisitos e não significa impossibilidade de perder o cargo. Remuneração, acumulação e teto possuem regras próprias. Compatibilidade de horários sozinha não torna qualquer acumulação permitida.",
+          "A lei local define direitos, licenças e deveres específicos. Não aplique automaticamente a Lei 8.112/1990, federal, a servidor de São Gonçalo ou policial militar estadual."
+        ]
+      },
+      {
+        "title": "Dano e responsabilização",
+        "paragraphs": [
+          "Responsabilidade civil busca reparar dano; administrativa apura infração funcional; penal trata de crime. As esferas têm autonomia relativa e pontos legais de comunicação.",
+          "Na responsabilidade objetiva estatal do art. 37, §6º, examine conduta atribuível à atuação, dano e nexo causal. Objetiva não significa automática: o nexo pode faltar ou ser rompido conforme o caso. A ação regressiva contra o agente depende de dolo ou culpa nos termos constitucionais."
+        ]
+      },
+      {
+        "title": "Processo não é formalidade vazia",
+        "paragraphs": [
+          "Contraditório permite conhecer e responder à acusação; ampla defesa assegura meios de defesa admitidos. Motivação permite compreender e controlar a decisão.",
+          "PAD exige apuração, oportunidade de defesa, produção/análise de provas e decisão pela autoridade competente, conforme o regime. Improbidade não é sinônimo de qualquer irregularidade: tipicidade e elemento subjetivo devem ser analisados à luz da Lei 8.429 e alterações."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um veículo oficial, conduzido em serviço, causa dano por atuação imputável ao agente. Basta afirmar “era do governo” para concluir tudo?",
+        "steps": [
+          "Identifique primeiro o dano: o que foi prejudicado e quem sofreu esse prejuízo? Sem dano demonstrado, falta uma parte da análise de reparação.",
+          "Agora veja a conduta em serviço e sua ligação com o prejuízo. Essa ligação se chama nexo causal: o dano precisa estar relacionado à atuação examinada.",
+          "Examine também fatos que possam excluir ou diminuir a responsabilidade. Não conclua tudo só pela identificação do veículo.",
+          "Separe a cobrança dirigida ao Estado de uma possível ação do Estado contra o agente para recuperar valores pagos. São relações diferentes.",
+          "A responsabilidade objetiva do Estado não significa que o agente seja automaticamente culpado. A responsabilidade pessoal dele exige a análise própria dos requisitos."
+        ],
+        "goal": "Separar a responsabilidade do Estado da eventual responsabilidade do agente.",
+        "start": "O veículo oficial estava em serviço, mas ainda precisamos ligar uma atuação a um dano. “Era do governo” não responde todas as perguntas.",
+        "checkpoint": {
+          "prompt": "O que significa nexo causal em linguagem simples?",
+          "answer": "É a ligação entre o que aconteceu e o prejuízo: verificar se aquela atuação causou o dano examinado."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "agentes-q1",
+        "prompt": "Responsabilidade objetiva estatal dispensa, em regra, a prova de qual elemento para a vítima?",
+        "options": [
+          "Culpa do agente, sem dispensar dano e nexo",
+          "Dano",
+          "Nexo causal",
+          "Atuação imputável",
+          "Todos os elementos"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Responsabilidade objetiva significa que, nas hipóteses correspondentes, a vítima não precisa provar a culpa do agente como requisito dessa responsabilidade estatal.",
+          "Isso não significa indenização automática. Ainda é necessário demonstrar dano e ligação causal com a atuação, entre outros aspectos aplicáveis.",
+          "Culpa se relaciona ao descuido; nexo é a ligação entre atuação e prejuízo. São elementos diferentes.",
+          "A resposta é dispensa da prova de culpa, sem dispensar dano e nexo. Não estenda essa regra automaticamente à responsabilidade pessoal do agente."
+        ],
+        "difficulty": "application"
+      },
+      {
+        "id": "agentes-q2",
+        "prompt": "O contraditório exige:",
+        "options": [
+          "Possibilidade de conhecer e responder aos elementos da acusação",
+          "Condenação antes da defesa",
+          "Ausência de motivação",
+          "Sigilo absoluto para o acusado",
+          "Decisão por qualquer pessoa"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Contraditório envolve poder conhecer o que é apresentado contra a pessoa e ter oportunidade de responder.",
+          "Não há resposta efetiva se os elementos da acusação ficam desconhecidos ou se não existe oportunidade de manifestação.",
+          "Por isso ciência e possibilidade de reação precisam ser consideradas no procedimento aplicável.",
+          "A resposta correta é conhecer e responder aos elementos da acusação. Não significa garantia de que a defesa sempre será aceita."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "A lei federal de servidores não substitui o estatuto estadual ou municipal."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "CF, arts. 37–41",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      },
+      {
+        "label": "Lei de Improbidade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+      }
+    ]
+  },
+  {
+    "id": "penal-base",
+    "title": "Direito Penal: lei, crime e culpabilidade",
+    "scope": "Parte Geral; bases comuns aos dois concursos",
+    "sections": [
+      {
+        "title": "Legalidade e aplicação da lei",
+        "paragraphs": [
+          "Não há crime sem lei anterior que o defina nem pena sem prévia previsão legal. A lei penal mais benéfica retroage; a mais severa não retroage para prejudicar. Abolitio criminis retira a criminalização e seus efeitos penais nas condições legais.",
+          "Tempo do crime segue a atividade: momento da ação/omissão, ainda que o resultado venha depois. Lugar do crime adota a ubiquidade no art. 6º: lugar da conduta ou onde se produziu/deveria produzir o resultado. Territorialidade é regra com ressalvas; extraterritorialidade depende das hipóteses legais."
+        ]
+      },
+      {
+        "title": "Três perguntas sobre o crime",
+        "paragraphs": [
+          "Na análise tripartida, examine fato típico, ilicitude e culpabilidade. Fato típico envolve conduta e adequação ao tipo, além de resultado/nexo quando exigidos. Ilicitude é contrariedade ao ordenamento, podendo haver justificantes. Culpabilidade envolve imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+          "Dolo envolve querer o resultado ou assumir o risco; culpa envolve violação do dever de cuidado, nas modalidades imprudência, negligência ou imperícia, quando a lei prevê punição culposa. Resultado grave sozinho não prova dolo."
+        ]
+      },
+      {
+        "title": "Ação, omissão e erro",
+        "paragraphs": [
+          "Omissão penalmente relevante depende das condições legais; quem tem dever jurídico de impedir o resultado e podia agir pode responder nos termos do art. 13.",
+          "Erro sobre elemento do tipo afeta o dolo e pode permitir punição culposa quando prevista. Erro de proibição recai sobre a ilicitude e tem disciplina própria. Confundir fato com avaliação jurídica leva a respostas erradas."
+        ]
+      },
+      {
+        "title": "Pessoas, normas e crimes",
+        "paragraphs": [
+          "Concurso de pessoas examina contribuição causal e vínculo subjetivo para o fato; estar presente não basta. Concurso de crimes trata de pluralidade de infrações, com critérios próprios para concurso material, formal e continuidade.",
+          "Conflito aparente de normas significa que vários tipos parecem incidir, mas critérios como especialidade, subsidiariedade e consunção resolvem a incidência. Não é o mesmo que praticar vários crimes independentes."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma pessoa pega um guarda-chuva acreditando sinceramente ser o seu. O que examinar primeiro?",
+        "steps": [
+          "O furto envolve, entre outros elementos, uma coisa alheia: pertencente a outra pessoa. Esse é um dado do fato.",
+          "No exemplo, a pessoa pensa que o objeto é próprio. O engano está na identidade ou propriedade do guarda-chuva, não na ideia de que furtar seria permitido.",
+          "Um engano sobre uma circunstância que faz parte da descrição do crime é examinado como erro de tipo. Tipo é o nome dado à descrição legal da conduta.",
+          "Erro de proibição é outra pergunta: a pessoa compreende o que faz, mas se engana sobre sua permissão jurídica. Não é isso que o exemplo descreve inicialmente.",
+          "Conclusão: primeiro examine erro de tipo. A aplicação concreta depende da prova do engano e das demais circunstâncias; alegar “achei que era meu” não encerra automaticamente o caso."
+        ],
+        "goal": "Distinguir um engano sobre os fatos de um engano sobre o que a lei permite.",
+        "start": "A pessoa acredita que o guarda-chuva é dela. Vamos observar exatamente sobre o que ela se enganou.",
+        "checkpoint": {
+          "prompt": "A pessoa se enganou sobre uma regra ou sobre um fato?",
+          "answer": "Sobre um fato: de quem era o guarda-chuva. Essa é a pista que orienta a análise inicial."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "penal-base-q1",
+        "prompt": "Lei penal posterior mais severa pode retroagir para prejudicar?",
+        "options": [
+          "Não",
+          "Sempre",
+          "Se houver notícia na imprensa",
+          "Se a autoridade preferir",
+          "Se o processo ainda não terminou, sempre"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Retroagir é alcançar fatos anteriores ao início da nova lei. A pergunta fala de uma lei posterior mais severa.",
+          "A garantia impede usar essa novidade para piorar a situação penal de quem praticou o fato antes.",
+          "Portanto a resposta é não: a lei mais severa não pode retroagir para prejudicar.",
+          "A lei posterior mais benéfica tem tratamento diferente. O sentido da mudança — piorar ou beneficiar — precisa ser observado."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "penal-base-q2",
+        "prompt": "A negligência se relaciona, em regra, a:",
+        "options": [
+          "Falta de cuidado devido",
+          "Vontade direta do resultado, necessariamente",
+          "Qualquer pensamento",
+          "Responsabilidade sem conduta",
+          "Ausência automática de crime"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Negligência se relaciona a deixar de tomar um cuidado devido. Pense na falta de atenção ou providência exigível na situação.",
+          "Ela é analisada como modalidade de culpa, quando presentes os requisitos legais da conduta culposa.",
+          "Um resultado ruim, sozinho, não prova negligência. É preciso examinar o cuidado devido e os demais elementos.",
+          "A resposta é falta de cuidado devido, não qualquer acontecimento indesejado automaticamente."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Exemplo didático não dispensa examinar todos os elementos do tipo."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Código Penal, arts. 1–31",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ]
+  },
+  {
+    "id": "penal-execucao",
+    "title": "Tentativa, desistência e causas de justificação",
+    "scope": "Execução do crime e exclusão da ilicitude",
+    "sections": [
+      {
+        "title": "Consumado ou tentado?",
+        "paragraphs": [
+          "Consumado reúne todos os elementos do tipo. Tentado tem execução iniciada e não se consuma por circunstâncias alheias à vontade do agente. Preparação não é automaticamente tentativa.",
+          "Na desistência voluntária, o agente pode continuar, mas decide parar. No arrependimento eficaz, já realizou a conduta executória e impede eficazmente o resultado. Em ambos, responde pelos atos já praticados, conforme o art. 15."
+        ]
+      },
+      {
+        "title": "Legítima defesa e necessidade",
+        "paragraphs": [
+          "Legítima defesa pressupõe agressão injusta atual ou iminente, proteção de direito próprio/alheio e uso moderado dos meios necessários. Vingança depois de encerrada a agressão não é defesa atual.",
+          "Estado de necessidade envolve perigo atual, não provocado voluntariamente pelo agente, inevitável por outro meio nas condições legais, e proteção de direito cujo sacrifício não era razoável exigir. Perigo e agressão injusta não são conceitos idênticos."
+        ]
+      },
+      {
+        "title": "Dever, direito e excesso",
+        "paragraphs": [
+          "Estrito cumprimento de dever legal exige atuação dentro do dever; exercício regular de direito exige exercício dentro dos limites jurídicos. Nenhuma dessas causas autoriza excesso.",
+          "O excesso doloso ou culposo pode gerar responsabilidade. Obediência hierárquica, tratada na culpabilidade sob requisitos próprios, não legitima ordem manifestamente ilegal. Diferencie causa de justificação de causa que afasta culpabilidade."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma agressão cessa e o agressor fica impossibilitado de continuar. A reação posterior ainda é automaticamente legítima defesa?",
+        "steps": [
+          "No primeiro momento, verifique se havia agressão atual ou iminente. Atual está acontecendo; iminente está prestes a acontecer.",
+          "Depois localize a mudança: a agressão cessou e o agressor não pode continuar. Essa informação altera o cenário.",
+          "Agora avalie a reação posterior por seus próprios fatos. Não basta dizer que tudo foi defesa só porque a situação começou com uma agressão.",
+          "Conforme as circunstâncias, a continuação pode exigir análise de excesso ou de um novo fato. O exemplo não permite escolher uma classificação completa sem mais detalhes.",
+          "Conclusão: não há legítima defesa automática para toda ação posterior. A sequência no tempo é parte essencial da questão."
+        ],
+        "goal": "Analisar separadamente a reação durante a agressão e o que ocorreu depois.",
+        "start": "Vamos dividir a história em dois momentos. Uma justificativa para o primeiro não se estende automaticamente ao segundo.",
+        "checkpoint": {
+          "prompt": "Qual fato exige reavaliar a reação?",
+          "answer": "O fim da agressão e a impossibilidade de sua continuação, conforme a narrativa. A situação deixou de ser a mesma."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "penal-execucao-q1",
+        "prompt": "A tentativa exige não consumação por:",
+        "options": [
+          "Circunstância alheia à vontade do agente",
+          "Decisão voluntária de parar em qualquer caso",
+          "Ausência de início de execução, sempre",
+          "Pensamento não exteriorizado",
+          "Motivo irrelevante sem execução"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Tentativa envolve início da execução sem que o crime se complete nas condições previstas na lei.",
+          "A pergunta quer saber por que não houve consumação: deve ser por circunstância alheia à vontade do agente.",
+          "Isso significa um fator que não depende de sua decisão voluntária de parar, conforme a análise do caso.",
+          "A resposta é circunstância alheia à vontade. Não basta ter pensado ou planejado: o início da execução também importa."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "penal-execucao-q2",
+        "prompt": "Agressão já encerrada autoriza vingança como legítima defesa?",
+        "options": [
+          "Não",
+          "Sempre",
+          "Se a vítima estiver irritada",
+          "Se passar menos de um dia",
+          "Se não houver testemunhas"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Legítima defesa se relaciona a enfrentar agressão atual ou iminente, respeitados os demais requisitos.",
+          "Vingança depois que a agressão acabou tem outro objetivo e outro momento.",
+          "Não podemos estender automaticamente a justificativa de defesa para atos posteriores de revanche.",
+          "Por isso a resposta é não. A pergunta destaca agressão já encerrada, que impede tratar a vingança como defesa por simples continuidade da história."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não misture desistência voluntária com tentativa frustrada por intervenção externa."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "CP, arts. 14–25",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ]
+  },
+  {
+    "id": "penal-penas",
+    "title": "Imputabilidade e consequências penais",
+    "scope": "Imputabilidade, penas, regimes e benefícios",
+    "sections": [
+      {
+        "title": "Capacidade de responsabilização",
+        "paragraphs": [
+          "Imputabilidade envolve capacidade de entender o caráter ilícito do fato e de determinar-se de acordo com esse entendimento, segundo critérios legais. Menoridade penal e hipóteses de doença mental têm disciplinas próprias.",
+          "Emoção e paixão não excluem imputabilidade. Embriaguez voluntária ou culposa, por si só, não afasta a responsabilidade; embriaguez completa por caso fortuito/força maior segue requisitos distintos. Não use a expressão “estava bêbado” como resposta suficiente."
+        ]
+      },
+      {
+        "title": "Espécies e individualização",
+        "paragraphs": [
+          "Penas privativas de liberdade restringem locomoção; restritivas de direitos substituem a privativa quando preenchidos os requisitos; multa tem disciplina própria. Regime fechado, semiaberto e aberto não são sinônimos de tipo penal.",
+          "A dosimetria considera fases distintas: pena-base, agravantes/atenuantes e causas de aumento/diminuição. Uma circunstância não pode ser contada repetidamente sem base jurídica."
+        ]
+      },
+      {
+        "title": "Não confunda institutos",
+        "paragraphs": [
+          "Suspensão condicional da pena suspende a execução sob condições legais; livramento condicional permite liberação antecipada do restante da pena sob requisitos; progressão muda regime. Suspensão condicional do processo é instituto processual distinto.",
+          "Estabelecimentos e condições de cumprimento seguem o regime e a legislação de execução. Percentuais, prazos e exceções mudam; leia a versão exigida pelo edital antes de decorar números."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Uma alternativa diz que progressão, livramento e suspensão da pena significam a mesma coisa. Como refutar?",
+        "steps": [
+          "Progressão trata da mudança de regime de cumprimento. Pense em “como a pena é cumprida”, conforme os requisitos aplicáveis.",
+          "Livramento condicional envolve cumprir o restante da pena em liberdade sob condições. O foco é esse período restante e suas exigências.",
+          "Sursis é o nome usado para a suspensão da execução da pena, quando preenchidos os requisitos. O foco é a suspensão, não uma simples troca de regime.",
+          "Agora compare: mudança de regime, cumprimento restante em liberdade e suspensão da execução são objetos diferentes.",
+          "A alternativa que chama tudo de mesma coisa está errada. Para uma questão sobre requisitos ou prazos, ainda será necessário conferir a regra específica de cada instituto."
+        ],
+        "goal": "Entender o que cada instituto muda na execução da pena.",
+        "start": "Em vez de decorar três nomes juntos, faça uma pergunta para cada um: o que é alterado?",
+        "checkpoint": {
+          "prompt": "Qual dos três está ligado à mudança de regime?",
+          "answer": "Progressão. Esse é o objeto que a distingue das outras duas figuras neste exemplo."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "penal-penas-q1",
+        "prompt": "Qual é a afirmação correta?",
+        "options": [
+          "Emoção, por si só, não exclui imputabilidade.",
+          "Toda embriaguez exclui responsabilidade.",
+          "Toda doença elimina imputabilidade automaticamente.",
+          "Regime aberto significa absolvição.",
+          "Multa é sempre indenização civil."
+        ],
+        "correct": 0,
+        "explanation": [
+          "Imputabilidade trata da possibilidade de responsabilização penal segundo os critérios legais, não apenas de a pessoa estar emocionalmente alterada.",
+          "Emoção, por si só, não exclui essa condição. Estar com raiva ou abalado não resolve sozinho a análise.",
+          "Outras circunstâncias exigem exame próprio; não as presuma apenas porque houve emoção.",
+          "A afirmação correta é que emoção, sozinha, não exclui imputabilidade. Não confunda isso com absolvição ou com a escolha da consequência penal."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Não aplique percentuais atuais a uma questão histórica sem verificar o marco normativo."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "CP, arts. 26–90",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ]
+  },
+  {
+    "id": "penal-crimes",
+    "title": "Crimes em espécie: compare o núcleo da conduta",
+    "scope": "Pessoa, patrimônio, dignidade sexual, fé pública e Administração",
+    "sections": [
+      {
+        "title": "Patrimônio: subtrair, constranger, enganar",
+        "paragraphs": [
+          "Furto envolve subtração de coisa alheia móvel; roubo inclui violência/grave ameaça ou hipóteses legais equivalentes. Extorsão envolve constranger alguém, com violência/grave ameaça, a fazer, tolerar ou deixar de fazer algo para obter vantagem econômica indevida.",
+          "Estelionato envolve fraude para obtenção de vantagem ilícita com prejuízo alheio. Não classifique somente pela presença de dinheiro: identifique o meio empregado e a conduta exigida da vítima."
+        ]
+      },
+      {
+        "title": "Pessoa e dignidade sexual",
+        "paragraphs": [
+          "Crimes contra a pessoa protegem bens como vida, integridade, honra e liberdade. Homicídio e lesão corporal distinguem-se pelo tipo e elemento subjetivo, não apenas pelo instrumento usado.",
+          "Nos crimes contra a dignidade sexual, consentimento, violência, grave ameaça e vulnerabilidade possuem relevância conforme o tipo. Não presuma consentimento nem capacidade jurídica apenas pela narrativa superficial. Idades, penas e alterações exigem conferência do texto aplicável."
+        ]
+      },
+      {
+        "title": "Administração e fé pública",
+        "paragraphs": [
+          "Peculato relaciona apropriação/desvio por funcionário público nas condições do tipo; concussão envolve exigir vantagem indevida; corrupção passiva envolve solicitar/receber/aceitar promessa, conforme o tipo; ativa envolve oferecer/prometer vantagem ao funcionário para determiná-lo a agir funcionalmente.",
+          "Fé pública envolve confiança em documentos, moeda e sinais. Falsidade material altera autenticidade; ideológica insere declaração falsa em documento formalmente autêntico, com requisitos próprios. Usar documento falso não deve ser confundido automaticamente com fabricá-lo."
+        ]
+      },
+      {
+        "title": "Como resolver um caso",
+        "paragraphs": [
+          "Sublinhe verbos: subtrair, exigir, solicitar, oferecer, falsificar. Identifique sujeito, objeto, finalidade e contexto. Depois compare com o tipo, incluindo qualificadoras e causas especiais se forem relevantes.",
+          "Nos crimes contra a Justiça, o foco pode ser a regularidade da atividade jurisdicional, como imputar falsamente crime sob condições legais. Nos crimes contra a paz pública, examine a estrutura da associação e os requisitos, sem confundir coautoria episódica com associação estável."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "Um agente público exige dinheiro em razão da função. Por que o verbo importa?",
+        "steps": [
+          "Sublinhe exige. Exigir indica uma imposição, não apenas um pedido ou uma aceitação.",
+          "Sublinhe também em razão da função. A ligação com a função pública faz parte do que precisamos examinar.",
+          "A combinação aponta para a análise da concussão, desde que os demais elementos do crime estejam presentes.",
+          "Compare com solicitar ou receber vantagem, expressões relacionadas à corrupção passiva. Trocar o verbo pode mudar a análise.",
+          "Não decida só por uma palavra isolada se o restante da narrativa a contradizer. Aqui o próprio caso destaca exigir e o vínculo funcional."
+        ],
+        "goal": "Usar a ação descrita para distinguir crimes parecidos.",
+        "start": "O caso diz que um agente público exige dinheiro em razão da função. Vamos prestar atenção ao verbo, sem ignorar as outras condições.",
+        "checkpoint": {
+          "prompt": "Qual é a utilidade de sublinhar o verbo numa questão penal?",
+          "answer": "Ele ajuda a identificar a conduta descrita e compará-la com a definição legal, sem dispensar os demais elementos."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "penal-crimes-q1",
+        "prompt": "Qual par diferencia corretamente a forma básica de furto e roubo?",
+        "options": [
+          "Subtração; subtração com violência/grave ameaça nas hipóteses legais",
+          "Ambos exigem violência sempre",
+          "Furto só envolve imóvel",
+          "Roubo dispensa subtração em qualquer caso",
+          "Furto exige funcionário público"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Compare primeiro o que é retirado: ambos os tipos envolvem subtração nas condições legais.",
+          "No roubo básico, violência ou grave ameaça é uma diferença central a examinar em relação ao furto básico.",
+          "Grave ameaça é uma intimidação séria nas condições do tipo, não apenas qualquer palavra desagradável.",
+          "A resposta distingue subtração e subtração com violência/grave ameaça. Ainda é necessário verificar os demais elementos e modalidades da questão concreta."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "penal-crimes-q2",
+        "prompt": "Oferecer vantagem indevida ao funcionário para influenciar ato funcional remete à análise de:",
+        "options": [
+          "Corrupção ativa",
+          "Corrupção passiva do ofertante, sempre",
+          "Peculato culposo automático",
+          "Furto simples",
+          "Falsidade documental obrigatória"
+        ],
+        "correct": 0,
+        "explanation": [
+          "O verbo é oferecer e o destinatário é o funcionário público. A finalidade narrada é influenciar um ato ligado à função.",
+          "Essa direção da vantagem aponta para corrupção ativa, quando presentes os demais requisitos.",
+          "Compare com a análise da conduta de quem solicita ou recebe a vantagem, que é outra posição na situação.",
+          "A resposta é corrupção ativa. O nome não depende apenas de chamar alguém de corrupto: observe quem fez o quê."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "A classificação exige o conjunto dos elementos; não memorize apenas o título do crime."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "Código Penal — Parte Especial",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ]
+  },
+  {
+    "id": "processo",
+    "title": "Processo Penal: investigação, ação, prova e prisões",
+    "scope": "CPP e garantias constitucionais",
+    "sections": [
+      {
+        "title": "Investigar não é condenar",
+        "paragraphs": [
+          "Inquérito reúne elementos sobre materialidade e autoria para subsidiar a persecução penal. Notícia do crime é comunicação de possível infração. A forma de instauração depende da natureza da ação e das condições legais.",
+          "Indiciamento é ato fundamentado da autoridade competente, não sentença. Investigado conserva direitos, inclusive não autoincriminação e assistência defensiva. O inquérito é dispensável quando já há elementos suficientes para a ação, nos termos legais."
+        ]
+      },
+      {
+        "title": "Quem propõe a ação",
+        "paragraphs": [
+          "Ação pública é promovida pelo Ministério Público. Pode ser incondicionada ou depender de representação/requisição conforme a lei. Ação privada se promove por queixa do legitimado.",
+          "Representação não é a denúncia. Denúncia é peça acusatória da ação pública; queixa, da privada. Na ação privada, examine indivisibilidade e demais princípios próprios; não transfira regras automaticamente para toda ação penal."
+        ]
+      },
+      {
+        "title": "Prova e cadeia de custódia",
+        "paragraphs": [
+          "Elementos informativos da investigação não se confundem integralmente com prova produzida sob contraditório judicial. O art. 155 veda fundamentar a decisão exclusivamente nos elementos investigativos, ressalvando provas cautelares, não repetíveis e antecipadas.",
+          "Corpo de delito é conjunto de vestígios da infração, não necessariamente um corpo humano. Cadeia de custódia documenta a trajetória do vestígio para permitir controle de sua identidade e integridade. Busca e apreensão exigem fundamento, competência e respeito às garantias. Não confunda apreender com provar automaticamente a autoria."
+        ]
+      },
+      {
+        "title": "Prisão e liberdade",
+        "paragraphs": [
+          "Flagrante está ligado às situações legais de ocorrência/perseguição/encontro previstas no CPP; não equivale a condenação. Preventiva é cautelar, depende de requisitos, fundamentos concretos e cabimento. Temporária tem lei própria e hipóteses específicas; não é uma prisão preventiva com outro nome.",
+          "Liberdade provisória, fiança, relaxamento e revogação têm funções distintas. Prisão ilegal deve ser relaxada; uma cautelar inicialmente válida pode ser revogada se faltar fundamento. Gravidade abstrata não substitui automaticamente os pressupostos legais."
+        ]
+      },
+      {
+        "title": "Juizados e sujeitos",
+        "paragraphs": [
+          "Juiz decide com imparcialidade; Ministério Público promove ação pública e exerce suas funções constitucionais; defesa atua pelo acusado; auxiliares desempenham funções próprias. Não confunda assistente de acusação com defensor.",
+          "A Lei 9.099 disciplina institutos como composição civil, transação penal e suspensão condicional do processo, com requisitos e efeitos distintos. Não são absolvição automática nem se aplicam indiscriminadamente a qualquer crime."
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "question": "A condenação foi baseada exclusivamente em depoimento do inquérito, repetível, sem produção judicial ou outras provas. Que ponto estudar?",
+        "steps": [
+          "O caso destaca exclusivamente: a condenação dependeu só daquele depoimento da investigação. Não foi dito que havia outras provas judiciais sustentando a decisão.",
+          "Destaca também repetível: em princípio, aquele relato poderia ser produzido novamente nas condições da fase judicial.",
+          "A regra a examinar é o art. 155 do CPP, que distingue a formação da decisão com prova judicial do uso exclusivo de elementos da investigação, com ressalvas legais.",
+          "Compare cada detalhe com a regra e suas ressalvas. Não basta ver a palavra inquérito e descartar qualquer informação automaticamente.",
+          "A conclusão de estudo é identificar o problema do uso exclusivo narrado. Dizer que “nada da investigação pode ser considerado” seria uma generalização diferente da regra."
+        ],
+        "goal": "Entender o problema de condenar apenas com uma informação investigativa repetível.",
+        "start": "O inquérito reúne informações da investigação. A prova produzida no processo judicial passa pelas condições próprias dessa fase, incluindo a possibilidade de contestação.",
+        "checkpoint": {
+          "prompt": "Qual palavra torna este caso especialmente importante?",
+          "answer": "Exclusivamente. Ela informa que não houve outra base probatória na narrativa, ponto central da comparação com a regra."
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "processo-q1",
+        "prompt": "A denúncia na ação penal pública é oferecida, em regra, pelo:",
+        "options": [
+          "Ministério Público",
+          "Juiz",
+          "Investigado",
+          "Perito",
+          "Escrivão em nome próprio"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Denúncia aqui é o nome da peça de acusação na ação penal pública, não uma notícia informal de fato.",
+          "A titularidade dessa ação cabe, em regra, ao Ministério Público.",
+          "A polícia pode investigar e o juiz julga, mas essas funções não se confundem com oferecer a denúncia nesse caso.",
+          "A resposta é Ministério Público. Identificar qual fase e qual função foram perguntadas evita trocar os órgãos."
+        ],
+        "difficulty": "foundation"
+      },
+      {
+        "id": "processo-q2",
+        "prompt": "Qual afirmação sobre inquérito é correta?",
+        "options": [
+          "Não equivale a condenação e serve à investigação",
+          "É sempre indispensável",
+          "Elimina o direito ao silêncio",
+          "É sentença judicial",
+          "Substitui toda produção probatória judicial"
+        ],
+        "correct": 0,
+        "explanation": [
+          "Inquérito é um procedimento para investigar fatos e reunir informações.",
+          "Investigar não é condenar. A existência de um inquérito não significa que já houve uma decisão de culpa.",
+          "Ele também não é sempre indispensável: nas condições legais, a ação pode ter suporte suficiente sem esse procedimento.",
+          "A afirmação correta é que serve à investigação e não equivale a condenação. Não transforme uma etapa de apuração em resultado final."
+        ],
+        "difficulty": "foundation"
+      }
+    ],
+    "mistakes": [
+      "Prisão cautelar não pode ser tratada como antecipação automática de pena."
+    ],
+    "mastery": [
+      "Reconhecer a regra e suas condições de aplicação.",
+      "Justificar a resposta pelo texto ou pela norma, sem decorar apenas a letra.",
+      "Explicar por que uma alternativa aparentemente correta está errada."
+    ],
+    "sources": [
+      {
+        "label": "CPP — texto oficial",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+      },
+      {
+        "label": "Juizados Especiais",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+      }
+    ]
+  }
+]
