@@ -125,3 +125,4 @@ Os 93 exemplos disponíveis apresentam objetivo, preparação em linguagem simpl
 A classificação inicial das questões está explícita nos dados: ampliar uma explicação não muda automaticamente sua dificuldade. Isso mantém os filtros independentes do tamanho do texto.
 # pmerj
 # pmerj
+# pmerj
