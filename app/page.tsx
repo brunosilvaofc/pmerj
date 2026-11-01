@@ -1,4 +1,5 @@
 'use client';
+import { ThemeSelector } from './components/theme-selector';
 
 import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, BookOpen, CalendarDays, Check, CheckCheck, ChevronDown, ChevronRight, CircleHelp, Clock3, Cloud, Compass, FileText, Flag, Flame, GraduationCap, LayoutDashboard, ListChecks, LogIn, LogOut, Menu, Mountain, Pause, Play, Plus, RotateCcw, Search, Settings2, Shield, Sparkles, Target, Timer, TrendingUp, Trophy, Upload, X, type LucideIcon } from 'lucide-react';
@@ -193,7 +194,7 @@ function StudyApp({ contestId, changeContest }: { contestId: ContestId; changeCo
       <button className="profile" onClick={openAccount}><span className="avatar">{user?.email?.slice(0,1).toUpperCase() || 'E'}</span><span>{user?.user_metadata?.name || 'Estudante'}<small>{user ? 'Minha conta' : 'Modo local · neste navegador'}</small></span><ChevronRight size={16} /></button></div>
     </aside>
     <div className="main-shell">
-      <header className="topbar"><div className="topbar-left"><button className="icon-button mobile-menu" aria-label="Abrir menu" onClick={() => setMobile(true)}><Menu /></button><span className="breadcrumb">{contest.shortName} <ChevronRight size={14} /><b>{navigation.find(n=>n.id===view)?.label || 'Configurações'}</b></span></div><div className="header-right"><span className="save-status"><span className={user ? 'status-dot cloud' : 'status-dot'} />{busy ? 'Salvando…' : user ? 'Conta conectada' : 'Progresso local'}</span><button className="avatar small" aria-label="Abrir conta" onClick={openAccount}>{user?.email?.slice(0,1).toUpperCase() || 'E'}</button></div></header>
+      <header className="topbar"><div className="topbar-left"><button className="icon-button mobile-menu" aria-label="Abrir menu" onClick={() => setMobile(true)}><Menu /></button><span className="breadcrumb">{contest.shortName} <ChevronRight size={14} /><b>{navigation.find(n=>n.id===view)?.label || 'Configurações'}</b></span></div><div className="header-right"><ThemeSelector /><span className="save-status"><span className={user ? 'status-dot cloud' : 'status-dot'} />{busy ? 'Salvando…' : user ? 'Conta conectada' : 'Progresso local'}</span><button className="avatar small" aria-label="Abrir conta" onClick={openAccount}>{user?.email?.slice(0,1).toUpperCase() || 'E'}</button></div></header>
       <main id="main-content">
         {error && <div className="notice error" role="alert">{error}<button className="text-button" onClick={() => window.location.reload()}>Tentar novamente</button></div>}
         {supabase && !user && ready && <div className="notice">Entre na sua conta para acompanhar e salvar seus estudos.<button className="text-button" onClick={openAccount}>Entrar <ArrowRight size={16} /></button></div>}

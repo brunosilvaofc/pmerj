@@ -126,3 +126,25 @@ A classificação inicial das questões está explícita nos dados: ampliar uma 
 # pmerj
 # pmerj
 # pmerj
+
+
+## Aparência e tamanho das aulas
+
+O seletor de tema oferece Claro, Escuro e Automático. No início das aulas, use A−, A+ ou Restaurar padrão: o tamanho varia entre 100% e 200%, em passos de 10%, incluindo teoria, exemplos e correções.
+
+Execute `supabase/migrations/003_user_preferences.sql` no SQL Editor do Supabase antes de publicar esta versão. A tabela `public.user_preferences` guarda `theme` e `font_scale` por usuário, com RLS para leitura e gravação apenas da própria conta. As preferências são compartilhadas entre PMERJ e Guarda Municipal e recuperadas ao entrar em outro aparelho. Visitantes usam armazenamento local; o cache por conta evita misturar preferências ao trocar de usuário.
+
+O salvamento acontece ao mudar uma opção. Falhas exibem uma mensagem e o botão Tentar novamente. Se o carregamento remoto falhar, os controles aguardam nova tentativa, para não substituir preferências existentes sem antes lê-las. As gravações são serializadas para preservar a última escolha ao clicar rapidamente. Alterações de leitura não modificam o progresso nem as anotações.
+
+Para aplicar pelo terminal, na pasta frontend:
+
+```sh
+# Se ainda não houver configuração local da CLI:
+test -f supabase/config.toml || npx supabase init
+npx supabase login
+npx supabase link --project-ref SEU_PROJECT_REF
+npx supabase db push --dry-run
+npx supabase db push
+```
+
+`SEU_PROJECT_REF` é o identificador do projeto no painel do Supabase. A CLI aplica migrações pendentes; confira a prévia, especialmente se as tabelas anteriores foram criadas manualmente. Também é possível executar somente o SQL 003 no editor, sem usar a CLI. Não é necessário recriar tabelas de progresso nem executar reset.

@@ -1,4 +1,5 @@
 "use client";
+import { ThemeSelector } from '../components/theme-selector';
 import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
@@ -17,7 +18,7 @@ import type { QuestionAttempt } from "../lib/study";
 export default function Page() {
   return (
     <Suspense
-      fallback={<main className="lesson-page">Carregando…</main>}
+      fallback={<main className="lesson-page"><div className="page-theme"><ThemeSelector /></div>Carregando…</main>}
     >
       <Route />
     </Suspense>
@@ -29,7 +30,7 @@ function Route() {
     params.get("concurso") === "gmsg" ? "gmsg" : "pmerj",
   );
   return (
-    <main className="lesson-page">
+    <main className="lesson-page"><div className="page-theme"><ThemeSelector /></div>
       <Link className="button secondary" href="/">
         ← Voltar ao plano
       </Link>
@@ -139,10 +140,10 @@ function Training({
     .filter((s) => s.total > 0)
     .sort((a, b) => a.correct / a.total - b.correct / b.total)[0];
   // Randomization runs only in the Start button event, never during rendering.
-  // eslint-disable-next-line react-hooks/purity
   function start() {
     const shuffled = [...available];
     for (let i = shuffled.length - 1; i > 0; i--) {
+      // eslint-disable-next-line react-hooks/purity -- Called by the Start button event.
       const j = Math.floor(Math.random() * (i + 1));
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
